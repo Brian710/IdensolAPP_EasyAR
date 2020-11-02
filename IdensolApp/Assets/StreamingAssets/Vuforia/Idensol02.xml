@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+<Tracking>
+<ModelTarget name="Idensol02" motionHint="static"/>
+
+</Tracking>
+
+<Assembly name="Idensol02s_assembly" assemblyId="41c864d110884fb28fb8bff3288dfa4e">
+<Part name="Idensol02" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="viewpoint_0000" translation="0.817376 0.0418046 2.25182" rotation="AD: -0.9999999188446184 0.9999999234907635 0.0005697557507283523 179.954" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARConfig>

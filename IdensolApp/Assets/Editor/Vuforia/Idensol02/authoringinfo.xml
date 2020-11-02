@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARInfo>
+<TargetSet version="14.0" toolVersion="9.1.7">
+<ModelTarget name="Idensol02" targetId="e258fa38930f42b4aa93acc31995a95f" version="11.1" toolVersion="9.1.7" bbox="-0.315375 -0.007560 -0.346536 0.318784 1.627461 0.402661" previewImage="e258fa38930f42b4aa93acc31995a95f_preview.jpg"/>
+
+</TargetSet>
+
+<Assembly name="Idensol02s_assembly" assemblyId="41c864d110884fb28fb8bff3288dfa4e">
+<Part name="Idensol02" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="viewpoint_0000" translation="0.817376 0.0418046 2.25182" rotation="AD: -0.9999999188446184 0.9999999234907635 0.0005697557507283523 179.954" image="Idensol02_viewpoint_0000.png" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARInfo>
