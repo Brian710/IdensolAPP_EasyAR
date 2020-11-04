@@ -4,5 +4,26 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Login.unity
+    guid: 595e332e5aacbe444b9fdfc181635492
+  - enabled: 1
+    path: Assets/Scenes/Lobby.unity
+    guid: 682ddcae890fbb142bee31a7a3fcd6e6
+  - enabled: 1
+    path: Assets/Scenes/Lobby_ModelAR.unity
+    guid: 21b3c294d68b8488ab8e8dfd4db7a3cf
+  - enabled: 1
+    path: Assets/Scenes/Step_01.unity
+    guid: 4fe46bcc8c9b96e4e8e5ed94d2fb966c
+  - enabled: 1
+    path: Assets/Scenes/Step_02.unity
+    guid: 23ba541c1a344e0419d4cf0072958876
+  - enabled: 1
+    path: Assets/Scenes/Step_03.unity
+    guid: 508672ca899b70c469710547916026a5
+  - enabled: 1
+    path: Assets/Scenes/Step_04.unity
+    guid: 8507a44b3f3149d42b5beb31e8169984
   m_configObjects: {}

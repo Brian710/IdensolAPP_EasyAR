@@ -1,0 +1,705 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31d100fb70fd03d4aa8fa680d6923f69, type: 3}
+  m_Name: muitiLang
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Resources/ExcelFiles/MultiLanguage.xlsx
+  WorksheetName: muitiLang
+  dataArray:
+  - id: Users_Language
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: leftlist_Home
+    traditionalChinese: "\u9996\u9801"
+    simplifiedChinese: "\u9996\u9875"
+    english: Home
+  - id: leftlist_Digital Workflow
+    traditionalChinese: "\u5047\u7259\u88FD\u7A0B"
+    simplifiedChinese: "\u5047\u7259\u5236\u7A0B"
+    english: Digital Workflow
+  - id: leftlist_How to Operate
+    traditionalChinese: "Idensol\u64CD\u4F5C"
+    simplifiedChinese: "Idensol\u64CD\u4F5C"
+    english: 'How to Operate '
+  - id: leftlist_Troubleshooting
+    traditionalChinese: "\u554F\u984C\u6392\u9664"
+    simplifiedChinese: "\u95EE\u9898\u6392\u9664"
+    english: Troubleshooting
+  - id: leftlist_About Idensol
+    traditionalChinese: "\u95DC\u65BCIdensol"
+    simplifiedChinese: "\u5173\u4E8EIdensol"
+    english: About Idensol
+  - id: note nefore milling_1
+    traditionalChinese: "\u958B\u59CB\u4EFB\u4F55\u52D5\u4F5C\u524D\uFF0C\u6309\u4E0B\"RESET\"\u91CD\u7F6E\u8207\"HOME\"\u6B78\u96F6\u9375"
+    simplifiedChinese: "\u5F00\u59CB\u4EFB\u4F55\u52A8\u4F5C\u524D\uFF0C\u6309\u4E0B\"RESET\"\u91CD\u7F6E\u4E0E\"HOME\"\u5F52\u96F6\u952E"
+    english: Before starting any action, please press "RESET" and "HOME" button.
+  - id: note nefore milling_2
+    traditionalChinese: "\u6AA2\u67E5\u7A7A\u58D3\uFF1A\u58D3\u529B\u6700\u5C0F\u503C\u662F\u5426\u57280.6MPa\u4EE5\u4E0A\n\u203B\u9AD8\u58D3\u7A7A\u6C23\u7684\u58D3\u529B\u8ACB\u63A7\u5236\u57280.6~0.8MPa"
+    simplifiedChinese: "\u68C0\u67E5\u7A7A\u538B\uFF1A\u538B\u529B\u6700\u5C0F\u503C\u662F\u5426\u57280.6MPa\u4EE5\u4E0A\n\u203B\u9AD8\u538B\u7A7A\u6C14\u7684\u538B\u529B\u8BF7\u63A7\u5236\u57280.6~0.8MPa"
+    english: Ensure the pressure of  compressed air must be between 0.6 and 0.8 MPa.
+  - id: note nefore milling_3
+    traditionalChinese: "\u6AA2\u67E5\u7576\u524D\u5200\u865F\u4F4D\u7F6E\n\u7576\u524D\u5200\u865F\n\u4E3B\u8EF8\u5200\u865F"
+    simplifiedChinese: "\u68C0\u67E5\u5F53\u524D\u5200\u53F7\u4F4D\u7F6E\n\u5F53\u524D\u5200\u53F7\n\u4E3B\u8F74\u5200\u53F7"
+    english: 'Check bur number and position.
+
+      Current bur number
+
+      Spindle bur number'
+  - id: note nefore milling_4
+    traditionalChinese: "\u6AA2\u67E5\u5200\u5177\u72C0\u6CC1\n\u203B\u6CE8\u610F\u662F\u5426\u6709\u65B7\u5200\uFF0C\u8ACB\u5C07\u5200\u5177\u9577\u5EA6\u6B78\u96F6"
+    simplifiedChinese: "\u68C0\u67E5\u5200\u5177\u72B6\u51B5\n\u203B\u6CE8\u610F\u662F\u5426\u6709\u65AD\u5200\uFF0C\u8BF7\u5C06\u5200\u5177\u957F\u5EA6\u5F52\u96F6"
+    english: Please check the condition of bur and set the length to zero.
+  - id: NextPage
+    traditionalChinese: "\u4E0B\u4E00\u9801"
+    simplifiedChinese: "\u4E0B\u4E00\u9875"
+    english: Next
+  - id: Confirm
+    traditionalChinese: "\u78BA\u8A8D"
+    simplifiedChinese: "\u786E\u8BA4"
+    english: OK
+  - id: 
+    traditionalChinese: "Step1 \u6578\u4F4D\u53D6\u6A21"
+    simplifiedChinese: "Step1 \u6570\u4F4D\u53D6\u6A21"
+    english: Step1 Digital Scanning
+  - id: 
+    traditionalChinese: "Step2 CAD\u5047\u7259\u8A2D\u8A08"
+    simplifiedChinese: "Step2 CAD\u5047\u7259\u8BBE\u8BA1"
+    english: Step2 CAD-Prosthetic Design
+  - id: 
+    traditionalChinese: "Step3 CAM\u5047\u7259\u6392\u7248"
+    simplifiedChinese: "Step3 CAM\u5047\u7259\u6392\u7248"
+    english: Step3 CAM-Prosthetic Planning
+  - id: 
+    traditionalChinese: "Step4 \u9F52\u96D5\u6A5F\u52A0\u5DE5"
+    simplifiedChinese: "Step4 \u9F7F\u96D5\u673A\u52A0\u5DE5"
+    english: Step4  Milling
+  - id: 
+    traditionalChinese: "Step5 \u71D2\u7D50\u70E4\u74F7"
+    simplifiedChinese: "Step5 \u70E7\u7ED3\u70E4\u74F7"
+    english: Step5 Sintering and Crystallization
+  - id: 
+    traditionalChinese: "\u770B\u8A2D\u8A08\u6B65\u9A5F"
+    simplifiedChinese: "\u770B\u8BBE\u8BA1\u6B65\u9AA4"
+    english: View Instruction
+  - id: 
+    traditionalChinese: "\u770B\u6392\u7248\u6B65\u9A5F"
+    simplifiedChinese: "\u770B\u6392\u7248\u6B65\u9AA4"
+    english: View Instruction
+  - id: 
+    traditionalChinese: "\u770BIdensol\u64CD\u4F5C"
+    simplifiedChinese: "\u770BIdensol\u64CD\u4F5C"
+    english: View Instruction
+  - id: 
+    traditionalChinese: "\u5167\u51A0"
+    simplifiedChinese: "\u57FA\u5E95\u51A0"
+    english: Copping
+  - id: 
+    traditionalChinese: "\u55AE\u51A0"
+    simplifiedChinese: "\u89E3\u5256\u51A0"
+    english: Single Crown
+  - id: 
+    traditionalChinese: "\u5D4C\u9AD4"
+    simplifiedChinese: "\u5D4C\u4F53"
+    english: Inlay/Onlay
+  - id: 
+    traditionalChinese: "\u8CBC\u7247"
+    simplifiedChinese: "\u8D34\u9762"
+    english: Venner
+  - id: 
+    traditionalChinese: Premill
+    simplifiedChinese: Premill
+    english: Premill
+  - id: 
+    traditionalChinese: "\u5275\u5EFA\u57FA\u5E95\u51A0\u8A02\u55AE"
+    simplifiedChinese: "\u521B\u5EFA\u57FA\u5E95\u51A0\u8BA2\u5355"
+    english: Create a order for copping
+  - id: 
+    traditionalChinese: "\u5B9A\u7FA9\u54AC\u5408\u5E73\u9762"
+    simplifiedChinese: "\u5B9A\u4E49\u54AC\u5408\u5E73\u9762"
+    english: Define occlusal plane
+  - id: 
+    traditionalChinese: "\u653E\u7F6E\u6CE8\u91CB\u8207\u63D2\u5165\u65B9\u5411"
+    simplifiedChinese: "\u653E\u7F6E\u6CE8\u91CA\u4E0E\u63D2\u5165\u65B9\u5411"
+    english: Optimize directions
+  - id: 
+    traditionalChinese: "\u6293\u53D6\u908A\u7DE3\u7DDA"
+    simplifiedChinese: "\u6293\u53D6\u8FB9\u7F18\u7EBF"
+    english: Edit margin line
+  - id: 
+    traditionalChinese: "\u8ABF\u6574\u4EE3\u578B\u63A5\u53E3"
+    simplifiedChinese: "\u8C03\u6574\u4EE3\u578B\u63A5\u53E3"
+    english: Set interfaces
+  - id: 
+    traditionalChinese: "\u8A2D\u8A08\u57FA\u5E95\u51A0"
+    simplifiedChinese: "\u8BBE\u8BA1\u57FA\u5E95\u51A0"
+    english: Copping design
+  - id: 
+    traditionalChinese: "\u5275\u5EFA\u89E3\u5256\u51A0\u8A02\u55AE"
+    simplifiedChinese: "\u521B\u5EFA\u89E3\u5256\u51A0\u8BA2\u5355"
+    english: Create a order for crown
+  - id: 
+    traditionalChinese: "\u5B9A\u7FA9\u54AC\u5408\u5E73\u9762"
+    simplifiedChinese: "\u5B9A\u4E49\u54AC\u5408\u5E73\u9762"
+    english: Define occlusal plane
+  - id: 
+    traditionalChinese: "\u653E\u7F6E\u6CE8\u91CB\u8207\u63D2\u5165\u65B9\u5411"
+    simplifiedChinese: "\u653E\u7F6E\u6CE8\u91CA\u4E0E\u63D2\u5165\u65B9\u5411"
+    english: Optimize directions
+  - id: 
+    traditionalChinese: "\u6293\u53D6\u908A\u7DE3\u7DDA"
+    simplifiedChinese: "\u6293\u53D6\u8FB9\u7F18\u7EBF"
+    english: Edit margin line
+  - id: 
+    traditionalChinese: "\u8ABF\u6574\u4EE3\u578B\u63A5\u53E3"
+    simplifiedChinese: "\u8C03\u6574\u4EE3\u578B\u63A5\u53E3"
+    english: Set interfaces
+  - id: 
+    traditionalChinese: "\u8A2D\u8A08\u89E3\u5256\u51A0"
+    simplifiedChinese: "\u8BBE\u8BA1\u89E3\u5256\u51A0"
+    english: Anatomy design
+  - id: 
+    traditionalChinese: "\u5275\u5EFA\u5D4C\u9AD4\u8A02\u55AE"
+    simplifiedChinese: "\u521B\u5EFA\u5D4C\u4F53\u8BA2\u5355"
+    english: Create a order for Inlay
+  - id: 
+    traditionalChinese: "\u5B9A\u7FA9\u54AC\u5408\u5E73\u9762"
+    simplifiedChinese: "\u5B9A\u4E49\u54AC\u5408\u5E73\u9762"
+    english: Define occlusal plane
+  - id: 
+    traditionalChinese: "\u653E\u7F6E\u6CE8\u91CB\u8207\u63D2\u5165\u65B9\u5411"
+    simplifiedChinese: "\u653E\u7F6E\u6CE8\u91CA\u4E0E\u63D2\u5165\u65B9\u5411"
+    english: Optimize directions
+  - id: 
+    traditionalChinese: "\u6293\u53D6\u908A\u7DE3\u7DDA"
+    simplifiedChinese: "\u6293\u53D6\u8FB9\u7F18\u7EBF"
+    english: Edit margin line
+  - id: 
+    traditionalChinese: "\u8ABF\u6574\u4EE3\u578B\u63A5\u53E3"
+    simplifiedChinese: "\u8C03\u6574\u4EE3\u578B\u63A5\u53E3"
+    english: Set interfaces
+  - id: 
+    traditionalChinese: "\u8A2D\u8A08\u5D4C\u9AD4"
+    simplifiedChinese: "\u8BBE\u8BA1\u5D4C\u4F53"
+    english: Inlay/Onlay design
+  - id: 
+    traditionalChinese: "\u5275\u5EFA\u8CBC\u9762\u8A02\u55AE"
+    simplifiedChinese: "\u521B\u5EFA\u8D34\u9762\u8BA2\u5355"
+    english: Create a order for veneer
+  - id: 
+    traditionalChinese: "\u5B9A\u7FA9\u54AC\u5408\u5E73\u9762"
+    simplifiedChinese: "\u5B9A\u4E49\u54AC\u5408\u5E73\u9762"
+    english: Define occlusal plane
+  - id: 
+    traditionalChinese: "\u653E\u7F6E\u6CE8\u91CB\u8207\u63D2\u5165\u65B9\u5411"
+    simplifiedChinese: "\u653E\u7F6E\u6CE8\u91CA\u4E0E\u63D2\u5165\u65B9\u5411"
+    english: Optimize directions
+  - id: 
+    traditionalChinese: "\u6293\u53D6\u908A\u7DE3\u7DDA"
+    simplifiedChinese: "\u6293\u53D6\u8FB9\u7F18\u7EBF"
+    english: Edit margin line
+  - id: 
+    traditionalChinese: "\u8ABF\u6574\u4EE3\u578B\u63A5\u53E3"
+    simplifiedChinese: "\u8C03\u6574\u4EE3\u578B\u63A5\u53E3"
+    english: Set interfaces
+  - id: 
+    traditionalChinese: "\u8A2D\u8A08\u8CBC\u9762"
+    simplifiedChinese: "\u8BBE\u8BA1\u8D34\u9762"
+    english: Veneer design
+  - id: 
+    traditionalChinese: "\u5275\u5EFA\u57FA\u53F0\u8A02\u55AE"
+    simplifiedChinese: "\u521B\u5EFA\u57FA\u53F0\u8BA2\u5355"
+    english: Defining job details
+  - id: 
+    traditionalChinese: "\u9078\u64C7\u500B\u6027\u5316\u57FA\u53F0"
+    simplifiedChinese: "\u9009\u62E9\u4E2A\u6027\u5316\u57FA\u53F0"
+    english: Set implant type
+  - id: 
+    traditionalChinese: "\u6383\u63CF\u687F\u5B9A\u4F4D"
+    simplifiedChinese: "\u626B\u63CF\u6746\u5B9A\u4F4D"
+    english: Detect implant position
+  - id: 
+    traditionalChinese: "\u8A2D\u8A08\u4E0B\u534A\u90E8"
+    simplifiedChinese: "\u8BBE\u8BA1\u4E0B\u534A\u90E8"
+    english: Generate abutment bottoms
+  - id: 
+    traditionalChinese: "\u653E\u7F6E\u63D2\u5165\u65B9\u5411"
+    simplifiedChinese: "\u653E\u7F6E\u63D2\u5165\u65B9\u5411"
+    english: Define insertion direction
+  - id: 
+    traditionalChinese: "core\u578B\u614B\u5851\u5F62"
+    simplifiedChinese: "core\u578B\u6001\u5851\u5F62"
+    english: Abutment design
+  - id: 
+    traditionalChinese: "\u8A2D\u8A08\u4E0A\u534A\u90E8"
+    simplifiedChinese: "\u8BBE\u8BA1\u4E0A\u534A\u90E8"
+    english: Free-forming
+  - id: 
+    traditionalChinese: "\u5B8C\u6210\u57FA\u53F0"
+    simplifiedChinese: "\u5B8C\u6210\u57FA\u53F0"
+    english: Complete abutment design
+  - id: 
+    traditionalChinese: "\u6C27\u5316\u92EF"
+    simplifiedChinese: "\u6C27\u5316\u9506"
+    english: Zirconia
+  - id: 
+    traditionalChinese: "\u73BB\u7483\u9676\u74F7"
+    simplifiedChinese: "\u73BB\u7483\u9676\u74F7"
+    english: Glass Cermaic
+  - id: 
+    traditionalChinese: Premill
+    simplifiedChinese: Premill
+    english: Premill
+  - id: 
+    traditionalChinese: "\u5275\u5EFA\u6C27\u5316\u92EF\u9805\u76EE"
+    simplifiedChinese: "\u521B\u5EFA\u6C27\u5316\u9506\u9879\u76EE"
+    english: Defining job details
+  - id: 
+    traditionalChinese: "\u8F09\u5165\u6A94\u6848"
+    simplifiedChinese: "\u8F7D\u5165\u6863\u6848"
+    english: Import object
+  - id: 
+    traditionalChinese: "\u9078\u64C7\u6599\u76E4"
+    simplifiedChinese: "\u9009\u62E9\u6599\u76D8"
+    english: Choose materials
+  - id: 
+    traditionalChinese: "\u8ABF\u6574\u52A0\u5DE5\u4F4D\u7F6E"
+    simplifiedChinese: "\u8C03\u6574\u52A0\u5DE5\u4F4D\u7F6E"
+    english: Adjust milling position within material
+  - id: 
+    traditionalChinese: "\u8ABF\u6574\u652F\u6490\u68D2"
+    simplifiedChinese: "\u8C03\u6574\u652F\u6491\u68D2"
+    english: Move support pin
+  - id: 
+    traditionalChinese: "\u9EDE\u9078\u6B32\u52A0\u5DE5\u7B56\u7565"
+    simplifiedChinese: "\u70B9\u9009\u6B32\u52A0\u5DE5\u7B56\u7565"
+    english: Choose milling strategy
+  - id: 
+    traditionalChinese: "\u5275\u5EFA\u73BB\u7483\u9676\u74F7\u9805\u76EE"
+    simplifiedChinese: "\u521B\u5EFA\u73BB\u7483\u9676\u74F7\u9879\u76EE"
+    english: Defining job details
+  - id: 
+    traditionalChinese: "\u8F09\u5165\u6A94\u6848"
+    simplifiedChinese: "\u8F7D\u5165\u6863\u6848"
+    english: Import object
+  - id: 
+    traditionalChinese: "\u9078\u64C7\u6599\u76E4"
+    simplifiedChinese: "\u9009\u62E9\u6599\u76D8"
+    english: Choose materials
+  - id: 
+    traditionalChinese: "\u8ABF\u6574\u52A0\u5DE5\u4F4D\u7F6E"
+    simplifiedChinese: "\u8C03\u6574\u52A0\u5DE5\u4F4D\u7F6E"
+    english: Adjust milling position within material
+  - id: 
+    traditionalChinese: "\u8ABF\u6574\u652F\u6490\u68D2"
+    simplifiedChinese: "\u8C03\u6574\u652F\u6491\u68D2"
+    english: Move support pin
+  - id: 
+    traditionalChinese: "\u9EDE\u9078\u6B32\u52A0\u5DE5\u7B56\u7565"
+    simplifiedChinese: "\u70B9\u9009\u6B32\u52A0\u5DE5\u7B56\u7565"
+    english: Choose milling strategy
+  - id: 
+    traditionalChinese: "\u5275\u5EFAPremill\u9805\u76EE"
+    simplifiedChinese: "\u521B\u5EFAPremill\u9879\u76EE"
+    english: Defining job details
+  - id: 
+    traditionalChinese: "\u8F09\u5165\u6A94\u6848"
+    simplifiedChinese: "\u8F7D\u5165\u6863\u6848"
+    english: Import object
+  - id: 
+    traditionalChinese: "\u5EFA\u7ACB\u690D\u9AD4\u7CFB\u7D71\u8CC7\u6599\u5EAB"
+    simplifiedChinese: "\u5EFA\u7ACB\u690D\u4F53\u7CFB\u7EDF\u6570\u636E\u5E93"
+    english: Building implant library
+  - id: 
+    traditionalChinese: "\u9EDE\u9078\u52A0\u5DE5"
+    simplifiedChinese: "\u70B9\u9009\u52A0\u5DE5"
+    english: Click to mill
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
+  - id: 
+    traditionalChinese: 
+    simplifiedChinese: 
+    english: 
