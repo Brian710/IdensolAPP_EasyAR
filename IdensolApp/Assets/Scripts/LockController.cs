@@ -44,14 +44,12 @@ public class LockController : MonoBehaviour
             hintMessage.text= "登入中...";
             errorImage.SetActive(false);
             SceneManager.LoadScene(1);
-
         }
         else
         {
             errorImage.SetActive(true);
             errorAnimator.SetTrigger("Start");
             userPassWordUI.text = "";
-
         }
     }
 }

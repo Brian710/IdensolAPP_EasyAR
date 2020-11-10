@@ -19,15 +19,27 @@ MonoBehaviour:
     traditionalChinese: 
     simplifiedChinese: 
     english: 
+  - id: logo_Name
+    traditionalChinese: "\u4E94\u8EF8\u6578\u4F4D\u7259\u79D1\u9F52\u96D5\u6A5F"
+    simplifiedChinese: "\u4E94\u8F74\u6570\u4F4D\u7259\u79D1\u9F7F\u96D5\u673A"
+    english: Idensol Dental milling machine 5XP
+  - id: login
+    traditionalChinese: "\u767B\u5165"
+    simplifiedChinese: "\u767B\u5165"
+    english: Login
+  - id: login_Password
+    traditionalChinese: "\u8ACB\u8F38\u5165\u5BC6\u78BC"
+    simplifiedChinese: "\u8BF7\u8F93\u5165\u5BC6\u7801"
+    english: Password
   - id: leftlist_Home
     traditionalChinese: "\u9996\u9801"
     simplifiedChinese: "\u9996\u9875"
     english: Home
-  - id: leftlist_Digital Workflow
+  - id: leftlist_DigitalWorkflow
     traditionalChinese: "\u5047\u7259\u88FD\u7A0B"
     simplifiedChinese: "\u5047\u7259\u5236\u7A0B"
     english: Digital Workflow
-  - id: leftlist_How to Operate
+  - id: leftlist_HowtoOperate
     traditionalChinese: "Idensol\u64CD\u4F5C"
     simplifiedChinese: "Idensol\u64CD\u4F5C"
     english: 'How to Operate '
@@ -35,7 +47,7 @@ MonoBehaviour:
     traditionalChinese: "\u554F\u984C\u6392\u9664"
     simplifiedChinese: "\u95EE\u9898\u6392\u9664"
     english: Troubleshooting
-  - id: leftlist_About Idensol
+  - id: leftlist_AboutIdensol
     traditionalChinese: "\u95DC\u65BCIdensol"
     simplifiedChinese: "\u5173\u4E8EIdensol"
     english: About Idensol
@@ -67,639 +79,779 @@ MonoBehaviour:
     traditionalChinese: "\u78BA\u8A8D"
     simplifiedChinese: "\u786E\u8BA4"
     english: OK
-  - id: 
+  - id: digitalWorkflow_Step1
     traditionalChinese: "Step1 \u6578\u4F4D\u53D6\u6A21"
     simplifiedChinese: "Step1 \u6570\u4F4D\u53D6\u6A21"
     english: Step1 Digital Scanning
-  - id: 
+  - id: digitalWorkflow_Step2
     traditionalChinese: "Step2 CAD\u5047\u7259\u8A2D\u8A08"
     simplifiedChinese: "Step2 CAD\u5047\u7259\u8BBE\u8BA1"
     english: Step2 CAD-Prosthetic Design
-  - id: 
+  - id: digitalWorkflow_Step3
     traditionalChinese: "Step3 CAM\u5047\u7259\u6392\u7248"
     simplifiedChinese: "Step3 CAM\u5047\u7259\u6392\u7248"
     english: Step3 CAM-Prosthetic Planning
-  - id: 
+  - id: digitalWorkflow_Step4
     traditionalChinese: "Step4 \u9F52\u96D5\u6A5F\u52A0\u5DE5"
     simplifiedChinese: "Step4 \u9F7F\u96D5\u673A\u52A0\u5DE5"
     english: Step4  Milling
-  - id: 
+  - id: digitalWorkflow_Step5
     traditionalChinese: "Step5 \u71D2\u7D50\u70E4\u74F7"
     simplifiedChinese: "Step5 \u70E7\u7ED3\u70E4\u74F7"
     english: Step5 Sintering and Crystallization
-  - id: 
+  - id: digitalWorkflow_Designsteps
     traditionalChinese: "\u770B\u8A2D\u8A08\u6B65\u9A5F"
     simplifiedChinese: "\u770B\u8BBE\u8BA1\u6B65\u9AA4"
     english: View Instruction
-  - id: 
+  - id: digitalWorkflow_Layoutsteps
     traditionalChinese: "\u770B\u6392\u7248\u6B65\u9A5F"
     simplifiedChinese: "\u770B\u6392\u7248\u6B65\u9AA4"
     english: View Instruction
-  - id: 
+  - id: digitalWorkflow_Operationsteps
     traditionalChinese: "\u770BIdensol\u64CD\u4F5C"
     simplifiedChinese: "\u770BIdensol\u64CD\u4F5C"
     english: View Instruction
-  - id: 
+  - id: Step2_Tutorial
+    traditionalChinese: "CAD\u5047\u7259\u8A2D\u8A08"
+    simplifiedChinese: "CAD\u5047\u7259\u8BBE\u8BA1"
+    english: CAD-Prosthetic Design
+  - id: Video_Tutorial
+    traditionalChinese: "\u5F71\u7247\u6559\u5B78"
+    simplifiedChinese: "\u5F71\u7247\u6559\u5B66"
+    english: 'Video Tutorial '
+  - id: Step2_Copping
     traditionalChinese: "\u5167\u51A0"
     simplifiedChinese: "\u57FA\u5E95\u51A0"
     english: Copping
-  - id: 
+  - id: Step2_Single Crown
     traditionalChinese: "\u55AE\u51A0"
     simplifiedChinese: "\u89E3\u5256\u51A0"
     english: Single Crown
-  - id: 
+  - id: Step2_Inlay/Onlay
     traditionalChinese: "\u5D4C\u9AD4"
     simplifiedChinese: "\u5D4C\u4F53"
     english: Inlay/Onlay
-  - id: 
+  - id: Step2_Venner
     traditionalChinese: "\u8CBC\u7247"
     simplifiedChinese: "\u8D34\u9762"
     english: Venner
-  - id: 
+  - id: Step2_Premill
     traditionalChinese: Premill
     simplifiedChinese: Premill
     english: Premill
-  - id: 
+  - id: Copping_Create
     traditionalChinese: "\u5275\u5EFA\u57FA\u5E95\u51A0\u8A02\u55AE"
     simplifiedChinese: "\u521B\u5EFA\u57FA\u5E95\u51A0\u8BA2\u5355"
     english: Create a order for copping
-  - id: 
+  - id: Copping_Define
     traditionalChinese: "\u5B9A\u7FA9\u54AC\u5408\u5E73\u9762"
     simplifiedChinese: "\u5B9A\u4E49\u54AC\u5408\u5E73\u9762"
     english: Define occlusal plane
-  - id: 
+  - id: Copping_Optimize
     traditionalChinese: "\u653E\u7F6E\u6CE8\u91CB\u8207\u63D2\u5165\u65B9\u5411"
     simplifiedChinese: "\u653E\u7F6E\u6CE8\u91CA\u4E0E\u63D2\u5165\u65B9\u5411"
     english: Optimize directions
-  - id: 
+  - id: Copping_Edit
     traditionalChinese: "\u6293\u53D6\u908A\u7DE3\u7DDA"
     simplifiedChinese: "\u6293\u53D6\u8FB9\u7F18\u7EBF"
     english: Edit margin line
-  - id: 
+  - id: Copping_Set
     traditionalChinese: "\u8ABF\u6574\u4EE3\u578B\u63A5\u53E3"
     simplifiedChinese: "\u8C03\u6574\u4EE3\u578B\u63A5\u53E3"
     english: Set interfaces
-  - id: 
+  - id: Copping_Design
     traditionalChinese: "\u8A2D\u8A08\u57FA\u5E95\u51A0"
     simplifiedChinese: "\u8BBE\u8BA1\u57FA\u5E95\u51A0"
     english: Copping design
-  - id: 
+  - id: Single Crown_Create
     traditionalChinese: "\u5275\u5EFA\u89E3\u5256\u51A0\u8A02\u55AE"
     simplifiedChinese: "\u521B\u5EFA\u89E3\u5256\u51A0\u8BA2\u5355"
     english: Create a order for crown
-  - id: 
+  - id: Single Crown_Define
     traditionalChinese: "\u5B9A\u7FA9\u54AC\u5408\u5E73\u9762"
     simplifiedChinese: "\u5B9A\u4E49\u54AC\u5408\u5E73\u9762"
     english: Define occlusal plane
-  - id: 
+  - id: Single Crown_Optimize
     traditionalChinese: "\u653E\u7F6E\u6CE8\u91CB\u8207\u63D2\u5165\u65B9\u5411"
     simplifiedChinese: "\u653E\u7F6E\u6CE8\u91CA\u4E0E\u63D2\u5165\u65B9\u5411"
     english: Optimize directions
-  - id: 
+  - id: Single Crown_Edit
     traditionalChinese: "\u6293\u53D6\u908A\u7DE3\u7DDA"
     simplifiedChinese: "\u6293\u53D6\u8FB9\u7F18\u7EBF"
     english: Edit margin line
-  - id: 
+  - id: Single Crown_Set
     traditionalChinese: "\u8ABF\u6574\u4EE3\u578B\u63A5\u53E3"
     simplifiedChinese: "\u8C03\u6574\u4EE3\u578B\u63A5\u53E3"
     english: Set interfaces
-  - id: 
+  - id: Single Crown_Design
     traditionalChinese: "\u8A2D\u8A08\u89E3\u5256\u51A0"
     simplifiedChinese: "\u8BBE\u8BA1\u89E3\u5256\u51A0"
     english: Anatomy design
-  - id: 
+  - id: Inlay/Onlay_Create
     traditionalChinese: "\u5275\u5EFA\u5D4C\u9AD4\u8A02\u55AE"
     simplifiedChinese: "\u521B\u5EFA\u5D4C\u4F53\u8BA2\u5355"
     english: Create a order for Inlay
-  - id: 
+  - id: Inlay/Onlay_Define
     traditionalChinese: "\u5B9A\u7FA9\u54AC\u5408\u5E73\u9762"
     simplifiedChinese: "\u5B9A\u4E49\u54AC\u5408\u5E73\u9762"
     english: Define occlusal plane
-  - id: 
+  - id: Inlay/Onlay_Optimize
     traditionalChinese: "\u653E\u7F6E\u6CE8\u91CB\u8207\u63D2\u5165\u65B9\u5411"
     simplifiedChinese: "\u653E\u7F6E\u6CE8\u91CA\u4E0E\u63D2\u5165\u65B9\u5411"
     english: Optimize directions
-  - id: 
+  - id: Inlay/Onlay_Edit
     traditionalChinese: "\u6293\u53D6\u908A\u7DE3\u7DDA"
     simplifiedChinese: "\u6293\u53D6\u8FB9\u7F18\u7EBF"
     english: Edit margin line
-  - id: 
+  - id: Inlay/Onlay_Set
     traditionalChinese: "\u8ABF\u6574\u4EE3\u578B\u63A5\u53E3"
     simplifiedChinese: "\u8C03\u6574\u4EE3\u578B\u63A5\u53E3"
     english: Set interfaces
-  - id: 
+  - id: Inlay/Onlay_Design
     traditionalChinese: "\u8A2D\u8A08\u5D4C\u9AD4"
     simplifiedChinese: "\u8BBE\u8BA1\u5D4C\u4F53"
     english: Inlay/Onlay design
-  - id: 
+  - id: Venner_Create
     traditionalChinese: "\u5275\u5EFA\u8CBC\u9762\u8A02\u55AE"
     simplifiedChinese: "\u521B\u5EFA\u8D34\u9762\u8BA2\u5355"
     english: Create a order for veneer
-  - id: 
+  - id: Venner_Define
     traditionalChinese: "\u5B9A\u7FA9\u54AC\u5408\u5E73\u9762"
     simplifiedChinese: "\u5B9A\u4E49\u54AC\u5408\u5E73\u9762"
     english: Define occlusal plane
-  - id: 
+  - id: Venner_Optimize
     traditionalChinese: "\u653E\u7F6E\u6CE8\u91CB\u8207\u63D2\u5165\u65B9\u5411"
     simplifiedChinese: "\u653E\u7F6E\u6CE8\u91CA\u4E0E\u63D2\u5165\u65B9\u5411"
     english: Optimize directions
-  - id: 
+  - id: Venner_Edit
     traditionalChinese: "\u6293\u53D6\u908A\u7DE3\u7DDA"
     simplifiedChinese: "\u6293\u53D6\u8FB9\u7F18\u7EBF"
     english: Edit margin line
-  - id: 
+  - id: Venner_Set
     traditionalChinese: "\u8ABF\u6574\u4EE3\u578B\u63A5\u53E3"
     simplifiedChinese: "\u8C03\u6574\u4EE3\u578B\u63A5\u53E3"
     english: Set interfaces
-  - id: 
+  - id: Venner_Design
     traditionalChinese: "\u8A2D\u8A08\u8CBC\u9762"
     simplifiedChinese: "\u8BBE\u8BA1\u8D34\u9762"
     english: Veneer design
-  - id: 
+  - id: Premill_Define
     traditionalChinese: "\u5275\u5EFA\u57FA\u53F0\u8A02\u55AE"
     simplifiedChinese: "\u521B\u5EFA\u57FA\u53F0\u8BA2\u5355"
     english: Defining job details
-  - id: 
+  - id: Premill_Set
     traditionalChinese: "\u9078\u64C7\u500B\u6027\u5316\u57FA\u53F0"
     simplifiedChinese: "\u9009\u62E9\u4E2A\u6027\u5316\u57FA\u53F0"
     english: Set implant type
-  - id: 
+  - id: Premill_Detect
     traditionalChinese: "\u6383\u63CF\u687F\u5B9A\u4F4D"
     simplifiedChinese: "\u626B\u63CF\u6746\u5B9A\u4F4D"
     english: Detect implant position
-  - id: 
+  - id: Premill_Generate
     traditionalChinese: "\u8A2D\u8A08\u4E0B\u534A\u90E8"
     simplifiedChinese: "\u8BBE\u8BA1\u4E0B\u534A\u90E8"
     english: Generate abutment bottoms
-  - id: 
+  - id: Premill_Define
     traditionalChinese: "\u653E\u7F6E\u63D2\u5165\u65B9\u5411"
     simplifiedChinese: "\u653E\u7F6E\u63D2\u5165\u65B9\u5411"
     english: Define insertion direction
-  - id: 
+  - id: Premill_Abutment
     traditionalChinese: "core\u578B\u614B\u5851\u5F62"
     simplifiedChinese: "core\u578B\u6001\u5851\u5F62"
     english: Abutment design
-  - id: 
+  - id: Premill_Forming
     traditionalChinese: "\u8A2D\u8A08\u4E0A\u534A\u90E8"
     simplifiedChinese: "\u8BBE\u8BA1\u4E0A\u534A\u90E8"
     english: Free-forming
-  - id: 
+  - id: Premill_Complete
     traditionalChinese: "\u5B8C\u6210\u57FA\u53F0"
     simplifiedChinese: "\u5B8C\u6210\u57FA\u53F0"
     english: Complete abutment design
-  - id: 
+  - id: Step3_Zirconia
     traditionalChinese: "\u6C27\u5316\u92EF"
     simplifiedChinese: "\u6C27\u5316\u9506"
     english: Zirconia
-  - id: 
+  - id: Step3_Glass Cermaic
     traditionalChinese: "\u73BB\u7483\u9676\u74F7"
     simplifiedChinese: "\u73BB\u7483\u9676\u74F7"
     english: Glass Cermaic
-  - id: 
+  - id: Step3_Premill
     traditionalChinese: Premill
     simplifiedChinese: Premill
     english: Premill
-  - id: 
+  - id: Zirconia_Define
     traditionalChinese: "\u5275\u5EFA\u6C27\u5316\u92EF\u9805\u76EE"
     simplifiedChinese: "\u521B\u5EFA\u6C27\u5316\u9506\u9879\u76EE"
     english: Defining job details
-  - id: 
+  - id: Zirconia_Import
     traditionalChinese: "\u8F09\u5165\u6A94\u6848"
     simplifiedChinese: "\u8F7D\u5165\u6863\u6848"
     english: Import object
-  - id: 
+  - id: Zirconia_ChooseMaterials
     traditionalChinese: "\u9078\u64C7\u6599\u76E4"
     simplifiedChinese: "\u9009\u62E9\u6599\u76D8"
     english: Choose materials
-  - id: 
+  - id: Zirconia_Adjust
     traditionalChinese: "\u8ABF\u6574\u52A0\u5DE5\u4F4D\u7F6E"
     simplifiedChinese: "\u8C03\u6574\u52A0\u5DE5\u4F4D\u7F6E"
     english: Adjust milling position within material
-  - id: 
+  - id: Zirconia_Move
     traditionalChinese: "\u8ABF\u6574\u652F\u6490\u68D2"
     simplifiedChinese: "\u8C03\u6574\u652F\u6491\u68D2"
     english: Move support pin
-  - id: 
+  - id: Zirconia_Choose
     traditionalChinese: "\u9EDE\u9078\u6B32\u52A0\u5DE5\u7B56\u7565"
     simplifiedChinese: "\u70B9\u9009\u6B32\u52A0\u5DE5\u7B56\u7565"
     english: Choose milling strategy
-  - id: 
+  - id: Glass Cermaic_Define
     traditionalChinese: "\u5275\u5EFA\u73BB\u7483\u9676\u74F7\u9805\u76EE"
     simplifiedChinese: "\u521B\u5EFA\u73BB\u7483\u9676\u74F7\u9879\u76EE"
     english: Defining job details
-  - id: 
+  - id: Glass Cermaic_Import
     traditionalChinese: "\u8F09\u5165\u6A94\u6848"
     simplifiedChinese: "\u8F7D\u5165\u6863\u6848"
     english: Import object
-  - id: 
+  - id: Glass Cermaic_ChooseMaterials
     traditionalChinese: "\u9078\u64C7\u6599\u76E4"
     simplifiedChinese: "\u9009\u62E9\u6599\u76D8"
     english: Choose materials
-  - id: 
+  - id: Glass Cermaic_Adjust
     traditionalChinese: "\u8ABF\u6574\u52A0\u5DE5\u4F4D\u7F6E"
     simplifiedChinese: "\u8C03\u6574\u52A0\u5DE5\u4F4D\u7F6E"
     english: Adjust milling position within material
-  - id: 
+  - id: Glass Cermaic_Move
     traditionalChinese: "\u8ABF\u6574\u652F\u6490\u68D2"
     simplifiedChinese: "\u8C03\u6574\u652F\u6491\u68D2"
     english: Move support pin
-  - id: 
+  - id: Glass Cermaic_Choose
     traditionalChinese: "\u9EDE\u9078\u6B32\u52A0\u5DE5\u7B56\u7565"
     simplifiedChinese: "\u70B9\u9009\u6B32\u52A0\u5DE5\u7B56\u7565"
     english: Choose milling strategy
-  - id: 
+  - id: Premill_Define
     traditionalChinese: "\u5275\u5EFAPremill\u9805\u76EE"
     simplifiedChinese: "\u521B\u5EFAPremill\u9879\u76EE"
     english: Defining job details
-  - id: 
+  - id: Premill_Import
     traditionalChinese: "\u8F09\u5165\u6A94\u6848"
     simplifiedChinese: "\u8F7D\u5165\u6863\u6848"
     english: Import object
-  - id: 
+  - id: Premill_Build
     traditionalChinese: "\u5EFA\u7ACB\u690D\u9AD4\u7CFB\u7D71\u8CC7\u6599\u5EAB"
     simplifiedChinese: "\u5EFA\u7ACB\u690D\u4F53\u7CFB\u7EDF\u6570\u636E\u5E93"
     english: Building implant library
-  - id: 
+  - id: Premill_Click
     traditionalChinese: "\u9EDE\u9078\u52A0\u5DE5"
     simplifiedChinese: "\u70B9\u9009\u52A0\u5DE5"
     english: Click to mill
   - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
-  - id: 
-    traditionalChinese: 
-    simplifiedChinese: 
-    english: 
+    traditionalChinese: "\u71C8\u865F\u8AAA\u660E"
+    simplifiedChinese: "\u706F\u53F7\u8BF4\u660E"
+    english: Light Indication
+  - id: 
+    traditionalChinese: "\u64CD\u4F5C\u9762\u677F\u8AAA\u660E"
+    simplifiedChinese: "\u64CD\u4F5C\u9762\u677F\u8BF4\u660E"
+    english: Operating Indication
+  - id: 
+    traditionalChinese: "\u6A61\u81A0\u588A\u947D\u5B54"
+    simplifiedChinese: "\u6A61\u80F6\u57AB\u94BB\u5B54"
+    english: Rubber Drilling
+  - id: 
+    traditionalChinese: "\u5200\u5177\u5EAB\u4F4D\u7F6E"
+    simplifiedChinese: "\u5200\u5177\u5E93\u4F4D\u7F6E"
+    english: Tool Magazine
+  - id: 
+    traditionalChinese: "\u7B52\u593E\u4FDD\u990A"
+    simplifiedChinese: "\u7B52\u5939\u4FDD\u517B"
+    english: Chuck Maintenance
+  - id: 
+    traditionalChinese: "\u63DB\u6599\u76E4"
+    simplifiedChinese: "\u6362\u6599\u76D8"
+    english: Replacement Clamp
+  - id: 
+    traditionalChinese: "\u7D05\uFF1A\u7570\u8B66\u72C0\u614B"
+    simplifiedChinese: "\u7EA2\uFF1A\u5F02\u8B66\u72B6\u6001"
+    english: 'Red: Abnormal alarm '
+  - id: 
+    traditionalChinese: "\u9EC3\uFF1A\u52A0\u5DE5\u5B8C\u6210/\u505C\u6B62"
+    simplifiedChinese: "\u9EC4\uFF1A\u52A0\u5DE5\u5B8C\u6210/\u505C\u6B62"
+    english: 'Yellow: Processing complete/stopped'
+  - id: 
+    traditionalChinese: "\u7DA0\uFF1A\u52A0\u5DE5\u72C0\u614B"
+    simplifiedChinese: "\u7EFF\uFF1A\u52A0\u5DE5\u72B6\u6001"
+    english: 'Green: Processing '
+  - id: 
+    traditionalChinese: "\u7B2C\u4E00\u5340\uFF1A\u5EFA\u8B70\u653E\u7F6E\u881F\u3001\u6A39\u8102\u6750\u6599\u5C08\u7528\u5200\u5177"
+    simplifiedChinese: "\u7B2C\u4E00\u533A\uFF1A\u5EFA\u8BAE\u653E\u7F6E\u8721\u3001\u6811\u8102\u6750\u6599\u4E13\u7528\u5200\u5177"
+    english: 'Zone 1: Burs for wax and resin materials.'
+  - id: 
+    traditionalChinese: "\u7B2C\u4E8C\u5340\uFF1A\u5EFA\u8B70\u653E\u7F6E\u6C27\u5316\u92EF\u5C08\u7528\u5200\u5177"
+    simplifiedChinese: "\u7B2C\u4E8C\u533A\uFF1A\u5EFA\u8BAE\u653E\u7F6E\u6C27\u5316\u9506\u4E13\u7528\u5200\u5177"
+    english: 'Zone 2: Burs for zirconia materials.'
+  - id: 
+    traditionalChinese: "\u7B2C\u4E09\u5340\uFF1A\u5EFA\u8B70\u653E\u7F6E\u73BB\u7483\u9676\u74F7\u5C08\u7528\u5200\u5177"
+    simplifiedChinese: "\u7B2C\u4E09\u533A\uFF1A\u5EFA\u8BAE\u653E\u7F6E\u73BB\u7483\u9676\u74F7\u4E13\u7528\u5200\u5177"
+    english: 'Zone 3: Burs for glass-ceramic materials.'
+  - id: 
+    traditionalChinese: "\u7B2C\u56DB\u5340\uFF1A\u5EFA\u8B70\u653E\u7F6Epremill\u5C08\u7528\u5200\u5177"
+    simplifiedChinese: "\u7B2C\u56DB\u533A\uFF1A\u5EFA\u8BAE\u653E\u7F6Epremill\u4E13\u7528\u5200\u5177"
+    english: 'Zone 4: Burs for premill materials.'
+  - id: 
+    traditionalChinese: "\u4E86\u89E3"
+    simplifiedChinese: "\u4E86\u89E3"
+    english: OK
+  - id: 
+    traditionalChinese: "\u5C0E\u5165\u52A0\u5DE5\u6A94\u6848"
+    simplifiedChinese: "\u5BFC\u5165\u52A0\u5DE5\u6863\u6848"
+    english: How to Importing Files
+  - id: 
+    traditionalChinese: "\u91CD\u7F6E"
+    simplifiedChinese: "\u91CD\u7F6E"
+    english: Reset
+  - id: 
+    traditionalChinese: "\u6B78\u96F6"
+    simplifiedChinese: "\u5F52\u96F6"
+    english: Home
+  - id: 
+    traditionalChinese: "\u532F\u5165\u6A94\u6848"
+    simplifiedChinese: "\u6C47\u5165\u6863\u6848"
+    english: Import File
+  - id: 
+    traditionalChinese: "\u958B\u555F\u81EA\u52D5\u5FAA\u74B0\u5F8C\uFF0C\u8ACB\u5148\u522A\u9664\u4E0A\u6279\u6A94\u6848"
+    simplifiedChinese: "\u5F00\u542F\u81EA\u52A8\u5FAA\u73AF\u540E\uFF0C\u8BF7\u5148\u5220\u9664\u4E0A\u6279\u6863\u6848"
+    english: Before starting the auto-loop, delete the previous file.
+  - id: 
+    traditionalChinese: "\u4E86\u89E3"
+    simplifiedChinese: "\u5BFC\u5165\u52A0\u5DE5\u6863\u6848\n\u6211\u8981\u4F7F\u7528\n\u7F51\u7EDC\u4F20\u8F93\nU\u76D8\u4F20\u8F93\n1\u4E2A\u6863\u6848\n\u591A\u4E2A\u6863\u6848\n\u4E86\u89E3"
+    english: OK
+  - id: 
+    traditionalChinese: "\u81EA\u52D5\u6E05\u6F54"
+    simplifiedChinese: "\u81EA\u52A8\u6E05\u6D01"
+    english: Automatic Cleaning
+  - id: 
+    traditionalChinese: "\u57F7\u884C\u81EA\u52D5\u7051\u6C34\u6E05\u6F5410\u5206\u9418"
+    simplifiedChinese: "\u6267\u884C\u81EA\u52A8\u6D12\u6C34\u6E05\u6D0110\u5206\u949F"
+    english: 10 minutes to clean processing chamber.
+  - id: 
+    traditionalChinese: "\u5200\u5177\u9577\u5EA6\u6B78\u96F6"
+    simplifiedChinese: "\u5200\u5177\u957F\u5EA6\u5F52\u96F6"
+    english: Tool length resetting
+  - id: 
+    traditionalChinese: "\u4E0B\u4E00\u9801"
+    simplifiedChinese: "\u4E0B\u4E00\u9875"
+    english: Next
+  - id: 
+    traditionalChinese: "\u9032\u5165\u5200\u5177\u7BA1\u7406"
+    simplifiedChinese: "\u8FDB\u5165\u5200\u5177\u7BA1\u7406"
+    english: Tool Management
+  - id: 
+    traditionalChinese: "\u5C07\u6240\u6709\u5200\u9577\u7D00\u9304\u6B78\u96F6"
+    simplifiedChinese: "\u5C06\u6240\u6709\u5200\u957F\u7EAA\u5F55\u5F52\u96F6"
+    english: Length return to zero.
+  - id: 
+    traditionalChinese: "\u5B8C\u6210\u7A0B\u5E8F"
+    simplifiedChinese: "\u5B8C\u6210\u7A0B\u5E8F"
+    english: Finish
+  - id: 
+    traditionalChinese: "\u63DB\u5200\u5177"
+    simplifiedChinese: "\u6362\u5200\u5177"
+    english: Bur Change
+  - id: 
+    traditionalChinese: "\u62FF\u7A69\u7B52\u593E\u4E0A\u7684\u5200\u5177"
+    simplifiedChinese: "\u62FF\u7A33\u7B52\u5939\u4E0A\u7684\u5200\u5177"
+    english: Hold the bur steady.
+  - id: 
+    traditionalChinese: "\u4E86\u89E3"
+    simplifiedChinese: "\u4E86\u89E3"
+    english: OK
+  - id: 
+    traditionalChinese: "\u7B52\u593E\u9B06\u5200"
+    simplifiedChinese: "\u7B52\u5939\u677E\u5200"
+    english: Release bur
+  - id: 
+    traditionalChinese: "\u5200\u5177\u653E\u5165\u7B52\u593E"
+    simplifiedChinese: "\u5200\u5177\u653E\u5165\u7B52\u5939"
+    english: Put the bur in chuck.
+  - id: 
+    traditionalChinese: "\u7B52\u593E\u593E\u5200"
+    simplifiedChinese: "\u7B52\u5939\u5939\u5200"
+    english: Clamp the bur.
+  - id: 
+    traditionalChinese: "\u203B\u947D\u5B54\u524D\u8ACB\u5148\u6821\u6B63\u7CBE\u5EA6"
+    simplifiedChinese: "\u203B\u94BB\u5B54\u524D\u8BF7\u5148\u6821\u6B63\u7CBE\u5EA6"
+    english: "\u203BPlease be sure to have the original engineer calibrate the machine
+      before drilling the rubber."
+  - id: 
+    traditionalChinese: "\u4F7F\u75282.0mm\u7684\u516D\u89D2\u677F\u624B\u5378\u4E0B\u58D3\u677F\uFF0C\u53D6\u51FA\u53D7\u640D\u7684\u6A61\u81A0\u584A"
+    simplifiedChinese: "\u4F7F\u75282.0mm\u7684\u516D\u89D2\u677F\u624B\u5378\u4E0B\u538B\u677F\uFF0C\u53D6\u51FA\u53D7\u635F\u7684\u6A61\u80F6\u5757"
+    english: Use a 2.0 hex wrench, remove the rubber.
+  - id: 
+    traditionalChinese: "\u63DB\u4E0A\u65B0\u6A61\u81A0\u588A\u5F8C\uFF0C\u518D\u628A\u58D3\u677F\u9396\u56DE\u539F\u4F4D\u7F6E"
+    simplifiedChinese: "\u6362\u4E0A\u65B0\u6A61\u80F6\u57AB\u540E\uFF0C\u518D\u628A\u538B\u677F\u9501\u56DE\u539F\u4F4D\u7F6E"
+    english: Use a 2.0mm hex wrench to lock the new rubber back to its original position.
+  - id: 
+    traditionalChinese: "\u66F4\u63DB\u5C08\u7528\u6821\u6B63\u5200"
+    simplifiedChinese: "\u66F4\u6362\u4E13\u7528\u6821\u6B63\u5200"
+    english: Use a correction bur.
+  - id: 
+    traditionalChinese: "     \u6309\u9B06\u593E\u5200\u9375\uFF0C\u5C07\u4E3B\u8EF8\u5200\u5177\u5378\u4E0B"
+    simplifiedChinese: "     \u6309\u677E\u5939\u5200\u952E\uFF0C\u5C06\u4E3B\u8F74\u5200\u5177\u5378\u4E0B"
+    english: '     Press this button to remove the spindle tool.'
+  - id: 
+    traditionalChinese: "\u653E\u5165\u6821\u6B63\u5200\uFF0C    \u6309\u593E\u5200\u9375\u593E\u5200"
+    simplifiedChinese: "\u653E\u5165\u6821\u6B63\u5200\uFF0C    \u6309\u5939\u5200\u952E\u5939\u5200"
+    english: Put in the correction bur and press this button.
+  - id: 
+    traditionalChinese: "\u6309\u593E\u5200\u9375\uFF0C\u8A66\u8A66\u9B06\u593E\u5200\u662F\u5426\u6B63\u5E38"
+    simplifiedChinese: "\u6309\u5939\u5200\u952E\uFF0C\u8BD5\u8BD5\u677E\u5939\u5200\u662F\u5426\u6B63\u5E38"
+    english: Test to see if the releasing and clamping bur is working properly.
+  - id: 
+    traditionalChinese: "\u9EDE\u64CA\u91CD\u7F6E\u9375\u8207\u6B78\u96F6\u9375"
+    simplifiedChinese: "\u70B9\u51FB\u91CD\u7F6E\u952E\u4E0E\u5F52\u96F6\u952E"
+    english: Click the RESET and HOME button.
+  - id: 
+    traditionalChinese: "\u9EDE\u64CA\u947D\u5B54\u52A0\u5DE5\uFF0C\u9078\u64C7\u78BA\u5B9A"
+    simplifiedChinese: "\u70B9\u51FB\u94BB\u5B54\u52A0\u5DE5\uFF0C\u9009\u62E9\u786E\u5B9A"
+    english: Click the DRILLING button, click [OK].
+  - id: 
+    traditionalChinese: "\u5148\u5C07\u4E3B\u8EF8\u4E0A\u7684\u5200\u5177\u5378\u4E0B\uFF0C\u203B\u6CE8\u610F:\u5728\u5378\u5200\u72C0\u614B\u4E0B\uFF0C\u8ACB\u52FF\u9EDE\u4E0B\u593E\u5200\u9375\uFF0C\u6050\u50B7\u4E3B\u8EF8"
+    simplifiedChinese: "\u5148\u5C06\u4E3B\u8F74\u4E0A\u7684\u5200\u5177\u5378\u4E0B\uFF0C\u203B\u6CE8\u610F:\u5728\u5378\u5200\u72B6\u6001\u4E0B\uFF0C\u8BF7\u52FF\u70B9\u4E0B\u5939\u5200\u952E\uFF0C\u6050\u4F24\u4E3B\u8F74"
+    english: "First, remove the bur from the spindle.\n\u203BNote: Don't click this
+      button while the bur is unloaded, as it may damage the spindle."
+  - id: 
+    traditionalChinese: "\u4F7F\u7528\u516D\u89D2\u5957\u7B52\u5C07\u7B52\u593E\u9806\u6642\u91DD\u65B9\u5411\u5378\u4E0B"
+    simplifiedChinese: "\u4F7F\u7528\u516D\u89D2\u5957\u7B52\u5C06\u7B52\u5939\u987A\u65F6\u9488\u65B9\u5411\u5378\u4E0B"
+    english: Use a hex scoket to remove the chuck clockwise.
+  - id: 
+    traditionalChinese: "1.5mmL\u578B\u516D\u89D2\u677F\u624B\u5C07\u7B52\u593E\u5167\u7684\u87BA\u7D72\u53D6\u4E0B"
+    simplifiedChinese: "1.5mmL\u578B\u516D\u89D2\u677F\u624B\u5C06\u7B52\u5939\u5185\u7684\u87BA\u4E1D\u53D6\u4E0B"
+    english: Next, use a 1.5mm hex wrench to remove the screw from the chuck.
+  - id: 
+    traditionalChinese: "\u9152\u7CBE\u6E05\u6F54\u7B52\u593E\u8207\u87BA\u7D72"
+    simplifiedChinese: "\u9152\u7CBE\u6E05\u6D01\u7B52\u5939\u4E0E\u87BA\u4E1D"
+    english: Use alcohol to clean chuck and screw.
+  - id: 
+    traditionalChinese: "\u516D\u89D2\u5957\u7B52\u5C07\u7B52\u593E\u9006\u6642\u91DD\u65B9\u5411\u88DD\u56DE\u4E3B\u8EF8\u4E0A\uFF0C\u8F49\u5230\u5E95\u5F8C\u518D\u9000\u4E09\u5708"
+    simplifiedChinese: "\u516D\u89D2\u5957\u7B52\u5C06\u7B52\u5939\u9006\u65F6\u9488\u65B9\u5411\u88C5\u56DE\u4E3B\u8F74\u4E0A\uFF0C\u8F6C\u5230\u5E95\u540E\u518D\u9000\u4E09\u5708"
+    english: "Use 1.5mm hexagonal wrench put the chuck back on the spindle counterclockwise,
+      turn the chuck \n to the bottom and back off three times.\n"
+  - id: 
+    traditionalChinese: "1.5mmL\u578B\u516D\u89D2\u677F\u624B\u5C07\u5167\u87BA\u7D72\u9396\u5165\u7B52\u593E\u5167(\u529B\u9053\u9069\u7576\u5373\u53EF)"
+    simplifiedChinese: "1.5mmL\u578B\u516D\u89D2\u677F\u624B\u5C06\u5185\u87BA\u4E1D\u9501\u5165\u7B52\u5939\u5185(\u529B\u9053\u9002\u5F53\u5373\u53EF)"
+    english: 'Use 1.5mm hexagonal wrench to put the screw in the chuck and lock it.
+      (Just the right amount of  force.)
+
+'
+  - id: 
+    traditionalChinese: "\u6309\u9B06\u593E\u5200\u9375\uFF0C\u8A66\u8A66\u9B06\u593E\u5200\u662F\u5426\u6B63\u5E38\n\u203B\u592A\u9B06\u2192\u9B06\u958B\u5167\u87BA\u7D72\uFF0C\u5C07\u7B52\u593E\u9032\u534A\u5708\uFF0C\u518D\u9396\u56DE\u5167\u87BA\u7D72\n\u203B\u592A\u7DCA\u2192\u9B06\u958B\u5167\u87BA\u7D72\uFF0C\u5C07\u7B52\u593E\u9000\u534A\u5708\uFF0C\u518D\u9396\u56DE\u5167\u87BA\u7D72(\u529B\u9053\u9069\u7576\u5373\u53EF)"
+    simplifiedChinese: "\u6309\u677E\u5939\u5200\u952E\uFF0C\u8BD5\u8BD5\u677E\u5939\u5200\u662F\u5426\u6B63\u5E38\n\u203B\u592A\u677E\u2192\u677E\u5F00\u5185\u87BA\u4E1D\uFF0C\u5C06\u7B52\u5939\u8FDB\u534A\u5708\uFF0C\u518D\u9501\u56DE\u5185\u87BA\u4E1D\n\u203B\u592A\u7D27\u2192\u677E\u5F00\u5185\u87BA\u4E1D\uFF0C\u5C06\u7B52\u5939\u9000\u534A\u5708\uFF0C\u518D\u9501\u56DE\u5185\u87BA\u4E1D(\u529B\u9053\u9002\u5F53\u5373\u53EF)"
+    english: "Press the bur changer button to see if the bur is working properly.\n\u203BToo
+      loose \u2192 Loosen screw, clamp the chuck in half turn, then lock screw.\n\u203BToo
+      tight \u2192 Loosen screw, back off the chuck a half turn, then lock back screw."
+  - id: 
+    traditionalChinese: "\u5713\u5F62\u6599\u76E4\u593E\u5177"
+    simplifiedChinese: "\u5706\u5F62\u6599\u76D8\u5939\u5177"
+    english: Clamp for Disk
+  - id: 
+    traditionalChinese: "2.5mm\u516D\u89D2\u677F\u624B\u9B06\u958B\u87BA\u7D72\uFF0C\u53D6\u4E0B\u58D3\u677F\u8207\u4F7F\u7528\u904E\u7684\u6599\u76E4"
+    simplifiedChinese: "2.5mm\u516D\u89D2\u677F\u624B\u677E\u5F00\u87BA\u4E1D\uFF0C\u53D6\u4E0B\u538B\u677F\u4E0E\u4F7F\u7528\u8FC7\u7684\u6599\u76D8"
+    english: 2.5mm hex wrench loosen the screw, remove the clamping plate and used
+      material.
+  - id: 
+    traditionalChinese: " \u63DB\u4E0A\u65B0\u6599\u76E4"
+    simplifiedChinese: " \u6362\u4E0A\u65B0\u6599\u76D8"
+    english: Replace with a new disk.
+  - id: 
+    traditionalChinese: "2.5mm\u516D\u89D2\u677F\u624B\u628A\u5C07\u58D3\u677F\u9396\u56DE\u539F\u4F4D"
+    simplifiedChinese: "2.5mm\u516D\u89D2\u677F\u624B\u628A\u5C06\u538B\u677F\u9501\u56DE\u539F\u4F4D"
+    english: 2.5mm hex wrench to lock the clamping plate back into place.
+  - id: 
+    traditionalChinese: "\u73BB\u7483\u9676\u74F7\u5C08\u7528\u593E\u5177"
+    simplifiedChinese: "\u73BB\u7483\u9676\u74F7\u4E13\u7528\u5939\u5177"
+    english: Clamp for Glass Ceramic
+  - id: 
+    traditionalChinese: "\u5C07\u74F7\u584A\u63D2\u5165\u5176\u5C08\u7528\u593E\u5177\u7684\u9632\u65CB\u8F49\u88DD\u7F6E"
+    simplifiedChinese: "\u5C06\u74F7\u5757\u63D2\u5165\u5176\u4E13\u7528\u5939\u5177\u7684\u9632\u65CB\u8F6C\u88C5\u7F6E"
+    english: Insert the block into the anti-rotation device of its clamp.
+  - id: 
+    traditionalChinese: "\u9396\u7DCA\u593E\u5177\u5169\u5074\u76844mm\u87BA\u7D72"
+    simplifiedChinese: "\u9501\u7D27\u5939\u5177\u4E24\u4FA7\u76844mm\u87BA\u4E1D"
+    english: Tighten the block with 4mm screws on both sides.
+  - id: 
+    traditionalChinese: "2.5mm\u516D\u89D2\u677F\u624B\u628A\u5C07\u58D3\u677F\u9396\u56DE\u539F\u4F4D"
+    simplifiedChinese: "2.5mm\u516D\u89D2\u677F\u624B\u628A\u5C06\u538B\u677F\u9501\u56DE\u539F\u4F4D"
+    english: 2.5mm hex wrench to lock the clamping plate back into place.
+  - id: 
+    traditionalChinese: "premill\u5C08\u7528\u593E\u5177"
+    simplifiedChinese: "premill\u4E13\u7528\u5939\u5177"
+    english: Clamp for Ti Bar
+  - id: 
+    traditionalChinese: "premill\u5E95\u90E8\u7684\u5E73\u9762\u671D\u4E0A\uFF0C\u63D2\u5165\u5176\u5C08\u7528\u593E\u5177\u7684\u63D2\u69FD"
+    simplifiedChinese: "premill\u5E95\u90E8\u7684\u5E73\u9762\u671D\u4E0A\uFF0C\u63D2\u5165\u5176\u4E13\u7528\u5939\u5177\u7684\u63D2\u69FD"
+    english: The flat side of the premill faces upwards and insert in its clamp.
+  - id: 
+    traditionalChinese: "\u9396\u7DCA\u593E\u5177\u5169\u5074\u76844mm\u87BA\u7D72\u548C\u63D2\u69FD\u5E95\u90E8\u76845mm\u87BA\u7D72"
+    simplifiedChinese: "\u9501\u7D27\u5939\u5177\u4E24\u4FA7\u76844mm\u87BA\u4E1D\u548C\u63D2\u69FD\u5E95\u90E8\u76845mm\u87BA\u4E1D"
+    english: Tighten the premill with 4 mm screws and 5 mm screws .
+  - id: 
+    traditionalChinese: "2.5mm\u516D\u89D2\u677F\u624B\u628A\u5C07\u58D3\u677F\u9396\u56DE\u539F\u4F4D"
+    simplifiedChinese: "2.5mm\u516D\u89D2\u677F\u624B\u628A\u5C06\u538B\u677F\u9501\u56DE\u539F\u4F4D"
+    english: 2.5mm hex wrench to lock the clamping plate back into place.
+  - id: 
+    traditionalChinese: "\u6A94\u6848\u8B80\u53D6\u932F\u8AA4"
+    simplifiedChinese: "\u6863\u6848\u8BFB\u53D6\u9519\u8BEF"
+    english: Failed to load NC file
+  - id: 
+    traditionalChinese: "\u8B80\u53D6NC\u6A94\u6848\u5931\u6557\n1.\u91CD\u65B0\u6392\u7248\u518D\u6B21\u8F38\u51FANC\u6A94\u6848\n2.\u6A94\u6848\u540D\u7A31\u4EE5\u82F1\u6587\u6216\u6578\u5B57\u547D\u540D\uFF0C\u5207\u52FF\u4EE5\u4E2D\u6587\u547D\u540D\n3.\u5C07NC\u6A94\u6848\u50B3\u8F38\u81F3\u9F52\u96D5\u6A5F\n4.\u6309\u4E0BRESET\u91CD\u7F6E\u9375\u8207HOME\u6B78\u96F6\u9375\uFF0C\u63A5\u7E8C\u52D5\u4F5C"
+    simplifiedChinese: "\u8BFB\u53D6NC\u6863\u6848\u5931\u8D25\n1.\u91CD\u65B0\u6392\u7248\u518D\u6B21\u8F93\u51FANC\u6863\u6848\n2.\u6587\u4EF6\u540D\u4EE5\u82F1\u6587\u6216\u6570\u5B57\u547D\u540D\uFF0C\u5207\u52FF\u4EE5\u4E2D\u6587\u547D\u540D\n3.\u5C06NC\u6587\u4EF6\u4F20\u8F93\u81F3\u9F7F\u96D5\u673A\n4.\u6309\u4E0BRESET\u91CD\u7F6E\u952E\u4E0EHOME\u5F52\u96F6\u952E\uFF0C\u63A5\u7EED\u52A8\u4F5C"
+    english: 'Failed to load NC file
+
+      1. Typesetting and output NC files again.
+
+      2. File names should be in English or numeric characters.
+
+      3. Transfer NC files to the machine.
+
+      4. Press the RESET and HOME button to continue the action.'
+  - id: 
+    traditionalChinese: "Error201:\u7B2C1\u8DEF\u5F91\u7CFB\u7D71\u7121\u6B64G\u6307\u4EE4\n[\u7A0B\u5F0F\u540D\u7A31]:\u884C\u865F"
+    simplifiedChinese: "Error201:\u7B2C1\u8DEF\u5F84\u7CFB\u7EDF\u65E0\u6B64G\u6307\u4EE4\n[\u7A0B\u5E8F\u540D\u79F0]:\u884C\u53F7"
+    english: 'Error201:No such G command in the 1st path system [Program Name]: Line
+      No.
+
+'
+  - id: 
+    traditionalChinese: "GCode\u7121\u5167\u5BB9\n\u8ACB\u65BC\u7D00\u9304\u932F\u8AA4\u884C\u865F\u5F8C\u901A\u77E5\u6771\u6615\u552E\u670D\n"
+    simplifiedChinese: "GCode\u65E0\u5185\u5BB9\n\u8BF7\u4E8E\u7EAA\u5F55\u9519\u8BEF\u884C\u53F7\u540E\u901A\u77E5\u4E1C\u6615\u552E\u670D\n"
+    english: 'GCode has no content.
+
+      Please notify us after recording the wrong line number.'
+  - id: 
+    traditionalChinese: "\u901A\u8A0A\u5F0FI/O\u901A\u8A0A\u7570\u5E38"
+    simplifiedChinese: "\u901A\u8BAF\u5F0FI/O\u901A\u8BAF\u5F02\u5E38"
+    english: Communication I/O communication abnormalities
+  - id: 
+    traditionalChinese: "\u8ACB\u901A\u77E5\u6771\u6615\u552E\u670D"
+    simplifiedChinese: "\u8BF7\u901A\u77E5\u4E1C\u6615\u552E\u670D"
+    english: Please inform us.
+  - id: 
+    traditionalChinese: "Z\u8EF8\u9700\u512A\u5148\u56DE\u539F\u9EDE"
+    simplifiedChinese: "Z\u8F74\u9700\u4F18\u5148\u56DE\u539F\u70B9"
+    english: Z-axis should be returned to the home position first.
+  - id: 
+    traditionalChinese: "Z\u8EF8\u6C92\u6709\u5728\u539F\u9EDE\u4E0A\uFF0C\u5176\u4ED6\u8EF8\u5411\u89F8\u767C\u56DE\u539F\u9EDE\n\u6309\u4E0BRESET\u91CD\u7F6E\u9375\u8207HOME\u6B78\u96F6\u9375\n"
+    simplifiedChinese: "Z\u8F74\u6CA1\u6709\u5728\u539F\u70B9\u4E0A\uFF0C\u5176\u4ED6\u8F74\u5411\u89E6\u53D1\u56DE\u539F\u70B9\n\u6309\u4E0BRESET\u91CD\u7F6E\u952E\u4E0EHOME\u5F52\u96F6\u952E\n"
+    english: 'The Z-axis is not at the origin.
+
+      Press RESET and HOME button to continue the action.'
+  - id: 
+    traditionalChinese: " X(Y\u3001Z\u3001A\u3001B)\u8EF8\u8D85\u904E\u8EDF\u9AD4\u6975\u9650\u6B63(\u8CA0)\u5411\u6975\u9650\u503C\n"
+    simplifiedChinese: " X(Y\u3001Z\u3001A\u3001B)\u8F74\u8D85\u8FC7\u8F6F\u4EF6\u6781\u9650\u6B63(\u8D1F)\u5411\u6781\u9650\u503C\n"
+    english: X (Y, Z, A, B) axis exceeds the software limit positive (negative) direction
+      limit value.
+  - id: 
+    traditionalChinese: "\u6392\u7248\u8EDF\u9AD4\u8A08\u7B97\u932F\u8AA4\uFF0C\u5C0E\u81F4NC\u6A94\u8D85\u51FA\u5404\u8EF8\u6975\u9650\n1.\u8ACB\u7D00\u9304\u756B\u9762\u986F\u793A\u7684GCode\u932F\u8AA4\u884C\u6578\n2.\u5C07\u52A0\u5DE5\u6A94\u6848\u8207GCode\u932F\u8AA4\u884C\u6578\u4E00\u540C\u50B3\u9001\u81F3\u6771\u6615\u552E\u670D"
+    simplifiedChinese: "\u6392\u7248\u8F6F\u4EF6\u8BA1\u7B97\u9519\u8BEF\uFF0C\u5BFC\u81F4NC\u6863\u8D85\u51FA\u5404\u8F74\u6781\u9650\n1.\u8BF7\u7EAA\u5F55\u753B\u9762\u663E\u793A\u7684GCode\u9519\u8BEF\u884C\u6570\n2.\u5C06\u52A0\u5DE5\u6863\u6848\u4E0EGCode\u9519\u8BEF\u884C\u6570\u4E00\u540C\u4F20\u9001\u81F3\u4E1C\u6615\u552E\u670D"
+    english: 'CAM software calculation error, resulting in NC file exceeding the limit
+      of each axis.
+
+      1. Please record the number of GCode error lines displayed on the screen.
+
+      2. Send the processing file with the GCode error line to us.
+
+'
+  - id: 
+    traditionalChinese: "X(Y\u3001Z\u3001A\u3001B)\u8EF8\u7D55\u5C0D\u7DE8\u78BC\u5668\u6578\u64DA\u4E1F\u59311(\u932F\u8AA4\u4EE3\u78BC)\n"
+    simplifiedChinese: "X(Y\u3001Z\u3001A\u3001B)\u8F74\u7EDD\u5BF9\u7F16\u7801\u5668\u6570\u636E\u4E22\u59311(\u9519\u8BEF\u4EE3\u7801)\n"
+    english: X (Y, Z, A, B) axis absolute encoder data loss 1 (error code).
+  - id: 
+    traditionalChinese: "\u8ACB\u65BC\u7D00\u9304\u932F\u8AA4\u4EE3\u78BC\u5F8C\u901A\u77E5\u6771\u6615\u552E\u670D"
+    simplifiedChinese: "\u8BF7\u4E8E\u7EAA\u5F55\u9519\u8BEF\u4EE3\u7801\u540E\u901A\u77E5\u4E1C\u6615\u552E\u670D"
+    english: Please inform us after recording the error code.
+  - id: 
+    traditionalChinese: " X(Y\u3001Z\u3001A\u3001B)\u8EF8 \u627E\u4E0D\u5230\u4EFB\u4F55\u652F\u63F4\u7684EtherCAT\u88DD\u7F6E(\u7CFB\u7D71\u8B66\u5831)\n"
+    simplifiedChinese: " X(Y\u3001Z\u3001A\u3001B)\u8F74 \u627E\u4E0D\u5230\u4EFB\u4F55\u652F\u6301\u7684EtherCAT\u88C5\u7F6E(\u7CFB\u7EDF\u8B66\u62A5)\n"
+    english: X (Y, Z, A, B) axis EtherCAT device isn't found (system alarm).
+  - id: 
+    traditionalChinese: "\u8ACB\u901A\u77E5\u6771\u6615\u552E\u670D"
+    simplifiedChinese: "\u8BF7\u901A\u77E5\u4E1C\u6615\u552E\u670D"
+    english: Please inform us.
+  - id: 
+    traditionalChinese: "\u91CF\u5200\u5200\u9577\u7570\u5E38,\u8AA4\u5DEE____mm\n"
+    simplifiedChinese: "\u91CF\u5200\u5200\u957F\u5F02\u5E38,\u8BEF\u5DEE____mm\n"
+    english: Abnormal bur length, error _____mm.
+  - id: 
+    traditionalChinese: "\u8D85\u904E\u91CF\u5200\u8AA4\u5DEE\u7BC4\u570D\u8A2D\u5B9A\u503C\n\u5200\u5177\u65B7\u88C2\n1.\u78BA\u8A8D\u7576\u524D\u5200\u865F\u8207\u4E3B\u8EF8\u5200\u865F\u662F\u5426\u4E00\u81F4\n2.\u5C07\u65B7\u88C2/\u78E8\u8017\u7684\u5200\u5177\u53D6\u4E0B\n3.\u66F4\u63DB\u65B0\u5200\u5177\uFF0C\u8ACB\u78BA\u8A8D\u5200\u5177\u898F\u683C\n4.\u5200\u5177\u9577\u5EA6\u6B78\u96F6\n5.\u6309\u4E0BRESET\u91CD\u7F6E\u9375\u8207HOME\u6B78\u96F6\u9375\uFF0C\u63A5\u7E8C\u52D5\u4F5C"
+    simplifiedChinese: "\u8D85\u8FC7\u91CF\u5200\u8BEF\u5DEE\u8303\u56F4\u8BBE\u5B9A\u503C\n\u5200\u5177\u65AD\u88C2\n1.\u786E\u8BA4\u5F53\u524D\u5200\u53F7\u4E0E\u4E3B\u8F74\u5200\u53F7\u662F\u5426\u4E00\u81F4\n2.\u5C06\u65AD\u88C2/\u78E8\u8017\u7684\u5200\u5177\u53D6\u4E0B\n3.\u66F4\u6362\u65B0\u5200\u5177\uFF0C\u8BF7\u786E\u8BA4\u5200\u5177\u89C4\u683C\n4.\u5200\u5177\u957F\u5EA6\u5F52\u96F6\n5.\u6309\u4E0BRESET\u91CD\u7F6E\u952E\u4E0EHOME\u5F52\u96F6\u952E\uFF0C\u63A5\u7EED\u52A8\u4F5C"
+    english: 'Over the tolerance range of the measuring bur.
+
+      Bur breakage.
+
+      1.Make sure the current bur number is the same as the spindle bur number.
+
+      2.Remove the broken/worn bur.
+
+      3.For new bur, please check the bur specifications.
+
+      4.Length return to zero.
+
+      5. Press the RESET and HOME button to continue the action.'
+  - id: 
+    traditionalChinese: "\u91CF\u5200\u5200\u9577\u7570\u5E38,\u4E3B\u8EF8\u5200\u5177\u7570\u5E38"
+    simplifiedChinese: "\u91CF\u5200\u5200\u957F\u5F02\u5E38,\u4E3B\u8F74\u5200\u5177\u5F02\u5E38"
+    english: Abnormal bur length, spindle bur abnormality.
+  - id: 
+    traditionalChinese: "\u4E3B\u8EF8\u6C92\u6709\u5200\u5177\n1.\u78BA\u8A8D\u7576\u524D\u5200\u865F\u8207\u4E3B\u8EF8\u5200\u865F\u662F\u5426\u4E00\u81F4\n2.\u91CD\u65B0\u653E\u4E0A\u5200\u5177\uFF0C\u8ACB\u78BA\u8A8D\u5200\u5177\u898F\u683C\n3.\u5200\u5177\u9577\u5EA6\u6B78\u96F6\n4.\u6309\u4E0BRESET\u91CD\u7F6E\u9375\u8207HOME\u6B78\u96F6\u9375\uFF0C\u63A5\u7E8C\u52D5\u4F5C"
+    simplifiedChinese: "\u4E3B\u8F74\u6CA1\u6709\u5200\u5177\n1.\u786E\u8BA4\u5F53\u524D\u5200\u53F7\u4E0E\u4E3B\u8F74\u5200\u53F7\u662F\u5426\u4E00\u81F4\n2.\u91CD\u65B0\u653E\u4E0A\u5200\u5177\uFF0C\u8BF7\u786E\u8BA4\u5200\u5177\u89C4\u683C\n3.\u5200\u5177\u957F\u5EA6\u5F52\u96F6\n4.\u6309\u4E0BRESET\u91CD\u7F6E\u952E\u4E0EHOME\u5F52\u96F6\u952E\uFF0C\u63A5\u7EED\u52A8\u4F5C"
+    english: 'Spindles without bur.
+
+      1.Make sure the current bur number is the same as the spindle bur number.
+
+      2.Put the bur on and check the bur specifications.
+
+      3.Length return to zero.
+
+      4. Press the RESET and HOME button to continue the action.'
+  - id: 
+    traditionalChinese: "\u5200\u865F\u547C\u53EB\u932F\u8AA4"
+    simplifiedChinese: "\u5200\u53F7\u547C\u53EB\u9519\u8BEF"
+    english: Wrong bur number
+  - id: 
+    traditionalChinese: "\u57F7\u884CM6T\u78BC\u8D85\u904E12\n\u5C07\u52A0\u5DE5\u6A94\u6848\u50B3\u9001\u81F3\u6771\u6615\u552E\u670D\n\n"
+    simplifiedChinese: "\u6267\u884CM6T\u7801\u8D85\u8FC712\n\u5C06\u52A0\u5DE5\u6863\u6848\u4F20\u9001\u81F3\u4E1C\u6615\u552E\u670D\n\n"
+    english: 'T-code over 12
+
+      Send the file to us.'
+  - id: 
+    traditionalChinese: "\u7B2C1~12\u865F\u5200\u5177\u7684\u58FD\u547D\u5DF2\u5230\u9054\n"
+    simplifiedChinese: "\u7B2C1~12\u53F7\u5200\u5177\u7684\u5BFF\u547D\u5DF2\u5230\u8FBE\n"
+    english: ' Bur No.1~12 have reached their life expectancy.'
+  - id: 
+    traditionalChinese: "\u5200\u5177\u4F7F\u7528\u6642\u9593\u5DF2\u9054\u9810\u8A2D\u503C\n1.\u78BA\u8A8D\u7576\u524D\u5200\u865F\u8207\u4E3B\u8EF8\u5200\u865F\u662F\u5426\u4E00\u81F4\n2.\u5C07\u78E8\u8017\u7684\u5200\u5177\u53D6\u4E0B\n3.\u66F4\u63DB\u65B0\u5200\u5177\uFF0C\u8ACB\u78BA\u8A8D\u5200\u5177\u898F\u683C\n4.\u5200\u5177\u9577\u5EA6\u6B78\u96F6\n5.\u6309\u4E0BRESET\u91CD\u7F6E\u9375\u8207HOME\u6B78\u96F6\u9375\uFF0C\u63A5\u7E8C\u52D5\u4F5C"
+    simplifiedChinese: "\u5200\u5177\u4F7F\u7528\u65F6\u95F4\u5DF2\u8FBE\u9ED8\u8BA4\u503C\n1.\u786E\u8BA4\u5F53\u524D\u5200\u53F7\u4E0E\u4E3B\u8F74\u5200\u53F7\u662F\u5426\u4E00\u81F4\n2.\u5C06\u78E8\u8017\u7684\u5200\u5177\u53D6\u4E0B\n3.\u66F4\u6362\u65B0\u5200\u5177\uFF0C\u8BF7\u786E\u8BA4\u5200\u5177\u89C4\u683C\n4.\u5200\u5177\u957F\u5EA6\u5F52\u96F6\n5.\u6309\u4E0BRESET\u91CD\u7F6E\u952E\u4E0EHOME\u5F52\u96F6\u952E\uFF0C\u63A5\u7EED\u52A8\u4F5C"
+    english: 'Bur use time has reached the preset value.
+
+      1.Make sure the current bur number is the same as the spindle bur number.
+
+      2.Remove the worn bur.
+
+      3.For new bur, please check the bur specifications.
+
+      4.Length return to zero.
+
+      5. Press the RESET and HOME button to continue the action.'
+  - id: 
+    traditionalChinese: "\u7B2C1~12\u865F\u5200\u5177\u78E8\u8017\u5DF2\u8D85\u904E\u8A2D\u5B9A\u503C\n"
+    simplifiedChinese: "\u7B2C1~12\u53F7\u5200\u5177\u78E8\u8017\u5DF2\u8D85\u8FC7\u8BBE\u5B9A\u503C\n"
+    english: Bur wear for No.1~12 has exceeded the set value.
+  - id: 
+    traditionalChinese: "\u8D85\u904E\u91CF\u5200\u8AA4\u5DEE\u7BC4\u570D\u8A2D\u5B9A\u503C\n1.\u78BA\u8A8D\u7576\u524D\u5200\u865F\u8207\u4E3B\u8EF8\u5200\u865F\u662F\u5426\u4E00\u81F4\n2.\u5C07\u78E8\u8017\u7684\u5200\u5177\u53D6\u4E0B\n3.\u66F4\u63DB\u65B0\u5200\u5177\uFF0C\u8ACB\u78BA\u8A8D\u5200\u5177\u898F\u683C\n4.\u5200\u5177\u9577\u5EA6\u6B78\u96F6\n5.\u6309\u4E0BRESET\u91CD\u7F6E\u9375\u8207HOME\u6B78\u96F6\u9375\uFF0C\u63A5\u7E8C\u52D5\u4F5C"
+    simplifiedChinese: "\u8D85\u8FC7\u91CF\u5200\u8BEF\u5DEE\u8303\u56F4\u8BBE\u5B9A\u503C\n1.\u786E\u8BA4\u5F53\u524D\u5200\u53F7\u4E0E\u4E3B\u8F74\u5200\u53F7\u662F\u5426\u4E00\u81F4\n2.\u5C06\u78E8\u8017\u7684\u5200\u5177\u53D6\u4E0B\n3.\u66F4\u6362\u65B0\u5200\u5177\uFF0C\u8BF7\u786E\u8BA4\u5200\u5177\u89C4\u683C\n4.\u5200\u5177\u957F\u5EA6\u5F52\u96F6\n5.\u6309\u4E0BRESET\u91CD\u7F6E\u952E\u4E0EHOME\u5F52\u96F6\u952E\uFF0C\u63A5\u7EED\u52A8\u4F5C"
+    english: 'Exceeding the tolerance of the measuring bur.
+
+      1.Make sure the current bur number is the same as the spindle bur number.
+
+      2.Remove the worn bur.
+
+      3.For new bur, please check the bur specifications.
+
+      4.Length return to zero.
+
+      5. Press the RESET and HOME button to continue the action.'
+  - id: 
+    traditionalChinese: "\u7A7A\u58D3\u904E\u4F4E"
+    simplifiedChinese: "\u7A7A\u538B\u8FC7\u4F4E"
+    english: Low air pressure
+  - id: 
+    traditionalChinese: "\u7A7A\u58D3\u6A5F\u672A\u958B\u555F\u96FB\u6E90\n1.\u6253\u958B\u7A7A\u58D3\u6A5F\u96FB\u6E90\n2.\u5F85\u58D3\u529B\u5347\u9AD8\u52306
+      kg/cm\xB3 ( 6 bar \u621690 psi \u62160.6 MPa)\u4EE5\u4E0A\n3.\u6309\u4E0BRESET\u91CD\u7F6E\u9375\u8207HOME\u6B78\u96F6\u9375\uFF0C\u63A5\u7E8C\u52D5\u4F5C"
+    simplifiedChinese: "\u7A7A\u538B\u673A\u672A\u5F00\u542F\u7535\u6E90\n1.\u6253\u5F00\u7A7A\u538B\u673A\u7535\u6E90\n2.\u5F85\u538B\u529B\u5347\u9AD8\u52306
+      kg/cm\xB3 ( 6 bar \u621690 psi \u62160.6 MPa)\u4EE5\u4E0A\n3.\u6309\u4E0BRESET\u91CD\u7F6E\u952E\u4E0EHOME\u5F52\u96F6\u952E\uFF0C\u63A5\u7EED\u52A8\u4F5C"
+    english: "Compressed air not turned on.\n1.Turn on the power of the air compressor.\n2.Wait
+      until the pressure is raised above 6 kg/cm\xB3 (6 bar or 90 psi or 0.6 MPa).\n3.
+      Press the RESET and HOME button to continue the action."
+  - id: 
+    traditionalChinese: "\u7A7A\u58D3\u6A5F\u6216\u5132\u6C23\u6876\u8F38\u51FA\u6C23\u58D3\u7684\u95A5\u9580\u672A\u958B\u555F\n1.\u6253\u958B\u95A5\u9580\n2.\u6309\u4E0BRESET\u91CD\u7F6E\u9375\u8207HOME\u6B78\u96F6\u9375\uFF0C\u63A5\u7E8C\u52D5\u4F5C\n\n\n"
+    simplifiedChinese: "\u7A7A\u538B\u673A\u6216\u50A8\u6C14\u6876\u8F93\u51FA\u6C14\u538B\u7684\u9600\u95E8\u672A\u5F00\u542F\n1.\u6253\u5F00\u9600\u95E8\n2.\u6309\u4E0BRESET\u91CD\u7F6E\u952E\u4E0EHOME\u5F52\u96F6\u952E\uFF0C\u63A5\u7EED\u52A8\u4F5C\n\n\n"
+    english: 'Output valve isn''t open.
+
+      1.Open the valve.
+
+      2.Press the RESET and HOME button to continue the action.'
+  - id: 
+    traditionalChinese: "\u9F52\u96D5\u6A5F\u5F8C\u65B9\u63A5\u982D\u672A\u9023\u63A5\u9AD8\u58D3\u98A8\u7BA1\n1.\u5C07\u9AD8\u58D3\u98A8\u7BA1\u63A5\u4E0A\u9F52\u96D5\u6A5F\u5F8C\u65B9\u7684\u98A8\u58D3\u63A5\u982D\uFF0C\u6253\u958B\u6C23\u58D3\u6E90\n2.\u6309\u4E0BRESET\u91CD\u7F6E\u9375\u8207HOME\u6B78\u96F6\u9375\uFF0C\u63A5\u7E8C\u52D5\u4F5C"
+    simplifiedChinese: "\u9F7F\u96D5\u673A\u540E\u65B9\u63A5\u5934\u672A\u8FDE\u63A5\u9AD8\u538B\u98CE\u7BA1\n1.\u5C06\u9AD8\u538B\u98CE\u7BA1\u63A5\u4E0A\u9F7F\u96D5\u673A\u540E\u65B9\u7684\u98CE\u538B\u63A5\u5934\uFF0C\u6253\u5F00\u6C14\u538B\u6E90\n2.\u6309\u4E0BRESET\u91CD\u7F6E\u952E\u4E0EHOME\u5F52\u96F6\u952E\uFF0C\u63A5\u7EED\u52A8\u4F5C"
+    english: 'Hose isn''t connected properly.
+
+      1.Make sure hose is connected.
+
+      2.Press the RESET and HOME button to continue the action.'
+  - id: 
+    traditionalChinese: "\u7E3D\u516C\u53F8"
+    simplifiedChinese: "\u603B\u516C\u53F8"
+    english: Headquarters
+  - id: 
+    traditionalChinese: "\u6771\u6615\u7CBE\u5BC6\u79D1\u6280\u80A1\u4EFD\u6709\u9650\u516C\u53F8"
+    simplifiedChinese: "\u4E1C\u6615\u7CBE\u5BC6\u79D1\u6280\u80A1\u4EFD\u6709\u9650\u516C\u53F8"
+    english: Toshin Precision Technology Co., Ltd
+  - id: 
+    traditionalChinese: "\u53F0\u4E2D\u5E02\u5357\u5C6F\u5340\u4E94\u6B0A\u897F\u8DEF\u4E8C\u6BB51266\u5DF723\u5F0431-13\u865F"
+    simplifiedChinese: "\u53F0\u4E2D\u5E02\u5357\u5C6F\u533A\u4E94\u6743\u897F\u8DEF\u4E8C\u6BB51266\u5DF723\u5F0431-13\u53F7"
+    english: No. 31-13, Lane 23, Lane 1266, Section 2, Wuquan West Road, Nanxun District,
+      Taichung City, Taiwan (R.O.C.)
+  - id: 
+    traditionalChinese: "\u5357\u79D1\u5206\u516C\u53F8"
+    simplifiedChinese: "\u5357\u79D1\u5206\u516C\u53F8"
+    english: Branch office
+  - id: 
+    traditionalChinese: "\u9AD8\u96C4\u5E02\u8DEF\u7AF9\u5340\u8DEF\u79D1\u8DEF\u4E94\u6BB598\u865F5\u6A13B\u5BA4"
+    simplifiedChinese: "\u9AD8\u96C4\u5E02\u8DEF\u7AF9\u533A\u8DEF\u79D1\u8DEF\u4E94\u6BB598\u53F75\u697CB\u5BA4"
+    english: Rm. B, 5F., No. 98, Luke 5th Rd., Luzhu Dist., Kaohsiung City, Taiwan
+      (R.O.C.)
+  - id: 
+    traditionalChinese: "\u9023\u7D61\u96FB\u8A71"
+    simplifiedChinese: "\u8FDE\u7EDC\u7535\u8BDD"
+    english: Contact us
+  - id: 
+    traditionalChinese: "\u96FB\u8A71"
+    simplifiedChinese: "\u7535\u8BDD"
+    english: Tel
+  - id: 
+    traditionalChinese: "\u50B3\u771F"
+    simplifiedChinese: "\u4F20\u771F"
+    english: Fax
+  - id: 
+    traditionalChinese: "\u7DB2\u9801"
+    simplifiedChinese: "\u7F51\u9875"
+    english: Websites
+  - id: 
+    traditionalChinese: "\u6578\u4F4D\u5207\u92B7\u7CFB\u7D71\u4E0D\u518D\u662F\u6700\u6602\u8CB4\u7684\u8A2D\u5099"
+    simplifiedChinese: "\u6570\u5B57\u5207\u9500\u7CFB\u7EDF\u4E0D\u518D\u662F\u6700\u6602\u8D35\u7684\u8BBE\u5907"
+    english: 
+  - id: 
+    traditionalChinese: "\u7259\u79D1\u5C08\u7528\u96D5\u523B\u6A5F\u662F\u6211\u5011\u7684\u5C08\u696D\uFF0C\u4F7F\u7528\u7C21\u6613\u3001\u517C\u5BB9\u6027\u5F37\u662F\u6211\u5011\u4E00\u8CAB\u7684\u5805\u6301\u3002\u5728\u8FFD\u6C42\u6280\u8853\u8207\u670D\u52D9\u54C1\u8CEA\u7684\u540C\u6642\uFF0C\u4EE5\u5275\u65B0\u601D\u7DAD\u5C07\u591A\u5E74\u7684\u96FB\u8166\u6578\u503C\u63A7\u5236\u5DE5\u5177\u6A5F\u7D93\u9A57\uFF0C\u5C0E\u5165\u7259\u79D1\u9F52\u96D5\u6A5F\u4F5C\u70BA\u7814\u767C\u751F\u7522\u7684\u57FA\u790E\uFF0C\u4E26\u6301\u7E8C\u5347\u7D1A\u8A2D\u5099\u529F\u80FD\u8207\u7814\u767C\u65B0\u54C1\u3002\u4EE5\u56B4\u8B39\u7684\u5FB7\u570B\u5DE5\u85DD\u3001\u5FB7\u570B\u54C1\u8CEA\u6A19\u6E96\u88FD\u4F5C\u6BCF\u4E00\u9805\u7522\u54C1\uFF0C\u5F9E\u6982\u5FF5\u8A2D\u8A08\u5230\u7522\u54C1\u751F\u7522\u4E00\u689D\u9F8D\u670D\u52D9\uFF0C\u5E36\u7D66\u5BA2\u6236\u6700\u771F\u8AA0\u7684\u5408\u4F5C\u95DC\u4FC2\u3002"
+    simplifiedChinese: "\u7259\u79D1\u4E13\u7528\u96D5\u523B\u673A\u662F\u6211\u4EEC\u7684\u4E13\u4E1A\uFF0C\u4F7F\u7528\u7B80\u6613\u3001\u517C\u5BB9\u6027\u5F3A\u662F\u6211\u4EEC\u4E00\u8D2F\u7684\u575A\u6301\u3002\u5728\u8FFD\u6C42\u6280\u672F\u4E0E\u670D\u52A1\u8D28\u91CF\u7684\u540C\u65F6\uFF0C\u4EE5\u521B\u65B0\u601D\u7EF4\u5C06\u591A\u5E74\u7684\u8BA1\u7B97\u673A\u6570\u503C\u63A7\u5236\u5DE5\u5177\u673A\u7ECF\u9A8C\uFF0C\u5BFC\u5165\u7259\u79D1\u9F7F\u96D5\u673A\u4F5C\u4E3A\u7814\u53D1\u751F\u4EA7\u7684\u57FA\u7840\uFF0C\u5E76\u6301\u7EED\u5347\u7EA7\u8BBE\u5907\u529F\u80FD\u4E0E\u7814\u53D1\u65B0\u54C1\u3002\u4EE5\u4E25\u8C28\u7684\u5FB7\u56FD\u5DE5\u827A\u3001\u5FB7\u56FD\u8D28\u91CF\u6807\u51C6\u5236\u4F5C\u6BCF\u4E00\u9879\u4EA7\u54C1\uFF0C\u4ECE\u6982\u5FF5\u8BBE\u8BA1\u5230\u4EA7\u54C1\u751F\u4EA7\u4E00\u6761\u9F99\u670D\u52A1\uFF0C\u5E26\u7ED9\u5BA2\u6237\u6700\u771F\u8BDA\u7684\u5408\u4F5C\u5173\u7CFB\u3002"
+    english: Dental milling machine is our specialty, and we always insist on easy
+      to use and high compatibility. In the pursuit of technology and service quality,
+      we have imported our years of experience in computer numerical control machine
+      into dental milling machines as the basis of research and development, and continue
+      to upgrade the function of the equipment and develop new products. Every product
+      is made with strict German craftsmanship and German quality standards, and we
+      provide one-stop service from conceptual design to production, bringing our
+      customers the most sincere cooperation.
+  - id: 
+    traditionalChinese: "\u5C08\u696D\u670D\u52D9\uFF0C\u6EFF\u8DB3\u60A8\u7684\u9700\u6C42"
+    simplifiedChinese: "\u4E13\u4E1A\u670D\u52A1\uFF0C\u6EE1\u8DB3\u60A8\u7684\u9700\u6C42"
+    english: Sustainable services to meet your needs
+  - id: 
+    traditionalChinese: "\u6211\u5011\u628A\u5B8C\u5099\u7684\u8EDF\u3001\u786C\u9AD4\u5C08\u696D\u6280\u8853\u652F\u63F4\uFF0C\u4EE5\u53CA\u5728\u5730\u5316\u670D\u52D9\u8996\u70BA\u71DF\u904B\u6838\u5FC3\u3002\u8EAB\u70BA\u7259\u79D1\u6578\u4F4D\u5316\u89E3\u6C7A\u65B9\u6848\u7684\u63D0\u4F9B\u8005\uFF0C\u6211\u5011\u7684\u76EE\u6A19\u662F\u8B93\u5168\u7403\u7259\u79D1\u696D\u754C\u7684\u5C08\u696D\u4EBA\u58EB\u4EAB\u6709\u6700\u4F73\u6578\u4F4D\u89E3\u6C7A\u65B9\u6848\u7684\u670D\u52D9\uFF0C\u63D0\u4F9B\u6700\u597D\u7684\u54C1\u8CEA\u3001\u670D\u52D9\u8207\u5408\u7406\u7684\u50F9\u683C\u3002\u9664\u4E86\u6709\u5B8C\u6574\u7684\u6559\u80B2\u8A13\u7DF4\u3001\u9AD8\u6548\u7387\u7684\u7DAD\u4FEE\u670D\u52D9\u8207\u4FDD\u56FA\u4E4B\u5916\uFF0C\u65BC2020\u5E74\u63A8\u51FA\u7684Idensol\u7269\u806F\u7DB2(IoT)\u529F\u80FD\uFF0C\u5C07\u512A\u5316\u9F52\u96D5\u6A5F\u7684\u7DAD\u8B77\u7BA1\u7406\u6548\u80FD\uFF0C\u70BA\u4F7F\u7528\u8005\u63D0\u4F9B\u66F4\u4FBF\u6377\u3001\u5373\u6642\u7684\u7522\u54C1\u670D\u52D9\u3002\n-\u7DDA\u4E0A\u578B\u9304\n-AR\u6559\u5B78\n-\u7DDA\u4E0A\u5BA2\u670D\n-Idensol\u7269\u806F\u7DB2"
+    simplifiedChinese: "\u6211\u4EEC\u628A\u5B8C\u5907\u7684\u8F6F\u3001\u786C\u4EF6\u4E13\u4E1A\u6280\u672F\u652F\u6301\uFF0C\u4EE5\u53CA\u5728\u5730\u5316\u670D\u52A1\u89C6\u4E3A\u8425\u8FD0\u6838\u5FC3\u3002\u8EAB\u4E3A\u7259\u79D1\u6570\u5B57\u5316\u89E3\u51B3\u65B9\u6848\u7684\u63D0\u4F9B\u8005\uFF0C\u6211\u4EEC\u7684\u76EE\u6807\u662F\u8BA9\u5168\u7403\u7259\u79D1\u4E1A\u754C\u7684\u4E13\u4E1A\u4EBA\u58EB\u4EAB\u6709\u6700\u4F73\u6570\u5B57\u89E3\u51B3\u65B9\u6848\u7684\u670D\u52A1\uFF0C\u63D0\u4F9B\u6700\u597D\u7684\u8D28\u91CF\u3001\u670D\u52A1\u4E0E\u5408\u7406\u7684\u4EF7\u683C\u3002\u9664\u4E86\u6709\u5B8C\u6574\u7684\u6559\u80B2\u8BAD\u7EC3\u3001\u9AD8\u6548\u7387\u7684\u7EF4\u4FEE\u670D\u52A1\u4E0E\u4FDD\u56FA\u4E4B\u5916\uFF0C\u4E8E2020\u5E74\u63A8\u51FA\u7684Idensol\u7269\u8054\u7F51(IoT)\u529F\u80FD\uFF0C\u5C06\u4F18\u5316\u9F7F\u96D5\u673A\u7684\u7EF4\u62A4\u7BA1\u7406\u6548\u80FD\uFF0C\u4E3A\u4F7F\u7528\u8005\u63D0\u4F9B\u66F4\u4FBF\u6377\u3001\u5B9E\u65F6\u7684\u4EA7\u54C1\u670D\u52A1\u3002\n\n-\u5728\u7EBF\u578B\u5F55\n-AR\u6559\u5B66\n-\u5728\u7EBF\u5BA2\u670D\n-Idensol\u7269\u8054\u7F51"
+    english: "We have always regarded complete software and hardware professional
+      technical support and efficient after-sales service as the core of our operations.
+      As a provider of dental digital solutions, our goal is to enable professionals
+      in the global dental industry to enjoy the best digital solution services, providing
+      the best quality, best service and reasonable prices.In addition to complete
+      education and training, high-efficiency maintenance services and warranty, the
+      Idensol Internet of Things (IoT) function launched in 2020 will optimize the
+      maintenance management performance of tooth carving machines and provide users
+      with more convenient and immediate products service.\n\n - Online catalog\n\_-
+      AR teaching\n\_- Online service\n\_- IoT service\n\n"

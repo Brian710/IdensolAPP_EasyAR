@@ -12,19 +12,19 @@ namespace MinYan.Lang
         public Sprite ChImg;
         public Image thisImage;
 
-        //public void Set()
-        //{
-        //    thisImage.sprite = ChangeSprite(GameController.Instance.language);
-        //}
-        //public Sprite ChangeSprite(Language language)
-        //{
-        //    if (ChImg == null || EnImg == null)
-        //    {
-        //        Debug.LogWarning("Sprite missing!");
-        //        return null;
-        //    }
-        //    return language == Language.Chinese ? ChImg : EnImg;
-        //}
+        public void Set()
+        {
+            thisImage.sprite = ChangeSprite(LanguageManager.Instance.language);
+        }
+        public Sprite ChangeSprite(Language language)
+        {
+            if (ChImg == null || EnImg == null)
+            {
+                Debug.LogWarning("Sprite missing!");
+                return null;
+            }
+            return language == Language.TraditionalChinese ? ChImg : EnImg;
+        }
     }
 }
 
