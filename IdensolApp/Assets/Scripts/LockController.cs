@@ -20,7 +20,8 @@ public class LockController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       correctPassWord = "24828254";
+        //correctPassWord = "24828254";
+        correctPassWord = "1234";
         errorAnimator = errorImage.GetComponent<Animator>();
     }
 

@@ -12,9 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Lobby.unity
     guid: 682ddcae890fbb142bee31a7a3fcd6e6
   - enabled: 1
-    path: Assets/Scenes/Lobby_ModelAR.unity
-    guid: 21b3c294d68b8488ab8e8dfd4db7a3cf
-  - enabled: 1
     path: Assets/Scenes/Step_01.unity
     guid: 4fe46bcc8c9b96e4e8e5ed94d2fb966c
   - enabled: 1
@@ -26,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Step_04.unity
     guid: 8507a44b3f3149d42b5beb31e8169984
+  - enabled: 1
+    path: Assets/Scenes/Lobby_ModelAR.unity
+    guid: 21b3c294d68b8488ab8e8dfd4db7a3cf
   m_configObjects: {}

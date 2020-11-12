@@ -1713,17 +1713,23 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &69729781 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 3715548542871545879, guid: 9847b297553c7524387b9fd8e4a35c42,
+  m_CorrespondingSourceObject: {fileID: 3715548543536550283, guid: 9847b297553c7524387b9fd8e4a35c42,
     type: 3}
   m_PrefabInstance: {fileID: 69729778}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &69729782 stripped
 GameObject:
+  m_CorrespondingSourceObject: {fileID: 3715548542871545879, guid: 9847b297553c7524387b9fd8e4a35c42,
+    type: 3}
+  m_PrefabInstance: {fileID: 69729778}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &69729783 stripped
+GameObject:
   m_CorrespondingSourceObject: {fileID: 3715548543088593264, guid: 9847b297553c7524387b9fd8e4a35c42,
     type: 3}
   m_PrefabInstance: {fileID: 69729778}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &69729783
+--- !u!114 &69729784
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1735,9 +1741,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa5757a572822c343a5ec5c6b6e9aba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  multiId: 'Step3_Glass Cermaic '
+  multiId: Step3_Premill
   currentString: 
---- !u!114 &69729784
+--- !u!114 &69729785
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1749,27 +1755,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa5757a572822c343a5ec5c6b6e9aba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  multiId: Step3_Zirconia
+  multiId: Step3_GlassCermaic
   currentString: 
---- !u!1 &69729785 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3715548543536550283, guid: 9847b297553c7524387b9fd8e4a35c42,
-    type: 3}
-  m_PrefabInstance: {fileID: 69729778}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &69729786
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 69729785}
+  m_GameObject: {fileID: 69729783}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fa5757a572822c343a5ec5c6b6e9aba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  multiId: Step3_Premill
+  multiId: Step3_Zirconia
   currentString: 
 --- !u!224 &69729787 stripped
 RectTransform:
@@ -1821,7 +1821,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa5757a572822c343a5ec5c6b6e9aba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  multiId: 'Step3_Glass Cermaic '
+  multiId: Step3_GlassCermaic
   currentString: 
 --- !u!114 &69729793
 MonoBehaviour:
@@ -1849,6 +1849,72 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 69729778}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &69729796 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3715548542337011300, guid: 9847b297553c7524387b9fd8e4a35c42,
+    type: 3}
+  m_PrefabInstance: {fileID: 69729778}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &69729797 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3715548542720226997, guid: 9847b297553c7524387b9fd8e4a35c42,
+    type: 3}
+  m_PrefabInstance: {fileID: 69729778}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &69729798 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3715548542155526561, guid: 9847b297553c7524387b9fd8e4a35c42,
+    type: 3}
+  m_PrefabInstance: {fileID: 69729778}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &69729799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 69729796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a910e8319cad5248852145727b0cb6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &69729800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 69729797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a910e8319cad5248852145727b0cb6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &69729801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 69729798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a910e8319cad5248852145727b0cb6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &69729802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 69729780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a910e8319cad5248852145727b0cb6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &90203778
 GameObject:
   m_ObjectHideFlags: 0
@@ -2316,7 +2382,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa5757a572822c343a5ec5c6b6e9aba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  multiId: Glass Cermaic_Move
+  multiId: GlassCermaic_Move
   currentString: 
 --- !u!114 &173953895
 MonoBehaviour:
@@ -3646,11 +3712,35 @@ MonoBehaviour:
   currentString: 
 --- !u!1 &189761721 stripped
 GameObject:
+  m_CorrespondingSourceObject: {fileID: 1125579696512145364, guid: c0d3691da414d3640b8d49baad567c65,
+    type: 3}
+  m_PrefabInstance: {fileID: 189761714}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &189761722 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1125579696450285409, guid: c0d3691da414d3640b8d49baad567c65,
+    type: 3}
+  m_PrefabInstance: {fileID: 189761714}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &189761723 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1125579696427396959, guid: c0d3691da414d3640b8d49baad567c65,
+    type: 3}
+  m_PrefabInstance: {fileID: 189761714}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &189761724 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1125579696014169795, guid: c0d3691da414d3640b8d49baad567c65,
+    type: 3}
+  m_PrefabInstance: {fileID: 189761714}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &189761725 stripped
+GameObject:
   m_CorrespondingSourceObject: {fileID: 1125579695694362532, guid: c0d3691da414d3640b8d49baad567c65,
     type: 3}
   m_PrefabInstance: {fileID: 189761714}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &189761722
+--- !u!114 &189761726
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3662,33 +3752,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa5757a572822c343a5ec5c6b6e9aba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  multiId: Step2_Copping
+  multiId: Step2_Premill
   currentString: 
---- !u!1 &189761723 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1125579696512145364, guid: c0d3691da414d3640b8d49baad567c65,
-    type: 3}
-  m_PrefabInstance: {fileID: 189761714}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &189761724 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1125579696450285409, guid: c0d3691da414d3640b8d49baad567c65,
-    type: 3}
-  m_PrefabInstance: {fileID: 189761714}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &189761725 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1125579696427396959, guid: c0d3691da414d3640b8d49baad567c65,
-    type: 3}
-  m_PrefabInstance: {fileID: 189761714}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &189761726 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1125579696014169795, guid: c0d3691da414d3640b8d49baad567c65,
-    type: 3}
-  m_PrefabInstance: {fileID: 189761714}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &189761727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 189761722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa5757a572822c343a5ec5c6b6e9aba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  multiId: Step2_Venner
+  currentString: 
+--- !u!114 &189761728
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3700,9 +3780,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa5757a572822c343a5ec5c6b6e9aba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  multiId: Step2_Premill
+  multiId: Step2_Inlay/Onlay
   currentString: 
---- !u!114 &189761728
+--- !u!114 &189761729
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3714,9 +3794,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa5757a572822c343a5ec5c6b6e9aba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  multiId: Step2_Venner
+  multiId: Step2_Single Crown
   currentString: 
---- !u!114 &189761729
+--- !u!114 &189761730
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3728,21 +3808,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa5757a572822c343a5ec5c6b6e9aba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  multiId: Step2_Inlay/Onlay
-  currentString: 
---- !u!114 &189761730
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 189761726}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa5757a572822c343a5ec5c6b6e9aba0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  multiId: Step2_Single Crown
+  multiId: Step2_Copping
   currentString: 
 --- !u!224 &189761731 stripped
 RectTransform:
@@ -3750,6 +3816,108 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 189761714}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &189761732 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1125579697586889720, guid: c0d3691da414d3640b8d49baad567c65,
+    type: 3}
+  m_PrefabInstance: {fileID: 189761714}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &189761733 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1125579697207755396, guid: c0d3691da414d3640b8d49baad567c65,
+    type: 3}
+  m_PrefabInstance: {fileID: 189761714}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &189761734 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1125579697627001008, guid: c0d3691da414d3640b8d49baad567c65,
+    type: 3}
+  m_PrefabInstance: {fileID: 189761714}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &189761735 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1125579697204889697, guid: c0d3691da414d3640b8d49baad567c65,
+    type: 3}
+  m_PrefabInstance: {fileID: 189761714}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &189761736 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1125579696631951221, guid: c0d3691da414d3640b8d49baad567c65,
+    type: 3}
+  m_PrefabInstance: {fileID: 189761714}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &189761737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 189761732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a910e8319cad5248852145727b0cb6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &189761738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 189761733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a910e8319cad5248852145727b0cb6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &189761739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 189761734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a910e8319cad5248852145727b0cb6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &189761740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 189761735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a910e8319cad5248852145727b0cb6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &189761741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 189761736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a910e8319cad5248852145727b0cb6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &189761742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 189761716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a910e8319cad5248852145727b0cb6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &213009801 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 454915990995130037, guid: f0ddcc9c88d51b44aa388ede83988061,
@@ -4131,7 +4299,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa5757a572822c343a5ec5c6b6e9aba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  multiId: Glass Cermaic_Choose
+  multiId: GlassCermaic_Choose
   currentString: 
 --- !u!114 &329631922
 MonoBehaviour:
@@ -4306,7 +4474,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa5757a572822c343a5ec5c6b6e9aba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  multiId: Inlay/Onlay_Optimize
+  multiId: Venner_Optimize
   currentString: 
 --- !u!114 &386110150
 MonoBehaviour:
@@ -5034,6 +5202,46 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 543296241}
   m_CullTransparentMesh: 0
+--- !u!1 &610346068 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1125579697450156820, guid: c0d3691da414d3640b8d49baad567c65,
+    type: 3}
+  m_PrefabInstance: {fileID: 189761714}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &610346069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 610346068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa5757a572822c343a5ec5c6b6e9aba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  multiId: Step2_Copping
+  currentString: 
+--- !u!1 &610965282 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1125579695786734575, guid: c0d3691da414d3640b8d49baad567c65,
+    type: 3}
+  m_PrefabInstance: {fileID: 189761714}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &610965283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 610965282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa5757a572822c343a5ec5c6b6e9aba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  multiId: Step2_Venner
+  currentString: 
 --- !u!1 &638597936
 GameObject:
   m_ObjectHideFlags: 0
@@ -5084,7 +5292,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa5757a572822c343a5ec5c6b6e9aba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  multiId: Inlay/Onlay_Design
+  multiId: Venner_Design
   currentString: 
 --- !u!114 &638597939
 MonoBehaviour:
@@ -5461,6 +5669,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705061186}
   m_CullTransparentMesh: 0
+--- !u!1 &712702554 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1125579695742016339, guid: c0d3691da414d3640b8d49baad567c65,
+    type: 3}
+  m_PrefabInstance: {fileID: 189761714}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &712702555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 712702554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa5757a572822c343a5ec5c6b6e9aba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  multiId: Step2_Premill
+  currentString: 
 --- !u!1 &716667019
 GameObject:
   m_ObjectHideFlags: 0
@@ -6112,7 +6340,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -0.10002, y: -201.70007}
-  m_SizeDelta: {x: 433.2, y: 72.9}
+  m_SizeDelta: {x: 562, y: 72.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &869486291
 MonoBehaviour:
@@ -6142,7 +6370,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -6153,7 +6381,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 50
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -7155,7 +7383,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa5757a572822c343a5ec5c6b6e9aba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  multiId: Inlay/Onlay_Edit
+  multiId: Venner_Edit
   currentString: 
 --- !u!114 &935406754
 MonoBehaviour:
@@ -7820,7 +8048,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa5757a572822c343a5ec5c6b6e9aba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  multiId: Glass Cermaic_ChooseMaterials
+  multiId: GlassCermaic_ChooseMaterials
   currentString: 
 --- !u!114 &1069173155
 MonoBehaviour:
@@ -8169,7 +8397,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa5757a572822c343a5ec5c6b6e9aba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  multiId: Inlay/Onlay_Define
+  multiId: Venner_Define
   currentString: 
 --- !u!114 &1128133916
 MonoBehaviour:
@@ -8624,8 +8852,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -9.6, y: -213.7}
-  m_SizeDelta: {x: 430.8, y: 93.8}
+  m_AnchoredPosition: {x: -9.6, y: -266.4}
+  m_SizeDelta: {x: 653.6, y: 191.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1259300411
 MonoBehaviour:
@@ -8655,7 +8883,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -8669,10 +8897,10 @@ MonoBehaviour:
     m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 1
+    m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Step5 \u71D2\u7D50\u70E4\u74F7"
+  m_Text: "Step5 \u71D2\u7D50\u70E4\u74F7\r"
 --- !u!222 &1259300413
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8990,7 +9218,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa5757a572822c343a5ec5c6b6e9aba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  multiId: Glass Cermaic_Adjust
+  multiId: GlassCermaic_Adjust
   currentString: 
 --- !u!114 &1335802418
 MonoBehaviour:
@@ -9252,7 +9480,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 9.775005, y: -205.8}
-  m_SizeDelta: {x: 360.5, y: 90.7}
+  m_SizeDelta: {x: 622.3, y: 104.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1368801671
 MonoBehaviour:
@@ -9268,7 +9496,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -9279,7 +9507,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 79
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 1
@@ -9307,6 +9535,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   multiId: digitalWorkflow_Step1
+  currentString: 
+--- !u!1 &1369269011 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1125579696059331033, guid: c0d3691da414d3640b8d49baad567c65,
+    type: 3}
+  m_PrefabInstance: {fileID: 189761714}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1369269012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1369269011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa5757a572822c343a5ec5c6b6e9aba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  multiId: Step2_Inlay/Onlay
   currentString: 
 --- !u!1 &1377466677
 GameObject:
@@ -9698,7 +9946,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1458304316}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -9707,8 +9955,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -7.1, y: -207.1}
-  m_SizeDelta: {x: 435.8, y: 78.6}
+  m_AnchoredPosition: {x: -9.6, y: -266.4}
+  m_SizeDelta: {x: 653.6, y: 191.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1458304318
 MonoBehaviour:
@@ -9738,7 +9986,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -10198,6 +10446,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1610541859}
   m_CullTransparentMesh: 0
+--- !u!1 &1651755892 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1125579696956434508, guid: c0d3691da414d3640b8d49baad567c65,
+    type: 3}
+  m_PrefabInstance: {fileID: 189761714}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1651755893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1651755892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa5757a572822c343a5ec5c6b6e9aba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  multiId: Step2_Single Crown
+  currentString: 
 --- !u!1 &1669581386
 GameObject:
   m_ObjectHideFlags: 0
@@ -10497,7 +10765,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa5757a572822c343a5ec5c6b6e9aba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  multiId: Glass Cermaic_Import
+  multiId: GlassCermaic_Import
   currentString: 
 --- !u!114 &1757547811
 MonoBehaviour:
@@ -10662,7 +10930,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa5757a572822c343a5ec5c6b6e9aba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  multiId: Inlay/Onlay_Create
+  multiId: Venner_Create
   currentString: 
 --- !u!114 &1852007906
 MonoBehaviour:
@@ -10912,7 +11180,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa5757a572822c343a5ec5c6b6e9aba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  multiId: Inlay/Onlay_Set
+  multiId: Venner_Set
   currentString: 
 --- !u!114 &1885832447
 MonoBehaviour:
@@ -11077,7 +11345,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -202.7}
-  m_SizeDelta: {x: 442, y: 72.9}
+  m_SizeDelta: {x: 654.6, y: 72.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1896277263
 MonoBehaviour:
@@ -11107,7 +11375,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -11118,7 +11386,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 50
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -11607,7 +11875,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa5757a572822c343a5ec5c6b6e9aba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  multiId: Glass Cermaic_Define
+  multiId: GlassCermaic_Define
   currentString: 
 --- !u!114 &2107493980
 MonoBehaviour:

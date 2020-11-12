@@ -98,7 +98,9 @@ MonoBehaviour:
   - id: digitalWorkflow_Step5
     traditionalChinese: "Step5 \u71D2\u7D50\u70E4\u74F7"
     simplifiedChinese: "Step5 \u70E7\u7ED3\u70E4\u74F7"
-    english: Step5 Sintering and Crystallization
+    english: 'Step5 Sintering and
+
+      Crystallization'
   - id: digitalWorkflow_Designsteps
     traditionalChinese: "\u770B\u8A2D\u8A08\u6B65\u9A5F"
     simplifiedChinese: "\u770B\u8BBE\u8BA1\u6B65\u9AA4"
@@ -271,7 +273,7 @@ MonoBehaviour:
     traditionalChinese: "\u6C27\u5316\u92EF"
     simplifiedChinese: "\u6C27\u5316\u9506"
     english: Zirconia
-  - id: Step3_Glass Cermaic
+  - id: Step3_GlassCermaic
     traditionalChinese: "\u73BB\u7483\u9676\u74F7"
     simplifiedChinese: "\u73BB\u7483\u9676\u74F7"
     english: Glass Cermaic
@@ -303,27 +305,27 @@ MonoBehaviour:
     traditionalChinese: "\u9EDE\u9078\u6B32\u52A0\u5DE5\u7B56\u7565"
     simplifiedChinese: "\u70B9\u9009\u6B32\u52A0\u5DE5\u7B56\u7565"
     english: Choose milling strategy
-  - id: Glass Cermaic_Define
+  - id: GlassCermaic_Define
     traditionalChinese: "\u5275\u5EFA\u73BB\u7483\u9676\u74F7\u9805\u76EE"
     simplifiedChinese: "\u521B\u5EFA\u73BB\u7483\u9676\u74F7\u9879\u76EE"
     english: Defining job details
-  - id: Glass Cermaic_Import
+  - id: GlassCermaic_Import
     traditionalChinese: "\u8F09\u5165\u6A94\u6848"
     simplifiedChinese: "\u8F7D\u5165\u6863\u6848"
     english: Import object
-  - id: Glass Cermaic_ChooseMaterials
+  - id: GlassCermaic_ChooseMaterials
     traditionalChinese: "\u9078\u64C7\u6599\u76E4"
     simplifiedChinese: "\u9009\u62E9\u6599\u76D8"
     english: Choose materials
-  - id: Glass Cermaic_Adjust
+  - id: GlassCermaic_Adjust
     traditionalChinese: "\u8ABF\u6574\u52A0\u5DE5\u4F4D\u7F6E"
     simplifiedChinese: "\u8C03\u6574\u52A0\u5DE5\u4F4D\u7F6E"
     english: Adjust milling position within material
-  - id: Glass Cermaic_Move
+  - id: GlassCermaic_Move
     traditionalChinese: "\u8ABF\u6574\u652F\u6490\u68D2"
     simplifiedChinese: "\u8C03\u6574\u652F\u6491\u68D2"
     english: Move support pin
-  - id: Glass Cermaic_Choose
+  - id: GlassCermaic_Choose
     traditionalChinese: "\u9EDE\u9078\u6B32\u52A0\u5DE5\u7B56\u7565"
     simplifiedChinese: "\u70B9\u9009\u6B32\u52A0\u5DE5\u7B56\u7565"
     english: Choose milling strategy
@@ -343,39 +345,39 @@ MonoBehaviour:
     traditionalChinese: "\u9EDE\u9078\u52A0\u5DE5"
     simplifiedChinese: "\u70B9\u9009\u52A0\u5DE5"
     english: Click to mill
-  - id: 
+  - id: IdensolOperate_Light
     traditionalChinese: "\u71C8\u865F\u8AAA\u660E"
     simplifiedChinese: "\u706F\u53F7\u8BF4\u660E"
     english: Light Indication
-  - id: 
+  - id: IdensolOperate_Operate
     traditionalChinese: "\u64CD\u4F5C\u9762\u677F\u8AAA\u660E"
     simplifiedChinese: "\u64CD\u4F5C\u9762\u677F\u8BF4\u660E"
     english: Operating Indication
-  - id: 
+  - id: IdensolOperate_Rubber
     traditionalChinese: "\u6A61\u81A0\u588A\u947D\u5B54"
     simplifiedChinese: "\u6A61\u80F6\u57AB\u94BB\u5B54"
     english: Rubber Drilling
-  - id: 
+  - id: IdensolOperate_Tool
     traditionalChinese: "\u5200\u5177\u5EAB\u4F4D\u7F6E"
     simplifiedChinese: "\u5200\u5177\u5E93\u4F4D\u7F6E"
     english: Tool Magazine
-  - id: 
+  - id: IdensolOperate_Maintenance
     traditionalChinese: "\u7B52\u593E\u4FDD\u990A"
     simplifiedChinese: "\u7B52\u5939\u4FDD\u517B"
     english: Chuck Maintenance
-  - id: 
+  - id: IdensolOperate_Clamp
     traditionalChinese: "\u63DB\u6599\u76E4"
     simplifiedChinese: "\u6362\u6599\u76D8"
     english: Replacement Clamp
-  - id: 
+  - id: Light_Red
     traditionalChinese: "\u7D05\uFF1A\u7570\u8B66\u72C0\u614B"
     simplifiedChinese: "\u7EA2\uFF1A\u5F02\u8B66\u72B6\u6001"
     english: 'Red: Abnormal alarm '
-  - id: 
+  - id: Light_Yellow
     traditionalChinese: "\u9EC3\uFF1A\u52A0\u5DE5\u5B8C\u6210/\u505C\u6B62"
     simplifiedChinese: "\u9EC4\uFF1A\u52A0\u5DE5\u5B8C\u6210/\u505C\u6B62"
     english: 'Yellow: Processing complete/stopped'
-  - id: 
+  - id: Light_Green
     traditionalChinese: "\u7DA0\uFF1A\u52A0\u5DE5\u72C0\u614B"
     simplifiedChinese: "\u7EFF\uFF1A\u52A0\u5DE5\u72B6\u6001"
     english: 'Green: Processing '
@@ -395,35 +397,79 @@ MonoBehaviour:
     traditionalChinese: "\u7B2C\u56DB\u5340\uFF1A\u5EFA\u8B70\u653E\u7F6Epremill\u5C08\u7528\u5200\u5177"
     simplifiedChinese: "\u7B2C\u56DB\u533A\uFF1A\u5EFA\u8BAE\u653E\u7F6Epremill\u4E13\u7528\u5200\u5177"
     english: 'Zone 4: Burs for premill materials.'
-  - id: 
+  - id: Operate_OK
     traditionalChinese: "\u4E86\u89E3"
     simplifiedChinese: "\u4E86\u89E3"
     english: OK
-  - id: 
+  - id: Operate_OperateImport
+    traditionalChinese: "\u64CD\u4F5C\u9762\u677F\u8AAA\u660E_\u5C0E\u5165\u52A0\u5DE5\u6A94\u6848"
+    simplifiedChinese: "\u64CD\u4F5C\u9762\u677F\u8BF4\u660E_\u5BFC\u5165\u52A0\u5DE5\u6863\u6848"
+    english: Operating Indication_How to Importing Files
+  - id: Operate_OperateClean
+    traditionalChinese: "\u64CD\u4F5C\u9762\u677F\u8AAA\u660E_\u81EA\u52D5\u6E05\u6F54"
+    simplifiedChinese: "\u64CD\u4F5C\u9762\u677F\u8BF4\u660E_\u81EA\u52A8\u6E05\u6D01"
+    english: Operating Indication_Automatic Cleaning
+  - id: Operate_OperateZero
+    traditionalChinese: "\u64CD\u4F5C\u9762\u677F\u8AAA\u660E_\u5C07\u6240\u6709\u5200\u9577\u7D00\u9304\u6B78\u96F6"
+    simplifiedChinese: "\u64CD\u4F5C\u9762\u677F\u8BF4\u660E_\u5C06\u6240\u6709\u5200\u957F\u7EAA\u5F55\u5F52\u96F6"
+    english: Operating Indication_Length return to zero.
+  - id: Operate_OperateChange
+    traditionalChinese: "\u64CD\u4F5C\u9762\u677F\u8AAA\u660E_\u63DB\u5200\u5177"
+    simplifiedChinese: "\u64CD\u4F5C\u9762\u677F\u8BF4\u660E_\u6362\u5200\u5177"
+    english: Operating Indication_Bur Change
+  - id: OperateImport_Import
     traditionalChinese: "\u5C0E\u5165\u52A0\u5DE5\u6A94\u6848"
     simplifiedChinese: "\u5BFC\u5165\u52A0\u5DE5\u6863\u6848"
     english: How to Importing Files
-  - id: 
+  - id: Import_Options
+    traditionalChinese: "\u9078\u9805"
+    simplifiedChinese: "\u9009\u9879"
+    english: Options
+  - id: Import_Reset
     traditionalChinese: "\u91CD\u7F6E"
     simplifiedChinese: "\u91CD\u7F6E"
     english: Reset
-  - id: 
+  - id: Import_Home
     traditionalChinese: "\u6B78\u96F6"
     simplifiedChinese: "\u5F52\u96F6"
     english: Home
-  - id: 
+  - id: Import_ImportFile
     traditionalChinese: "\u532F\u5165\u6A94\u6848"
     simplifiedChinese: "\u6C47\u5165\u6863\u6848"
     english: Import File
+  - id: Import_Processing
+    traditionalChinese: "\u52A0\u5DE5"
+    simplifiedChinese: "\u52A0\u5DE5"
+    english: Processing
   - id: 
     traditionalChinese: "\u958B\u555F\u81EA\u52D5\u5FAA\u74B0\u5F8C\uFF0C\u8ACB\u5148\u522A\u9664\u4E0A\u6279\u6A94\u6848"
     simplifiedChinese: "\u5F00\u542F\u81EA\u52A8\u5FAA\u73AF\u540E\uFF0C\u8BF7\u5148\u5220\u9664\u4E0A\u6279\u6863\u6848"
     english: Before starting the auto-loop, delete the previous file.
   - id: 
     traditionalChinese: "\u4E86\u89E3"
-    simplifiedChinese: "\u5BFC\u5165\u52A0\u5DE5\u6863\u6848\n\u6211\u8981\u4F7F\u7528\n\u7F51\u7EDC\u4F20\u8F93\nU\u76D8\u4F20\u8F93\n1\u4E2A\u6863\u6848\n\u591A\u4E2A\u6863\u6848\n\u4E86\u89E3"
+    simplifiedChinese: "\u5BFC\u5165\u52A0\u5DE5\u6863\u6848\n\u6211\u8981\u4F7F\u7528\n\n\n\n\n\u4E86\u89E3"
     english: OK
-  - id: 
+  - id: Import_Use
+    traditionalChinese: "\u6211\u8981\u4F7F\u7528"
+    simplifiedChinese: "\u6211\u8981\u4F7F\u7528"
+    english: I want to use
+  - id: Import_Internet
+    traditionalChinese: "\u7DB2\u8DEF\u50B3\u8F38"
+    simplifiedChinese: "\u7F51\u7EDC\u4F20\u8F93"
+    english: Internet
+  - id: Import_USB
+    traditionalChinese: "USB\u50B3\u8F38"
+    simplifiedChinese: "U\u76D8\u4F20\u8F93"
+    english: USB
+  - id: Import_One
+    traditionalChinese: "1\u500B\u6A94\u6848"
+    simplifiedChinese: "1\u4E2A\u6863\u6848"
+    english: One
+  - id: Import_OneMore
+    traditionalChinese: "\u591A\u500B\u6A94\u6848"
+    simplifiedChinese: "\u591A\u4E2A\u6863\u6848"
+    english: One more
+  - id: OperateClean_Clean
     traditionalChinese: "\u81EA\u52D5\u6E05\u6F54"
     simplifiedChinese: "\u81EA\u52A8\u6E05\u6D01"
     english: Automatic Cleaning
@@ -435,144 +481,174 @@ MonoBehaviour:
     traditionalChinese: "\u5200\u5177\u9577\u5EA6\u6B78\u96F6"
     simplifiedChinese: "\u5200\u5177\u957F\u5EA6\u5F52\u96F6"
     english: Tool length resetting
-  - id: 
+  - id: Zero_Next
     traditionalChinese: "\u4E0B\u4E00\u9801"
     simplifiedChinese: "\u4E0B\u4E00\u9875"
     english: Next
-  - id: 
+  - id: Tool_Management
     traditionalChinese: "\u9032\u5165\u5200\u5177\u7BA1\u7406"
     simplifiedChinese: "\u8FDB\u5165\u5200\u5177\u7BA1\u7406"
     english: Tool Management
-  - id: 
+  - id: OperateZero_Zero
     traditionalChinese: "\u5C07\u6240\u6709\u5200\u9577\u7D00\u9304\u6B78\u96F6"
     simplifiedChinese: "\u5C06\u6240\u6709\u5200\u957F\u7EAA\u5F55\u5F52\u96F6"
     english: Length return to zero.
-  - id: 
+  - id: IdensolOperate_Finsih
     traditionalChinese: "\u5B8C\u6210\u7A0B\u5E8F"
     simplifiedChinese: "\u5B8C\u6210\u7A0B\u5E8F"
     english: Finish
-  - id: 
+  - id: OperateChange_Change
     traditionalChinese: "\u63DB\u5200\u5177"
     simplifiedChinese: "\u6362\u5200\u5177"
     english: Bur Change
-  - id: 
+  - id: Change_HoldSteady
     traditionalChinese: "\u62FF\u7A69\u7B52\u593E\u4E0A\u7684\u5200\u5177"
     simplifiedChinese: "\u62FF\u7A33\u7B52\u5939\u4E0A\u7684\u5200\u5177"
     english: Hold the bur steady.
-  - id: 
-    traditionalChinese: "\u4E86\u89E3"
-    simplifiedChinese: "\u4E86\u89E3"
-    english: OK
-  - id: 
+  - id: Change_Release
     traditionalChinese: "\u7B52\u593E\u9B06\u5200"
     simplifiedChinese: "\u7B52\u5939\u677E\u5200"
     english: Release bur
-  - id: 
+  - id: Change_PutInChuck
     traditionalChinese: "\u5200\u5177\u653E\u5165\u7B52\u593E"
     simplifiedChinese: "\u5200\u5177\u653E\u5165\u7B52\u5939"
     english: Put the bur in chuck.
-  - id: 
+  - id: Change_Clamp
     traditionalChinese: "\u7B52\u593E\u593E\u5200"
     simplifiedChinese: "\u7B52\u5939\u5939\u5200"
     english: Clamp the bur.
-  - id: 
+  - id: Rubber_Calibrate
     traditionalChinese: "\u203B\u947D\u5B54\u524D\u8ACB\u5148\u6821\u6B63\u7CBE\u5EA6"
     simplifiedChinese: "\u203B\u94BB\u5B54\u524D\u8BF7\u5148\u6821\u6B63\u7CBE\u5EA6"
     english: "\u203BPlease be sure to have the original engineer calibrate the machine
       before drilling the rubber."
-  - id: 
+  - id: Rubber_HexWrench
     traditionalChinese: "\u4F7F\u75282.0mm\u7684\u516D\u89D2\u677F\u624B\u5378\u4E0B\u58D3\u677F\uFF0C\u53D6\u51FA\u53D7\u640D\u7684\u6A61\u81A0\u584A"
     simplifiedChinese: "\u4F7F\u75282.0mm\u7684\u516D\u89D2\u677F\u624B\u5378\u4E0B\u538B\u677F\uFF0C\u53D6\u51FA\u53D7\u635F\u7684\u6A61\u80F6\u5757"
     english: Use a 2.0 hex wrench, remove the rubber.
-  - id: 
+  - id: Rubber_LockBack
     traditionalChinese: "\u63DB\u4E0A\u65B0\u6A61\u81A0\u588A\u5F8C\uFF0C\u518D\u628A\u58D3\u677F\u9396\u56DE\u539F\u4F4D\u7F6E"
     simplifiedChinese: "\u6362\u4E0A\u65B0\u6A61\u80F6\u57AB\u540E\uFF0C\u518D\u628A\u538B\u677F\u9501\u56DE\u539F\u4F4D\u7F6E"
     english: Use a 2.0mm hex wrench to lock the new rubber back to its original position.
-  - id: 
+  - id: Rubber_CorrectionBur
     traditionalChinese: "\u66F4\u63DB\u5C08\u7528\u6821\u6B63\u5200"
     simplifiedChinese: "\u66F4\u6362\u4E13\u7528\u6821\u6B63\u5200"
     english: Use a correction bur.
-  - id: 
+  - id: Rubber_Remove
     traditionalChinese: "     \u6309\u9B06\u593E\u5200\u9375\uFF0C\u5C07\u4E3B\u8EF8\u5200\u5177\u5378\u4E0B"
     simplifiedChinese: "     \u6309\u677E\u5939\u5200\u952E\uFF0C\u5C06\u4E3B\u8F74\u5200\u5177\u5378\u4E0B"
     english: '     Press this button to remove the spindle tool.'
-  - id: 
+  - id: Rubber_PressButton
     traditionalChinese: "\u653E\u5165\u6821\u6B63\u5200\uFF0C    \u6309\u593E\u5200\u9375\u593E\u5200"
     simplifiedChinese: "\u653E\u5165\u6821\u6B63\u5200\uFF0C    \u6309\u5939\u5200\u952E\u5939\u5200"
     english: Put in the correction bur and press this button.
-  - id: 
+  - id: Rubber_Test
     traditionalChinese: "\u6309\u593E\u5200\u9375\uFF0C\u8A66\u8A66\u9B06\u593E\u5200\u662F\u5426\u6B63\u5E38"
     simplifiedChinese: "\u6309\u5939\u5200\u952E\uFF0C\u8BD5\u8BD5\u677E\u5939\u5200\u662F\u5426\u6B63\u5E38"
     english: Test to see if the releasing and clamping bur is working properly.
-  - id: 
+  - id: Rubber_ClickReset
     traditionalChinese: "\u9EDE\u64CA\u91CD\u7F6E\u9375\u8207\u6B78\u96F6\u9375"
     simplifiedChinese: "\u70B9\u51FB\u91CD\u7F6E\u952E\u4E0E\u5F52\u96F6\u952E"
     english: Click the RESET and HOME button.
-  - id: 
+  - id: Rubber_ClickOK
     traditionalChinese: "\u9EDE\u64CA\u947D\u5B54\u52A0\u5DE5\uFF0C\u9078\u64C7\u78BA\u5B9A"
     simplifiedChinese: "\u70B9\u51FB\u94BB\u5B54\u52A0\u5DE5\uFF0C\u9009\u62E9\u786E\u5B9A"
     english: Click the DRILLING button, click [OK].
-  - id: 
-    traditionalChinese: "\u5148\u5C07\u4E3B\u8EF8\u4E0A\u7684\u5200\u5177\u5378\u4E0B\uFF0C\u203B\u6CE8\u610F:\u5728\u5378\u5200\u72C0\u614B\u4E0B\uFF0C\u8ACB\u52FF\u9EDE\u4E0B\u593E\u5200\u9375\uFF0C\u6050\u50B7\u4E3B\u8EF8"
-    simplifiedChinese: "\u5148\u5C06\u4E3B\u8F74\u4E0A\u7684\u5200\u5177\u5378\u4E0B\uFF0C\u203B\u6CE8\u610F:\u5728\u5378\u5200\u72B6\u6001\u4E0B\uFF0C\u8BF7\u52FF\u70B9\u4E0B\u5939\u5200\u952E\uFF0C\u6050\u4F24\u4E3B\u8F74"
-    english: "First, remove the bur from the spindle.\n\u203BNote: Don't click this
-      button while the bur is unloaded, as it may damage the spindle."
-  - id: 
+  - id: Maintenance_RemoveTheBar
+    traditionalChinese: "\u5148\u5C07\u4E3B\u8EF8\u4E0A\u7684\u5200\u5177\u5378\u4E0B"
+    simplifiedChinese: "\u5148\u5C06\u4E3B\u8F74\u4E0A\u7684\u5200\u5177\u5378\u4E0B"
+    english: 'First, remove the bur from the spindle.
+
+'
+  - id: Maintenance_Note
+    traditionalChinese: "\u203B\u6CE8\u610F:\u5728\u5378\u5200\u72C0\u614B\u4E0B\uFF0C\u8ACB\u52FF\u9EDE\u4E0B\u593E\u5200\u9375\uFF0C\u6050\u50B7\u4E3B\u8EF8"
+    simplifiedChinese: "\u203B\u6CE8\u610F:\u5728\u5378\u5200\u72B6\u6001\u4E0B\uFF0C\u8BF7\u52FF\u70B9\u4E0B\u5939\u5200\u952E\uFF0C\u6050\u4F24\u4E3B\u8F74"
+    english: "\u203BNote: Don't click this button while the bur is unloaded, as it
+      may damage the spindle."
+  - id: Maintenance_HexScoketRemove
     traditionalChinese: "\u4F7F\u7528\u516D\u89D2\u5957\u7B52\u5C07\u7B52\u593E\u9806\u6642\u91DD\u65B9\u5411\u5378\u4E0B"
     simplifiedChinese: "\u4F7F\u7528\u516D\u89D2\u5957\u7B52\u5C06\u7B52\u5939\u987A\u65F6\u9488\u65B9\u5411\u5378\u4E0B"
     english: Use a hex scoket to remove the chuck clockwise.
-  - id: 
+  - id: Maintenance_HexWrenchRemove
     traditionalChinese: "1.5mmL\u578B\u516D\u89D2\u677F\u624B\u5C07\u7B52\u593E\u5167\u7684\u87BA\u7D72\u53D6\u4E0B"
     simplifiedChinese: "1.5mmL\u578B\u516D\u89D2\u677F\u624B\u5C06\u7B52\u5939\u5185\u7684\u87BA\u4E1D\u53D6\u4E0B"
     english: Next, use a 1.5mm hex wrench to remove the screw from the chuck.
-  - id: 
+  - id: Maintenance_AlcoholClean
     traditionalChinese: "\u9152\u7CBE\u6E05\u6F54\u7B52\u593E\u8207\u87BA\u7D72"
     simplifiedChinese: "\u9152\u7CBE\u6E05\u6D01\u7B52\u5939\u4E0E\u87BA\u4E1D"
     english: Use alcohol to clean chuck and screw.
-  - id: 
+  - id: Maintenance_HexagonalWrenchBack
     traditionalChinese: "\u516D\u89D2\u5957\u7B52\u5C07\u7B52\u593E\u9006\u6642\u91DD\u65B9\u5411\u88DD\u56DE\u4E3B\u8EF8\u4E0A\uFF0C\u8F49\u5230\u5E95\u5F8C\u518D\u9000\u4E09\u5708"
     simplifiedChinese: "\u516D\u89D2\u5957\u7B52\u5C06\u7B52\u5939\u9006\u65F6\u9488\u65B9\u5411\u88C5\u56DE\u4E3B\u8F74\u4E0A\uFF0C\u8F6C\u5230\u5E95\u540E\u518D\u9000\u4E09\u5708"
     english: "Use 1.5mm hexagonal wrench put the chuck back on the spindle counterclockwise,
       turn the chuck \n to the bottom and back off three times.\n"
-  - id: 
+  - id: Maintenance_HexagonalWrenchScrew
     traditionalChinese: "1.5mmL\u578B\u516D\u89D2\u677F\u624B\u5C07\u5167\u87BA\u7D72\u9396\u5165\u7B52\u593E\u5167(\u529B\u9053\u9069\u7576\u5373\u53EF)"
     simplifiedChinese: "1.5mmL\u578B\u516D\u89D2\u677F\u624B\u5C06\u5185\u87BA\u4E1D\u9501\u5165\u7B52\u5939\u5185(\u529B\u9053\u9002\u5F53\u5373\u53EF)"
     english: 'Use 1.5mm hexagonal wrench to put the screw in the chuck and lock it.
       (Just the right amount of  force.)
 
 '
-  - id: 
-    traditionalChinese: "\u6309\u9B06\u593E\u5200\u9375\uFF0C\u8A66\u8A66\u9B06\u593E\u5200\u662F\u5426\u6B63\u5E38\n\u203B\u592A\u9B06\u2192\u9B06\u958B\u5167\u87BA\u7D72\uFF0C\u5C07\u7B52\u593E\u9032\u534A\u5708\uFF0C\u518D\u9396\u56DE\u5167\u87BA\u7D72\n\u203B\u592A\u7DCA\u2192\u9B06\u958B\u5167\u87BA\u7D72\uFF0C\u5C07\u7B52\u593E\u9000\u534A\u5708\uFF0C\u518D\u9396\u56DE\u5167\u87BA\u7D72(\u529B\u9053\u9069\u7576\u5373\u53EF)"
-    simplifiedChinese: "\u6309\u677E\u5939\u5200\u952E\uFF0C\u8BD5\u8BD5\u677E\u5939\u5200\u662F\u5426\u6B63\u5E38\n\u203B\u592A\u677E\u2192\u677E\u5F00\u5185\u87BA\u4E1D\uFF0C\u5C06\u7B52\u5939\u8FDB\u534A\u5708\uFF0C\u518D\u9501\u56DE\u5185\u87BA\u4E1D\n\u203B\u592A\u7D27\u2192\u677E\u5F00\u5185\u87BA\u4E1D\uFF0C\u5C06\u7B52\u5939\u9000\u534A\u5708\uFF0C\u518D\u9501\u56DE\u5185\u87BA\u4E1D(\u529B\u9053\u9002\u5F53\u5373\u53EF)"
-    english: "Press the bur changer button to see if the bur is working properly.\n\u203BToo
-      loose \u2192 Loosen screw, clamp the chuck in half turn, then lock screw.\n\u203BToo
-      tight \u2192 Loosen screw, back off the chuck a half turn, then lock back screw."
-  - id: 
+  - id: Maintenance_PressBurChanger
+    traditionalChinese: "\u6309\u9B06\u593E\u5200\u9375\uFF0C\u8A66\u8A66\u9B06\u593E\u5200\u662F\u5426\u6B63\u5E38"
+    simplifiedChinese: "\u6309\u677E\u5939\u5200\u952E\uFF0C\u8BD5\u8BD5\u677E\u5939\u5200\u662F\u5426\u6B63\u5E38"
+    english: Press the bur changer button to see if the bur is working properly.
+  - id: Maintenance_ToLoose
+    traditionalChinese: "\u203B\u592A\u9B06\u2192\u9B06\u958B\u5167\u87BA\u7D72\uFF0C\u5C07\u7B52\u593E\u9032\u534A\u5708\uFF0C\u518D\u9396\u56DE\u5167\u87BA\u7D72"
+    simplifiedChinese: "\u203B\u592A\u677E\u2192\u677E\u5F00\u5185\u87BA\u4E1D\uFF0C\u5C06\u7B52\u5939\u8FDB\u534A\u5708\uFF0C\u518D\u9501\u56DE\u5185\u87BA\u4E1D"
+    english: "\u203BToo loose \u2192 Loosen screw, clamp the chuck in half turn, then
+      lock screw."
+  - id: Maintenance_TooTight
+    traditionalChinese: "\u203B\u592A\u7DCA\u2192\u9B06\u958B\u5167\u87BA\u7D72\uFF0C\u5C07\u7B52\u593E\u9000\u534A\u5708\uFF0C\u518D\u9396\u56DE\u5167\u87BA\u7D72"
+    simplifiedChinese: "\u203B\u592A\u7D27\u2192\u677E\u5F00\u5185\u87BA\u4E1D\uFF0C\u5C06\u7B52\u5939\u9000\u534A\u5708\uFF0C\u518D\u9501\u56DE\u5185\u87BA\u4E1D"
+    english: "\u203BToo tight \u2192 Loosen screw, back off the chuck a half turn,
+      then lock back screw."
+  - id: Maintenance_RightForce
+    traditionalChinese: "(\u529B\u9053\u9069\u7576\u5373\u53EF)"
+    simplifiedChinese: "(\u529B\u9053\u9002\u5F53\u5373\u53EF)"
+    english: (Just the right amount of  force.)
+  - id: Clamp_Change
+    traditionalChinese: "\u6211\u8981\u63DB"
+    simplifiedChinese: "\u6211\u8981\u6362"
+    english: I want to change
+  - id: Clamp_ClampForDisk
+    traditionalChinese: "\u63DB\u6599\u76E4_\u5713\u5F62\u6599\u76E4\u593E\u5177"
+    simplifiedChinese: "\u6362\u6599\u76D8_\u5706\u5F62\u6599\u76D8\u5939\u5177"
+    english: Replacement Clamp_Clamp for Disk
+  - id: Clamp_ClampForGlass
+    traditionalChinese: "\u63DB\u6599\u76E4_\u73BB\u7483\u9676\u74F7\u5C08\u7528\u593E\u5177"
+    simplifiedChinese: "\u6362\u6599\u76D8_\u73BB\u7483\u9676\u74F7\u4E13\u7528\u5939\u5177"
+    english: Replacement Clamp_Clamp for Glass Ceramic
+  - id: Clamp_ClampForPremill
+    traditionalChinese: "\u63DB\u6599\u76E4_Premill\u5C08\u7528\u593E\u5177"
+    simplifiedChinese: "\u6362\u6599\u76D8_Premill\u4E13\u7528\u5939\u5177"
+    english: Replacement Clamp_Clamp for Ti Bar
+  - id: Clamp_Disk
     traditionalChinese: "\u5713\u5F62\u6599\u76E4\u593E\u5177"
     simplifiedChinese: "\u5706\u5F62\u6599\u76D8\u5939\u5177"
     english: Clamp for Disk
-  - id: 
+  - id: Disk_HexWrench
     traditionalChinese: "2.5mm\u516D\u89D2\u677F\u624B\u9B06\u958B\u87BA\u7D72\uFF0C\u53D6\u4E0B\u58D3\u677F\u8207\u4F7F\u7528\u904E\u7684\u6599\u76E4"
     simplifiedChinese: "2.5mm\u516D\u89D2\u677F\u624B\u677E\u5F00\u87BA\u4E1D\uFF0C\u53D6\u4E0B\u538B\u677F\u4E0E\u4F7F\u7528\u8FC7\u7684\u6599\u76D8"
     english: 2.5mm hex wrench loosen the screw, remove the clamping plate and used
       material.
-  - id: 
-    traditionalChinese: " \u63DB\u4E0A\u65B0\u6599\u76E4"
-    simplifiedChinese: " \u6362\u4E0A\u65B0\u6599\u76D8"
+  - id: Disk_Replace
+    traditionalChinese: "\u63DB\u4E0A\u65B0\u6599\u76E4"
+    simplifiedChinese: "\u6362\u4E0A\u65B0\u6599\u76D8"
     english: Replace with a new disk.
-  - id: 
+  - id: Clamp_LockBack
     traditionalChinese: "2.5mm\u516D\u89D2\u677F\u624B\u628A\u5C07\u58D3\u677F\u9396\u56DE\u539F\u4F4D"
     simplifiedChinese: "2.5mm\u516D\u89D2\u677F\u624B\u628A\u5C06\u538B\u677F\u9501\u56DE\u539F\u4F4D"
     english: 2.5mm hex wrench to lock the clamping plate back into place.
-  - id: 
+  - id: Clamp_GlassCeramic
     traditionalChinese: "\u73BB\u7483\u9676\u74F7\u5C08\u7528\u593E\u5177"
     simplifiedChinese: "\u73BB\u7483\u9676\u74F7\u4E13\u7528\u5939\u5177"
     english: Clamp for Glass Ceramic
-  - id: 
+  - id: GlassCeramic_Insert
     traditionalChinese: "\u5C07\u74F7\u584A\u63D2\u5165\u5176\u5C08\u7528\u593E\u5177\u7684\u9632\u65CB\u8F49\u88DD\u7F6E"
     simplifiedChinese: "\u5C06\u74F7\u5757\u63D2\u5165\u5176\u4E13\u7528\u5939\u5177\u7684\u9632\u65CB\u8F6C\u88C5\u7F6E"
     english: Insert the block into the anti-rotation device of its clamp.
-  - id: 
+  - id: GlassCeramic_Tighten
     traditionalChinese: "\u9396\u7DCA\u593E\u5177\u5169\u5074\u76844mm\u87BA\u7D72"
     simplifiedChinese: "\u9501\u7D27\u5939\u5177\u4E24\u4FA7\u76844mm\u87BA\u4E1D"
     english: Tighten the block with 4mm screws on both sides.
@@ -580,15 +656,15 @@ MonoBehaviour:
     traditionalChinese: "2.5mm\u516D\u89D2\u677F\u624B\u628A\u5C07\u58D3\u677F\u9396\u56DE\u539F\u4F4D"
     simplifiedChinese: "2.5mm\u516D\u89D2\u677F\u624B\u628A\u5C06\u538B\u677F\u9501\u56DE\u539F\u4F4D"
     english: 2.5mm hex wrench to lock the clamping plate back into place.
-  - id: 
-    traditionalChinese: "premill\u5C08\u7528\u593E\u5177"
-    simplifiedChinese: "premill\u4E13\u7528\u5939\u5177"
+  - id: Clamp_Premill
+    traditionalChinese: "Premill\u5C08\u7528\u593E\u5177"
+    simplifiedChinese: "Premill\u4E13\u7528\u5939\u5177"
     english: Clamp for Ti Bar
-  - id: 
-    traditionalChinese: "premill\u5E95\u90E8\u7684\u5E73\u9762\u671D\u4E0A\uFF0C\u63D2\u5165\u5176\u5C08\u7528\u593E\u5177\u7684\u63D2\u69FD"
-    simplifiedChinese: "premill\u5E95\u90E8\u7684\u5E73\u9762\u671D\u4E0A\uFF0C\u63D2\u5165\u5176\u4E13\u7528\u5939\u5177\u7684\u63D2\u69FD"
+  - id: Premill_Insert
+    traditionalChinese: "Premill\u5E95\u90E8\u7684\u5E73\u9762\u671D\u4E0A\uFF0C\u63D2\u5165\u5176\u5C08\u7528\u593E\u5177\u7684\u63D2\u69FD"
+    simplifiedChinese: "Premill\u5E95\u90E8\u7684\u5E73\u9762\u671D\u4E0A\uFF0C\u63D2\u5165\u5176\u4E13\u7528\u5939\u5177\u7684\u63D2\u69FD"
     english: The flat side of the premill faces upwards and insert in its clamp.
-  - id: 
+  - id: Premill_Tighten
     traditionalChinese: "\u9396\u7DCA\u593E\u5177\u5169\u5074\u76844mm\u87BA\u7D72\u548C\u63D2\u69FD\u5E95\u90E8\u76845mm\u87BA\u7D72"
     simplifiedChinese: "\u9501\u7D27\u5939\u5177\u4E24\u4FA7\u76844mm\u87BA\u4E1D\u548C\u63D2\u69FD\u5E95\u90E8\u76845mm\u87BA\u4E1D"
     english: Tighten the premill with 4 mm screws and 5 mm screws .
@@ -694,7 +770,7 @@ MonoBehaviour:
 
       4.Length return to zero.
 
-      5. Press the RESET and HOME button to continue the action.'
+      5.Press the RESET and HOME button to continue the action.'
   - id: 
     traditionalChinese: "\u91CF\u5200\u5200\u9577\u7570\u5E38,\u4E3B\u8EF8\u5200\u5177\u7570\u5E38"
     simplifiedChinese: "\u91CF\u5200\u5200\u957F\u5F02\u5E38,\u4E3B\u8F74\u5200\u5177\u5F02\u5E38"
@@ -710,7 +786,7 @@ MonoBehaviour:
 
       3.Length return to zero.
 
-      4. Press the RESET and HOME button to continue the action.'
+      4.Press the RESET and HOME button to continue the action.'
   - id: 
     traditionalChinese: "\u5200\u865F\u547C\u53EB\u932F\u8AA4"
     simplifiedChinese: "\u5200\u53F7\u547C\u53EB\u9519\u8BEF"
@@ -738,7 +814,7 @@ MonoBehaviour:
 
       4.Length return to zero.
 
-      5. Press the RESET and HOME button to continue the action.'
+      5.Press the RESET and HOME button to continue the action.'
   - id: 
     traditionalChinese: "\u7B2C1~12\u865F\u5200\u5177\u78E8\u8017\u5DF2\u8D85\u904E\u8A2D\u5B9A\u503C\n"
     simplifiedChinese: "\u7B2C1~12\u53F7\u5200\u5177\u78E8\u8017\u5DF2\u8D85\u8FC7\u8BBE\u5B9A\u503C\n"
@@ -756,7 +832,7 @@ MonoBehaviour:
 
       4.Length return to zero.
 
-      5. Press the RESET and HOME button to continue the action.'
+      5.Press the RESET and HOME button to continue the action.'
   - id: 
     traditionalChinese: "\u7A7A\u58D3\u904E\u4F4E"
     simplifiedChinese: "\u7A7A\u538B\u8FC7\u4F4E"
