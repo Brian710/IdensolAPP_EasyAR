@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 namespace MinYan.Lang
@@ -8,8 +6,9 @@ namespace MinYan.Lang
     [RequireComponent(typeof(Image))]
     public class updatingMultiImg: MonoBehaviour
     {
-        public Sprite EnImg;
-        public Sprite ChImg;
+        public Sprite TCImage;
+        public Sprite SCImage;
+        public Sprite ENImage;
         public Image thisImage;
 
         public void Set()
@@ -18,12 +17,22 @@ namespace MinYan.Lang
         }
         public Sprite ChangeSprite(Language language)
         {
-            if (ChImg == null || EnImg == null)
+            if (thisImage)
             {
-                Debug.LogWarning("Sprite missing!");
-                return null;
+                switch (language)
+                {
+                    case Language.TraditionalChinese:
+                        thisImage.sprite = TCImage;
+                        break;
+                    case Language.SimplifiedChinese:
+                        thisImage.sprite = SCImage;
+                        break;
+                    case Language.English:
+                        thisImage.sprite = ENImage;
+                        break;
+                }
             }
-            return language == Language.TraditionalChinese ? ChImg : EnImg;
+            return thisImage.sprite;
         }
     }
 }
