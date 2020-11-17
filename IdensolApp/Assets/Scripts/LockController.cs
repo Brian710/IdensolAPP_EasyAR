@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System.Xml;
 
 public class LockController : MonoBehaviour
 {
@@ -42,7 +43,7 @@ public class LockController : MonoBehaviour
         
         if (correctPassWord == userPassWord)
         {
-            hintMessage.text= "登入中...";
+            LoginHint();
             errorImage.SetActive(false);
             SceneManager.LoadScene(1);
         }
@@ -51,6 +52,23 @@ public class LockController : MonoBehaviour
             errorImage.SetActive(true);
             errorAnimator.SetTrigger("Start");
             userPassWordUI.text = "";
+        }
+    }
+
+    public void LoginHint()
+    {
+        Language language = LanguageManager.Instance.language;
+        switch (language)
+        {
+            case Language.TraditionalChinese:
+                hintMessage.text = "登入中...";
+                break;
+            case Language.SimplifiedChinese:
+                hintMessage.text = "登入中...";
+                break;
+            case Language.English:
+                hintMessage.text = "Sign in...";
+                break;
         }
     }
 }

@@ -1349,6 +1349,8 @@ GameObject:
   - component: {fileID: 1930091211}
   - component: {fileID: 1930091213}
   - component: {fileID: 1930091214}
+  - component: {fileID: 1930091216}
+  - component: {fileID: 1930091215}
   m_Layer: 5
   m_Name: Image_error
   m_TagString: Untagged
@@ -1444,6 +1446,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Finish: {fileID: 0}
   buttonMain: {fileID: 0}
+--- !u!114 &1930091215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930091209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: febd82fa4ad47684eaef89bb9ed09c7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TCImage: {fileID: 21300000, guid: dfd10e4b95d542d43b1de0cf005becea, type: 3}
+  SCImage: {fileID: 21300000, guid: ecb088aee4049c441b308be0c0388a60, type: 3}
+  ENImage: {fileID: 21300000, guid: 24aa287603bbe7b41a65daaeadae1978, type: 3}
+  thisImage: {fileID: 1930091211}
+--- !u!114 &1930091216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930091209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a910e8319cad5248852145727b0cb6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1973510231
 GameObject:
   m_ObjectHideFlags: 0
