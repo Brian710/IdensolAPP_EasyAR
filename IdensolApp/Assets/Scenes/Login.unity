@@ -212,6 +212,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: login
   currentString: 
+  languageFont: 0
 --- !u!1 &327321124
 GameObject:
   m_ObjectHideFlags: 0
@@ -968,6 +969,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: logo_Name
   currentString: 
+  languageFont: 0
 --- !u!1 &1759905387
 GameObject:
   m_ObjectHideFlags: 0
@@ -2171,6 +2173,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: login_Password
   currentString: 
+  languageFont: 0
 --- !u!1 &5966264875914064499
 GameObject:
   m_ObjectHideFlags: 0
@@ -2454,5 +2457,59 @@ PrefabInstance:
       propertyPath: m_Name
       value: LanguageManager
       objectReference: {fileID: 0}
+    - target: {fileID: 8463327440968826443, guid: e5a2bcafa2b2a8f45aa7448c11393aa7,
+        type: 3}
+      propertyPath: languageFont_TC
+      value: 
+      objectReference: {fileID: 12800000, guid: c2d16358d707e2f4780bf94c1a6b6321,
+        type: 3}
+    - target: {fileID: 8463327440968826443, guid: e5a2bcafa2b2a8f45aa7448c11393aa7,
+        type: 3}
+      propertyPath: languageFont_SC
+      value: 
+      objectReference: {fileID: 12800000, guid: abc68f21729d4d74592ead6cfe753440,
+        type: 3}
+    - target: {fileID: 8463327440968826443, guid: e5a2bcafa2b2a8f45aa7448c11393aa7,
+        type: 3}
+      propertyPath: languageFont_EN
+      value: 
+      objectReference: {fileID: 12800000, guid: 0b9335da7c0039841b110e3767ad778c,
+        type: 3}
+    - target: {fileID: 8463327440968826443, guid: e5a2bcafa2b2a8f45aa7448c11393aa7,
+        type: 3}
+      propertyPath: languageFont_TC_Medium
+      value: 
+      objectReference: {fileID: 12800000, guid: abc68f21729d4d74592ead6cfe753440,
+        type: 3}
+    - target: {fileID: 8463327440968826443, guid: e5a2bcafa2b2a8f45aa7448c11393aa7,
+        type: 3}
+      propertyPath: languageFont_TC_Bold
+      value: 
+      objectReference: {fileID: 12800000, guid: c2d16358d707e2f4780bf94c1a6b6321,
+        type: 3}
+    - target: {fileID: 8463327440968826443, guid: e5a2bcafa2b2a8f45aa7448c11393aa7,
+        type: 3}
+      propertyPath: languageFont_SC_Medium
+      value: 
+      objectReference: {fileID: 12800000, guid: b220157ee5234154099ce9fd9de84558,
+        type: 3}
+    - target: {fileID: 8463327440968826443, guid: e5a2bcafa2b2a8f45aa7448c11393aa7,
+        type: 3}
+      propertyPath: languageFont_SC_Bold
+      value: 
+      objectReference: {fileID: 12800000, guid: 98e5dec58f40349499edaed12692a91f,
+        type: 3}
+    - target: {fileID: 8463327440968826443, guid: e5a2bcafa2b2a8f45aa7448c11393aa7,
+        type: 3}
+      propertyPath: languageFont_EN_Regular
+      value: 
+      objectReference: {fileID: 12800000, guid: 0b9335da7c0039841b110e3767ad778c,
+        type: 3}
+    - target: {fileID: 8463327440968826443, guid: e5a2bcafa2b2a8f45aa7448c11393aa7,
+        type: 3}
+      propertyPath: languageFont_EN_Bold
+      value: 
+      objectReference: {fileID: 12800000, guid: 97b544d30e7af8149a7772454ac37a24,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5a2bcafa2b2a8f45aa7448c11393aa7, type: 3}

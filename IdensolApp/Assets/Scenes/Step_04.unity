@@ -286,6 +286,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: About_Idensol
   currentString: 
+  languageFont: 0
 --- !u!1001 &33691905
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -378,6 +379,7 @@ GameObject:
   - component: {fileID: 37877291}
   - component: {fileID: 37877293}
   - component: {fileID: 37877292}
+  - component: {fileID: 37877294}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -440,6 +442,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 37877290}
   m_CullTransparentMesh: 0
+--- !u!114 &37877294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37877290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: febd82fa4ad47684eaef89bb9ed09c7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TCImage: {fileID: 21300000, guid: e930a17f3d66d144a8bb19e3a4c40174, type: 3}
+  SCImage: {fileID: 21300000, guid: 1de61cbd98a2ee94997f7a6718bbac95, type: 3}
+  ENImage: {fileID: 21300000, guid: 9e543909563c3d142954229f38498b24, type: 3}
+  thisImage: {fileID: 37877292}
 --- !u!1 &54792137
 GameObject:
   m_ObjectHideFlags: 0
@@ -631,6 +649,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: About_Fax
   currentString: 
+  languageFont: 0
 --- !u!1 &121719112
 GameObject:
   m_ObjectHideFlags: 0
@@ -895,6 +914,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: About_Telephone
   currentString: 
+  languageFont: 0
 --- !u!1 &263329357
 GameObject:
   m_ObjectHideFlags: 0
@@ -1066,6 +1086,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: About_BranchAdress
   currentString: 
+  languageFont: 1
 --- !u!1 &319631661
 GameObject:
   m_ObjectHideFlags: 0
@@ -1503,6 +1524,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: About_ServiceContent
   currentString: 
+  languageFont: 1
 --- !u!1001 &612060889
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1768,6 +1790,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: About_Contact
   currentString: 
+  languageFont: 0
 --- !u!1 &707251474
 GameObject:
   m_ObjectHideFlags: 0
@@ -1896,6 +1919,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: About_CompanyName
   currentString: 
+  languageFont: 0
 --- !u!1 &841758516
 GameObject:
   m_ObjectHideFlags: 0
@@ -2042,6 +2066,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: About_Branch
   currentString: 
+  languageFont: 0
 --- !u!1001 &890663510
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2530,6 +2555,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: leftlist_Troubleshooting
   currentString: 
+  languageFont: 0
 --- !u!114 &890663517
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2544,6 +2570,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: leftlist_HowtoOperate
   currentString: 
+  languageFont: 0
 --- !u!114 &890663518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2558,6 +2585,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: leftlist_DigitalWorkflow
   currentString: 
+  languageFont: 0
 --- !u!114 &890663519
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2572,6 +2600,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: leftlist_Home
   currentString: 
+  languageFont: 0
 --- !u!1 &985014771
 GameObject:
   m_ObjectHideFlags: 0
@@ -3423,6 +3452,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: About_Headquarters
   currentString: 
+  languageFont: 0
 --- !u!1 &1441989633
 GameObject:
   m_ObjectHideFlags: 0
@@ -3617,6 +3647,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: About_CompanyAdress
   currentString: 
+  languageFont: 1
 --- !u!1 &1548494921
 GameObject:
   m_ObjectHideFlags: 0
@@ -4054,6 +4085,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: About_Service
   currentString: 
+  languageFont: 0
 --- !u!1 &1874893880
 GameObject:
   m_ObjectHideFlags: 0
@@ -4146,6 +4178,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: About_IdensolContent
   currentString: 
+  languageFont: 1
 --- !u!1 &1884407131
 GameObject:
   m_ObjectHideFlags: 0
@@ -4778,6 +4811,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: About_Websites
   currentString: 
+  languageFont: 0
 --- !u!1 &2112536471
 GameObject:
   m_ObjectHideFlags: 0

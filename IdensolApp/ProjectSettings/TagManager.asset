@@ -3,7 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Button3D
+  - ButtonAR
+  - CourseOutLine04
+  - CourseOutLine03
+  - CourseOutLine05
+  - All
+  - Course04
+  - Course03
+  - Course05
+  - ARCamera
   layers:
   - Default
   - TransparentFX
@@ -13,10 +23,10 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - post
+  - LED
+  - WhiteMat
+  - idensol
   - 
   - 
   - 

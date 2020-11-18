@@ -125,6 +125,38 @@ MonoBehaviour:
     traditionalChinese: "CAD\u5047\u7259\u8A2D\u8A08"
     simplifiedChinese: "CAD\u5047\u7259\u8BBE\u8BA1"
     english: CAD-Prosthetic Design
+  - id: Step3_Tutorial
+    traditionalChinese: "CAM\u5047\u7259\u6392\u7248"
+    simplifiedChinese: "CAM\u5047\u7259\u6392\u7248"
+    english: CAM-Prosthetic Planning
+  - id: CAD_Copping
+    traditionalChinese: "CAD\u5047\u7259\u8A2D\u8A08-\u5167\u51A0\u8A2D\u8A08"
+    simplifiedChinese: "CAD\u5047\u7259\u8BBE\u8BA1-\u57FA\u5E95\u51A0"
+    english: CAD-Prosthetic Design-Copping
+  - id: CAD_SingleCrown
+    traditionalChinese: "CAD\u5047\u7259\u8A2D\u8A08-\u55AE\u51A0\u8A2D\u8A08"
+    simplifiedChinese: "CAD\u5047\u7259\u8BBE\u8BA1-\u89E3\u5256\u51A0"
+    english: CAD-Prosthetic Design-Single Crown
+  - id: CAD_Inlay/Onlay
+    traditionalChinese: "CAD\u5047\u7259\u8A2D\u8A08-\u5D4C\u9AD4\u8A2D\u8A08"
+    simplifiedChinese: "CAD\u5047\u7259\u8BBE\u8BA1-\u5D4C\u4F53"
+    english: CAD-Prosthetic Design-Inlay/Onlay
+  - id: CAD_Venner
+    traditionalChinese: "CAD\u5047\u7259\u8A2D\u8A08-\u8CBC\u7247\u8A2D\u8A08"
+    simplifiedChinese: "CAD\u5047\u7259\u8BBE\u8BA1-\u8D34\u9762"
+    english: CAD-Prosthetic Design-Venner
+  - id: CAD_Premill
+    traditionalChinese: "CAD\u5047\u7259\u8A2D\u8A08-Premill\u8A2D\u8A08"
+    simplifiedChinese: "CAD\u5047\u7259\u8BBE\u8BA1-Premill"
+    english: CAD-Prosthetic Design-Premill
+  - id: Software_3shape
+    traditionalChinese: "\u4F7F\u7528\u8EDF\u9AD4\uFF1A3shape"
+    simplifiedChinese: "\u4F7F\u7528\u8F6F\u4F53\uFF1A3shape"
+    english: "Software\uFF1A3shape"
+  - id: Software_exocad
+    traditionalChinese: "\u4F7F\u7528\u8EDF\u9AD4\uFF1Aexocad"
+    simplifiedChinese: "\u4F7F\u7528\u8F6F\u4F53\uFF1Aexocad"
+    english: "Software\uFF1Aexocad"
   - id: Video_Tutorial
     traditionalChinese: "\u5F71\u7247\u6559\u5B78"
     simplifiedChinese: "\u5F71\u7247\u6559\u5B66"
@@ -133,7 +165,7 @@ MonoBehaviour:
     traditionalChinese: "\u5167\u51A0"
     simplifiedChinese: "\u57FA\u5E95\u51A0"
     english: Copping
-  - id: Step2_Single Crown
+  - id: Step2_SingleCrown
     traditionalChinese: "\u55AE\u51A0"
     simplifiedChinese: "\u89E3\u5256\u51A0"
     english: Single Crown
@@ -289,6 +321,22 @@ MonoBehaviour:
     traditionalChinese: Premill
     simplifiedChinese: Premill
     english: Premill
+  - id: CAM_Zirconia
+    traditionalChinese: "CAM\u5047\u7259\u6392\u7248-\u6C27\u5316\u92EF"
+    simplifiedChinese: "CAM\u5047\u7259\u6392\u7248-\u6C27\u5316\u9506"
+    english: CAM-Prosthetic Planning-Zirconia
+  - id: CAM_GlassCermaic
+    traditionalChinese: "CAM\u5047\u7259\u6392\u7248-\u73BB\u7483\u9676\u74F7"
+    simplifiedChinese: "CAM\u5047\u7259\u6392\u7248-\u73BB\u7483\u9676\u74F7"
+    english: CAM-Prosthetic Planning-Glass Cermaic
+  - id: CAM_Premill
+    traditionalChinese: "CAM\u5047\u7259\u6392\u7248-Premill"
+    simplifiedChinese: "CAM\u5047\u7259\u6392\u7248-Premill"
+    english: CAM-Prosthetic Planning-Premill
+  - id: Software_Millbox
+    traditionalChinese: "\u4F7F\u7528\u8EDF\u9AD4\uFF1AMillbox"
+    simplifiedChinese: "\u4F7F\u7528\u8F6F\u4F53\uFF1AMillbox"
+    english: "Software\uFF1AMillbox"
   - id: Zirconia_Define
     traditionalChinese: "\u5275\u5EFA\u6C27\u5316\u92EF\u9805\u76EE"
     simplifiedChinese: "\u521B\u5EFA\u6C27\u5316\u9506\u9879\u76EE"

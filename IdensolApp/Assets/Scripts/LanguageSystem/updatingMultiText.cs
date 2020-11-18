@@ -9,6 +9,8 @@ namespace MinYan.Lang
         public string multiId;
         public string currentString;
         private Text multiText;
+        public LanguageFont languageFont;
+        private Font _languagefont;
 
         private void Awake() => multiText = GetComponent<Text>();
         public void Set()
@@ -24,6 +26,7 @@ namespace MinYan.Lang
                 return;
             }
             multiText.text = UpdateLanguage(LanguageManager.Instance.language, LanguageManager.Instance.MultiLang);
+            multiText.font = UpdateTextFont(LanguageManager.Instance.language, languageFont);
         }
         public string UpdateLanguage(Language language, muitiLang muiti)
         {
@@ -47,17 +50,23 @@ namespace MinYan.Lang
             }
             return currentString;
         }
-
-        //public void UpdateText(Language language,muitiLang muiti)
-        //{
-        //    for (int i = 0; i < muiti.dataArray.Length; i++)
-        //    {
-        //        if (multiId == muiti.dataArray[i].Id)
-        //        {
-        //            currentString = language == Language.Chinese ? muiti.dataArray[i].Chinese : muiti.dataArray[i].English;
-        //        }
-        //    }
-        //    multiText.text = currentString;
-        //}
+        public Font UpdateTextFont(Language language, LanguageFont languageFont)
+        {
+            
+            switch (languageFont)
+            {
+                case LanguageFont.Bold:
+                    if(language == Language.TraditionalChinese) _languagefont = LanguageManager.Instance.languageFont_TC_Bold;
+                    else if(language == Language.SimplifiedChinese) _languagefont = LanguageManager.Instance.languageFont_SC_Bold;
+                    else if(language == Language.English) _languagefont = LanguageManager.Instance.languageFont_EN_Bold;
+                    break;
+                case LanguageFont.Medium:
+                    if (language == Language.TraditionalChinese) _languagefont = LanguageManager.Instance.languageFont_TC_Medium;
+                    else if (language == Language.SimplifiedChinese) _languagefont = LanguageManager.Instance.languageFont_SC_Medium;
+                    else if (language == Language.English) _languagefont = LanguageManager.Instance.languageFont_EN_Regular;
+                    break;
+            }
+            return _languagefont;
+        }
     }
 }

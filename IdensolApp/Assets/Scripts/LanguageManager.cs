@@ -11,9 +11,20 @@ public enum Language
     SimplifiedChinese = 1,
     English = 2,
 };
+public enum LanguageFont
+{
+    Bold = 0,
+    Medium = 1,
+};
 public class LanguageManager : MonoBehaviour
 {
     public Language language;
+    public Font languageFont_TC_Medium;
+    public Font languageFont_TC_Bold;
+    public Font languageFont_SC_Medium;
+    public Font languageFont_SC_Bold;
+    public Font languageFont_EN_Regular;
+    public Font languageFont_EN_Bold;
 
     [SerializeField] private muitiLang multiL;
     public muitiLang MultiLang => multiL;
@@ -53,6 +64,10 @@ public class LanguageManager : MonoBehaviour
         foreach (updatingMultiImg upImg in FindObjectsOfType<updatingMultiImg>())
         {
             upImg.Set();
+        }
+        foreach (updatingMultiSprite upSprite in FindObjectsOfType<updatingMultiSprite>())
+        {
+            upSprite.Set();
         }
     }
 }
