@@ -3,8 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using MinYan.Lang;
 using System;
-
-
 public enum Language
 {
     TraditionalChinese = 0,

@@ -4,15 +4,17 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Button3D
-  - ButtonAR
+  - White
+  - Course06
+  - Course04
+  - All
+  - Course03
+  - Course05
   - CourseOutLine04
   - CourseOutLine03
   - CourseOutLine05
-  - All
-  - Course04
-  - Course03
-  - Course05
+  - ButtonAR
+  - Button3D
   - ARCamera
   layers:
   - Default
@@ -50,4 +52,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: sort_HUD
+    uniqueID: 3111649913
+    locked: 0
+  - name: sort_UI
+    uniqueID: 1646341797
+    locked: 0
+  - name: sort_Effects
+    uniqueID: 593733639
     locked: 0

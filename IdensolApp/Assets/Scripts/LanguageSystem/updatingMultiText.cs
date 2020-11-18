@@ -52,7 +52,6 @@ namespace MinYan.Lang
         }
         public Font UpdateTextFont(Language language, LanguageFont languageFont)
         {
-            
             switch (languageFont)
             {
                 case LanguageFont.Bold:
