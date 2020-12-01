@@ -8,9 +8,13 @@ namespace MinYan.Lang
     {
         public string multiId;
         public string currentString;
+        public int FontSize_CH;
+        public int FontSize_EN;
+
         private Text multiText;
         public LanguageFont languageFont;
         private Font _languagefont;
+        
 
         private void Awake() => multiText = GetComponent<Text>();
         public void Set()
@@ -55,14 +59,38 @@ namespace MinYan.Lang
             switch (languageFont)
             {
                 case LanguageFont.Bold:
-                    if(language == Language.TraditionalChinese) _languagefont = LanguageManager.Instance.languageFont_TC_Bold;
-                    else if(language == Language.SimplifiedChinese) _languagefont = LanguageManager.Instance.languageFont_SC_Bold;
-                    else if(language == Language.English) _languagefont = LanguageManager.Instance.languageFont_EN_Bold;
+                    if (language == Language.TraditionalChinese)
+                    {
+                        _languagefont = LanguageManager.Instance.languageFont_TC_Bold;
+                        if(FontSize_CH != 0) multiText.fontSize = FontSize_CH;
+                    }
+                    else if (language == Language.SimplifiedChinese)
+                    {
+                        _languagefont = LanguageManager.Instance.languageFont_SC_Bold;
+                        if (FontSize_CH != 0) multiText.fontSize = FontSize_CH;
+                    }
+                    else if (language == Language.English)
+                    {
+                        _languagefont = LanguageManager.Instance.languageFont_EN_Bold;
+                        if (FontSize_EN != 0) multiText.fontSize = FontSize_EN;
+                    }
                     break;
                 case LanguageFont.Medium:
-                    if (language == Language.TraditionalChinese) _languagefont = LanguageManager.Instance.languageFont_TC_Medium;
-                    else if (language == Language.SimplifiedChinese) _languagefont = LanguageManager.Instance.languageFont_SC_Medium;
-                    else if (language == Language.English) _languagefont = LanguageManager.Instance.languageFont_EN_Regular;
+                    if (language == Language.TraditionalChinese)
+                    {
+                        _languagefont = LanguageManager.Instance.languageFont_TC_Medium;
+                        if (FontSize_CH != 0) multiText.fontSize = FontSize_CH;
+                    }
+                    else if (language == Language.SimplifiedChinese)
+                    {
+                        _languagefont = LanguageManager.Instance.languageFont_SC_Medium;
+                        if (FontSize_CH != 0) multiText.fontSize = FontSize_CH;
+                    }
+                    else if (language == Language.English)
+                    {
+                        _languagefont = LanguageManager.Instance.languageFont_EN_Regular;
+                        if (FontSize_EN != 0) multiText.fontSize = FontSize_EN;
+                    }
                     break;
             }
             return _languagefont;
