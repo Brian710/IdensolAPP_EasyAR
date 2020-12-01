@@ -918,8 +918,8 @@ MonoBehaviour:
 
       2.Press the RESET and HOME button to continue the action.'
   - id: About_Headquarters
-    traditionalChinese: "\u7E3D\u516C\u53F8"
-    simplifiedChinese: "\u603B\u516C\u53F8"
+    traditionalChinese: "\u7E3D    \u516C    \u53F8"
+    simplifiedChinese: "\u603B    \u516C    \u53F8"
     english: Headquarters
   - id: About_CompanyName
     traditionalChinese: "\u6771\u6615\u7CBE\u5BC6\u79D1\u6280\u80A1\u4EFD\u6709\u9650\u516C\u53F8"

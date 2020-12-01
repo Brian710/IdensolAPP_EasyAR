@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.73517495, g: 0.7559122, b: 0.73497736, a: 1}
+  m_IndirectSpecularColor: {r: 0.7384475, g: 0.76617545, b: 0.74717575, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -653,6 +653,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Troubleshooting_FAQ8
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &704423986
 GameObject:
@@ -987,6 +989,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Troubleshooting_FAQ11
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1001 &890663510
 PrefabInstance:
@@ -1481,6 +1485,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: leftlist_AboutIdensol
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!114 &890663517
 MonoBehaviour:
@@ -1496,6 +1502,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: leftlist_HowtoOperate
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!114 &890663518
 MonoBehaviour:
@@ -1511,6 +1519,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: leftlist_DigitalWorkflow
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!114 &890663519
 MonoBehaviour:
@@ -1526,6 +1536,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: leftlist_Home
   currentString: 
+  FontSize_CH: 39
+  FontSize_EN: 30
   languageFont: 0
 --- !u!1 &1093588948 stripped
 GameObject:
@@ -1547,6 +1559,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Troubleshooting_FAQ13
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &1096922613 stripped
 GameObject:
@@ -1568,6 +1582,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Troubleshooting_FAQ3
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!224 &1123233360 stripped
 RectTransform:
@@ -1595,6 +1611,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Troubleshooting_FAQ6
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &1282219459 stripped
 GameObject:
@@ -1616,6 +1634,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Troubleshooting_FAQ9
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &1346777759
 GameObject:
@@ -1710,6 +1730,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Troubleshooting_FAQ1
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &1377466677
 GameObject:
@@ -1765,6 +1787,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Troubleshooting_FAQ12
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &1402863898 stripped
 GameObject:
@@ -1786,6 +1810,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Troubleshooting_FAQ2
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &1405914487
 GameObject:
@@ -2147,6 +2173,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Troubleshooting_FAQ7
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &1710530641 stripped
 GameObject:
@@ -2168,6 +2196,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Troubleshooting_FAQ4
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &1884407131
 GameObject:
@@ -3959,6 +3989,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Troubleshooting_FAQ10
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &2142779017 stripped
 GameObject:
@@ -3980,4 +4012,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Troubleshooting_FAQ5
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0

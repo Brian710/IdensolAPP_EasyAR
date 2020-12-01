@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 527286375}
-  m_IndirectSpecularColor: {r: 0.73517495, g: 0.7559122, b: 0.73497736, a: 1}
+  m_IndirectSpecularColor: {r: 0.7384475, g: 0.76617545, b: 0.74717575, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -389,6 +389,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: IdensolOperate_Finsih
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &4457696
 GameObject:
@@ -555,6 +557,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: IdensolOperate_Rubber
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &7784754
 GameObject:
@@ -1347,6 +1351,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: OperateZero_Zero
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &34929722
 GameObject:
@@ -1581,6 +1587,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Rubber_LockBack
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!114 &37157288
 MonoBehaviour:
@@ -2829,6 +2837,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Import_One
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &70803263
 GameObject:
@@ -3894,6 +3904,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Clamp_LockBack
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!114 &108818007
 MonoBehaviour:
@@ -4417,6 +4429,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Premill_Insert
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!114 &116348590
 MonoBehaviour:
@@ -4524,6 +4538,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Rubber_PressButton
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!114 &117011988
 MonoBehaviour:
@@ -5028,6 +5044,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Premill_Tighten
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!114 &130564403
 MonoBehaviour:
@@ -6224,6 +6242,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Maintenance_ToLoose
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &168130674
 GameObject:
@@ -7022,6 +7042,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Import_Use
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &186114072
 GameObject:
@@ -7877,6 +7899,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Maintenance_PressBurChanger
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!114 &211145647
 MonoBehaviour:
@@ -8147,6 +8171,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: OperateClean_Clean
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &214782266
 GameObject:
@@ -8362,6 +8388,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Zero_Next
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &225068985
 GameObject:
@@ -10137,6 +10165,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Rubber_ClickOK
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!114 &278036189
 MonoBehaviour:
@@ -12072,6 +12102,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Maintenance_HexScoketRemove
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!114 &325459218
 MonoBehaviour:
@@ -13799,6 +13831,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: OperateImport_Import
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &396321796
 GameObject:
@@ -14055,6 +14089,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Clamp_Disk
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &404829934
 GameObject:
@@ -18169,6 +18205,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Clamp_ClampForDisk
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &589915252
 GameObject:
@@ -18302,6 +18340,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Clamp_GlassCeramic
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &594044922
 GameObject:
@@ -18395,6 +18435,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Clamp_ClampForPremill
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &595684007
 GameObject:
@@ -18954,6 +18996,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Import_Options
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &612104633
 GameObject:
@@ -19629,6 +19673,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Maintenance_HexagonalWrenchScrew
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!114 &620781738
 MonoBehaviour:
@@ -20577,6 +20623,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Rubber_ClickReset
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!114 &653111819
 MonoBehaviour:
@@ -20933,6 +20981,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: OperateImport_Import
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &663069828
 GameObject:
@@ -22358,6 +22408,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Operate_OK
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &690930080
 GameObject:
@@ -29579,6 +29631,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Import_OneMore
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &745288692
 GameObject:
@@ -30580,6 +30634,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Import_Processing
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &774974520
 GameObject:
@@ -32436,6 +32492,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: note nefore milling_3Text
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &837738179
 GameObject:
@@ -32890,6 +32948,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Operate_OperateClean
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &862316068
 GameObject:
@@ -33850,6 +33910,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Import_USB
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1001 &885433792
 PrefabInstance:
@@ -34806,6 +34868,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Maintenance_RightForce
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &907701255
 GameObject:
@@ -37265,6 +37329,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Import_Reset
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &986437620
 GameObject:
@@ -37907,6 +37973,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Maintenance_Note
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &1008214042
 GameObject:
@@ -38000,6 +38068,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Import_Options
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &1014346504
 GameObject:
@@ -38735,6 +38805,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: IdensolOperate_Maintenance
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &1033425198
 GameObject:
@@ -38828,6 +38900,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Change_PutInChuck
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &1034609413
 GameObject:
@@ -39494,6 +39568,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: OperateChange_Change
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &1056702808
 GameObject:
@@ -39660,6 +39736,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Import_Options
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &1061939019
 GameObject:
@@ -39760,6 +39838,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Import_Internet
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &1065143237
 GameObject:
@@ -40371,6 +40451,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Confirm
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &1072340271
 GameObject:
@@ -40931,6 +41013,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Operate_OperateZero
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &1085042961
 GameObject:
@@ -41024,6 +41108,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Import_One
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &1085234192
 GameObject:
@@ -41117,6 +41203,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Import_Options
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &1088564767
 GameObject:
@@ -41443,6 +41531,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: IdensolOperate_Light
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &1094026563
 GameObject:
@@ -42543,6 +42633,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Maintenance_TooTight
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &1127279836
 GameObject:
@@ -42675,6 +42767,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Rubber_Test
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!114 &1130978419
 MonoBehaviour:
@@ -42857,6 +42951,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Change_HoldSteady
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &1140497482
 GameObject:
@@ -45031,6 +45127,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Disk_Replace
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &1185500739
 GameObject:
@@ -45125,6 +45223,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Rubber_CorrectionBur
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!114 &1185500744
 MonoBehaviour:
@@ -45536,6 +45636,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: IdensolOperate_Tool
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &1205899420
 GameObject:
@@ -47208,6 +47310,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: NextPage
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &1262444030
 GameObject:
@@ -47521,6 +47625,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Operate_OK
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &1286770150
 GameObject:
@@ -50531,6 +50637,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: note nefore milling
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &1367363376
 GameObject:
@@ -50774,6 +50882,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Import_Options
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &1374677347
 GameObject:
@@ -50867,6 +50977,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Operate_OperateImport
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &1377466677
 GameObject:
@@ -50993,6 +51105,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Operate_OK
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &1382646259
 GameObject:
@@ -52008,6 +52122,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Maintenance_RemoveTheBar
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!114 &1407219533
 MonoBehaviour:
@@ -58600,6 +58716,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Import_ImportFile
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &1467870264
 GameObject:
@@ -59265,6 +59383,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Import_OneMore
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &1503661863
 GameObject:
@@ -59358,6 +59478,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: OperateChange_Change
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &1505308404
 GameObject:
@@ -61359,6 +61481,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Disk_HexWrench
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &1582068318
 GameObject:
@@ -61525,6 +61649,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: IdensolOperate_Finsih
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &1586419298
 GameObject:
@@ -78132,6 +78258,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Rubber_HexWrench
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!114 &1656630588
 MonoBehaviour:
@@ -78554,6 +78682,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Maintenance_AlcoholClean
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!114 &1671715451
 MonoBehaviour:
@@ -79373,6 +79503,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Rubber_Remove
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!114 &1688857866
 MonoBehaviour:
@@ -80362,6 +80494,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: IdensolOperate_Finsih
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &1711778418
 GameObject:
@@ -80455,6 +80589,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Import_Options
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &1715715846
 GameObject:
@@ -80548,6 +80684,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: IdensolOperate_Finsih
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &1718750268
 GameObject:
@@ -80768,6 +80906,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Clamp_Change
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &1732541979
 GameObject:
@@ -81211,6 +81351,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Clamp_LockBack
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1001 &1751630893
 PrefabInstance:
@@ -81668,6 +81810,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Import_Home
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &1760786417
 GameObject:
@@ -87432,6 +87576,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Clamp_Premill
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &1791169484
 GameObject:
@@ -89519,6 +89665,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Operate_OK
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &1889866640
 GameObject:
@@ -89871,26 +90019,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 8300000, guid: ad897b8dd37e643f0812e4e182835666, type: 3}
-    - target: {fileID: 6563406260227099534, guid: f0ddcc9c88d51b44aa388ede83988061,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.155
-      objectReference: {fileID: 0}
-    - target: {fileID: 6563406260227099534, guid: f0ddcc9c88d51b44aa388ede83988061,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -105
-      objectReference: {fileID: 0}
-    - target: {fileID: 6563406260227099534, guid: f0ddcc9c88d51b44aa388ede83988061,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 309.81
-      objectReference: {fileID: 0}
-    - target: {fileID: 6563406260227099534, guid: f0ddcc9c88d51b44aa388ede83988061,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 195.1
-      objectReference: {fileID: 0}
     - target: {fileID: 6563406260240353514, guid: f0ddcc9c88d51b44aa388ede83988061,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -90021,46 +90149,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 6563406261041889672, guid: f0ddcc9c88d51b44aa388ede83988061,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.155
-      objectReference: {fileID: 0}
-    - target: {fileID: 6563406261041889672, guid: f0ddcc9c88d51b44aa388ede83988061,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -104.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6563406261041889672, guid: f0ddcc9c88d51b44aa388ede83988061,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 309.81
-      objectReference: {fileID: 0}
-    - target: {fileID: 6563406261041889672, guid: f0ddcc9c88d51b44aa388ede83988061,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 193.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 6563406261223346404, guid: f0ddcc9c88d51b44aa388ede83988061,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.125
-      objectReference: {fileID: 0}
-    - target: {fileID: 6563406261223346404, guid: f0ddcc9c88d51b44aa388ede83988061,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -105
-      objectReference: {fileID: 0}
-    - target: {fileID: 6563406261223346404, guid: f0ddcc9c88d51b44aa388ede83988061,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 309.75
-      objectReference: {fileID: 0}
-    - target: {fileID: 6563406261223346404, guid: f0ddcc9c88d51b44aa388ede83988061,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 195.1
-      objectReference: {fileID: 0}
     - target: {fileID: 6563406261274109969, guid: f0ddcc9c88d51b44aa388ede83988061,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -90150,26 +90238,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6563406261531650554, guid: f0ddcc9c88d51b44aa388ede83988061,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.125
-      objectReference: {fileID: 0}
-    - target: {fileID: 6563406261531650554, guid: f0ddcc9c88d51b44aa388ede83988061,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -105
-      objectReference: {fileID: 0}
-    - target: {fileID: 6563406261531650554, guid: f0ddcc9c88d51b44aa388ede83988061,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 309.75
-      objectReference: {fileID: 0}
-    - target: {fileID: 6563406261531650554, guid: f0ddcc9c88d51b44aa388ede83988061,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 195.1
       objectReference: {fileID: 0}
     - target: {fileID: 6563406261534429526, guid: f0ddcc9c88d51b44aa388ede83988061,
         type: 3}
@@ -90312,6 +90380,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: leftlist_AboutIdensol
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!114 &1891022056
 MonoBehaviour:
@@ -90327,6 +90397,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: leftlist_Troubleshooting
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!114 &1891022057
 MonoBehaviour:
@@ -90342,6 +90414,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: leftlist_DigitalWorkflow
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!114 &1891022058
 MonoBehaviour:
@@ -90357,6 +90431,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: leftlist_Home
   currentString: 
+  FontSize_CH: 39
+  FontSize_EN: 30
   languageFont: 0
 --- !u!1 &1892398054
 GameObject:
@@ -90947,6 +91023,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Operate_OK
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &1908212234
 GameObject:
@@ -92808,6 +92886,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Maintenance_HexWrenchRemove
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!114 &1958624712
 MonoBehaviour:
@@ -92986,6 +93066,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Import_Options
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &1966318407
 GameObject:
@@ -94414,6 +94496,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Rubber_Calibrate
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &1993154675
 GameObject:
@@ -94685,6 +94769,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: IdensolOperate_Clamp
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &1996455730
 GameObject:
@@ -94778,6 +94864,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Clamp_ClampForGlass
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &1996715878
 GameObject:
@@ -94871,6 +94959,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: OperateClean_Clean
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!1 &1997714471
 GameObject:
@@ -94965,6 +95055,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: GlassCeramic_Tighten
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!114 &1997714476
 MonoBehaviour:
@@ -95815,6 +95907,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: GlassCeramic_Insert
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!114 &2056066164
 MonoBehaviour:
@@ -97510,6 +97604,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Maintenance_HexagonalWrenchBack
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!114 &2100082132
 MonoBehaviour:
@@ -97776,6 +97872,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Clamp_LockBack
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
   languageFont: 0
 --- !u!114 &2106665475
 MonoBehaviour:

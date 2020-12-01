@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.73517495, g: 0.7559122, b: 0.73497736, a: 1}
+  m_IndirectSpecularColor: {r: 0.7384475, g: 0.76617545, b: 0.74717575, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -247,6 +247,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Premill_Detect
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &16772562
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -339,6 +342,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Zirconia_Import
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &17693278
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -505,6 +511,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Premill_Import
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &32755892
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -637,6 +646,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: digitalWorkflow_Designsteps
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!1 &39303923
 GameObject:
   m_ObjectHideFlags: 0
@@ -689,6 +701,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Premill_Click
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &39303926
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -781,6 +796,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Premill_Generate
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &50540232
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1743,6 +1761,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Step3_Premill
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &69729785
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1757,6 +1778,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Step3_GlassCermaic
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &69729786
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1771,6 +1795,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Step3_Zirconia
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!224 &69729787 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3715548542309372591, guid: 9847b297553c7524387b9fd8e4a35c42,
@@ -1809,6 +1836,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Step3_Premill
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &69729792
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1823,6 +1853,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Step3_GlassCermaic
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &69729793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1837,6 +1870,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Step3_Zirconia
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!224 &69729794 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3715548542991134062, guid: 9847b297553c7524387b9fd8e4a35c42,
@@ -1969,6 +2005,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Step3_Tutorial
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!1 &69729808 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3715548543738243235, guid: 9847b297553c7524387b9fd8e4a35c42,
@@ -2019,6 +2058,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: 'CAM_Premill '
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &69729815
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2033,6 +2075,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: 'Software_Millbox '
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &69729816
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2047,6 +2092,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: 'CAM_GlassCermaic '
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &69729817
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2061,6 +2109,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: 'Software_Millbox '
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &69729818
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2075,6 +2126,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: 'CAM_Zirconia '
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &69729819
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2089,6 +2143,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: 'Software_Millbox '
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!1 &90203778
 GameObject:
   m_ObjectHideFlags: 0
@@ -2141,6 +2198,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Inlay/Onlay_Design
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &90203781
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2466,6 +2526,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Zirconia_Adjust
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &156264418
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2558,6 +2621,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: GlassCermaic_Move
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &173953895
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3864,6 +3930,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Video_Tutorial
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!1 &189761719 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1125579695991282187, guid: c0d3691da414d3640b8d49baad567c65,
@@ -3884,6 +3953,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Step2_Tutorial
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!1 &189761721 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1125579696512145364, guid: c0d3691da414d3640b8d49baad567c65,
@@ -3928,6 +4000,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Step2_Premill
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &189761727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3942,6 +4017,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Step2_Venner
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &189761728
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3956,6 +4034,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Step2_Inlay/Onlay
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &189761729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3970,6 +4051,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Step2_Single Crown
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &189761730
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3984,6 +4068,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Step2_Copping
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!224 &189761731 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1125579695848778460, guid: c0d3691da414d3640b8d49baad567c65,
@@ -4170,6 +4257,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: CAD_Premill
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &189761752
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4184,6 +4274,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: CAD_Venner
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &189761753
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4198,6 +4291,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: CAD_Inlay/Onlay
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &189761754
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4212,6 +4308,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: CAD_SingleCrown
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &189761755
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4226,6 +4325,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: CAD_Copping
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!1 &189761756 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1125579696639764440, guid: c0d3691da414d3640b8d49baad567c65,
@@ -4270,6 +4372,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: 'Software_exocad '
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &189761762
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4284,6 +4389,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: 'Software_3shape '
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &189761763
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4298,6 +4406,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: 'Software_3shape '
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &189761764
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4312,6 +4423,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: 'Software_3shape '
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &189761765
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4326,6 +4440,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Software_3shape
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &213009801 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 454915990995130037, guid: f0ddcc9c88d51b44aa388ede83988061,
@@ -4430,6 +4547,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: digitalWorkflow_Operationsteps
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!1 &293243356
 GameObject:
   m_ObjectHideFlags: 0
@@ -4522,6 +4642,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: digitalWorkflow_Layoutsteps
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!1 &316577771
 GameObject:
   m_ObjectHideFlags: 0
@@ -4617,6 +4740,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Single Crown_Optimize
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &319150171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4709,6 +4835,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: GlassCermaic_Choose
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &329631922
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4884,6 +5013,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Venner_Optimize
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &386110150
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5128,6 +5260,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Single Crown_Design
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &478449206
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5385,6 +5520,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Premill_Build
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &498342506
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5477,6 +5615,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Premill_Forming
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &501774260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5537,6 +5678,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Video_Tutorial
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!1 &543296241
 GameObject:
   m_ObjectHideFlags: 0
@@ -5630,6 +5774,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Step2_Copping
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!1 &610965282 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1125579695786734575, guid: c0d3691da414d3640b8d49baad567c65,
@@ -5650,6 +5797,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Step2_Venner
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!1 &638597936
 GameObject:
   m_ObjectHideFlags: 0
@@ -5702,6 +5852,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Venner_Design
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &638597939
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5794,6 +5947,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Premill_Abutment
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &662500911
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6097,6 +6253,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Step2_Premill
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!1 &716667019
 GameObject:
   m_ObjectHideFlags: 0
@@ -6189,6 +6348,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Copping_Optimize
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!1 &717681541
 GameObject:
   m_ObjectHideFlags: 0
@@ -6241,6 +6403,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Premill_Set
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &717681544
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6507,6 +6672,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Zirconia_Choose
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &825672457
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6672,6 +6840,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Inlay/Onlay_Set
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &838543449
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6764,6 +6935,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: digitalWorkflow_Step3
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &869486292
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7132,7 +7306,7 @@ PrefabInstance:
     - target: {fileID: 6563406259877485608, guid: f0ddcc9c88d51b44aa388ede83988061,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6563406260067901550, guid: f0ddcc9c88d51b44aa388ede83988061,
         type: 3}
@@ -7188,26 +7362,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 141.39001
-      objectReference: {fileID: 0}
-    - target: {fileID: 6563406260711590285, guid: f0ddcc9c88d51b44aa388ede83988061,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.125
-      objectReference: {fileID: 0}
-    - target: {fileID: 6563406260711590285, guid: f0ddcc9c88d51b44aa388ede83988061,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -104.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 6563406260711590285, guid: f0ddcc9c88d51b44aa388ede83988061,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 309.75
-      objectReference: {fileID: 0}
-    - target: {fileID: 6563406260711590285, guid: f0ddcc9c88d51b44aa388ede83988061,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 194.8
       objectReference: {fileID: 0}
     - target: {fileID: 6563406260772407739, guid: f0ddcc9c88d51b44aa388ede83988061,
         type: 3}
@@ -7313,26 +7467,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6563406261223346404, guid: f0ddcc9c88d51b44aa388ede83988061,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.125
-      objectReference: {fileID: 0}
-    - target: {fileID: 6563406261223346404, guid: f0ddcc9c88d51b44aa388ede83988061,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -105.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 6563406261223346404, guid: f0ddcc9c88d51b44aa388ede83988061,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 309.75
-      objectReference: {fileID: 0}
-    - target: {fileID: 6563406261223346404, guid: f0ddcc9c88d51b44aa388ede83988061,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 196.5
       objectReference: {fileID: 0}
     - target: {fileID: 6563406261274109969, guid: f0ddcc9c88d51b44aa388ede83988061,
         type: 3}
@@ -7464,26 +7598,6 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6563406261531650554, guid: f0ddcc9c88d51b44aa388ede83988061,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.125
-      objectReference: {fileID: 0}
-    - target: {fileID: 6563406261531650554, guid: f0ddcc9c88d51b44aa388ede83988061,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -103
-      objectReference: {fileID: 0}
-    - target: {fileID: 6563406261531650554, guid: f0ddcc9c88d51b44aa388ede83988061,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 309.75
-      objectReference: {fileID: 0}
-    - target: {fileID: 6563406261531650554, guid: f0ddcc9c88d51b44aa388ede83988061,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 191
-      objectReference: {fileID: 0}
     - target: {fileID: 6563406261534429526, guid: f0ddcc9c88d51b44aa388ede83988061,
         type: 3}
       propertyPath: m_IsActive
@@ -7587,72 +7701,12 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 890663510}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &890663512 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6563406261223346407, guid: f0ddcc9c88d51b44aa388ede83988061,
-    type: 3}
-  m_PrefabInstance: {fileID: 890663510}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &890663513 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6563406261531650557, guid: f0ddcc9c88d51b44aa388ede83988061,
-    type: 3}
-  m_PrefabInstance: {fileID: 890663510}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &890663514 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6563406260711590284, guid: f0ddcc9c88d51b44aa388ede83988061,
-    type: 3}
-  m_PrefabInstance: {fileID: 890663510}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &890663515 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6563406260227099521, guid: f0ddcc9c88d51b44aa388ede83988061,
     type: 3}
   m_PrefabInstance: {fileID: 890663510}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &890663516
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 890663512}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa5757a572822c343a5ec5c6b6e9aba0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  multiId: leftlist_AboutIdensol
-  currentString: 
---- !u!114 &890663517
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 890663513}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa5757a572822c343a5ec5c6b6e9aba0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  multiId: leftlist_Troubleshooting
-  currentString: 
---- !u!114 &890663518
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 890663514}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa5757a572822c343a5ec5c6b6e9aba0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  multiId: leftlist_HowtoOperate
-  currentString: 
 --- !u!114 &890663519
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7667,6 +7721,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: leftlist_Home
   currentString: 
+  FontSize_CH: 39
+  FontSize_EN: 30
+  languageFont: 0
 --- !u!1 &930040520
 GameObject:
   m_ObjectHideFlags: 0
@@ -7793,6 +7850,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Venner_Edit
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &935406754
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7885,6 +7945,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Inlay/Onlay_Create
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &977702369
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8109,6 +8172,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Zirconia_Define
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &1007440697
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8201,6 +8267,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Zirconia_Move
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &1010033254
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8293,6 +8362,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Premill_Define
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &1035498096
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8458,6 +8530,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: GlassCermaic_ChooseMaterials
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &1069173155
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8663,6 +8738,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Copping_Set
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!1 &1100089806
 GameObject:
   m_ObjectHideFlags: 0
@@ -8755,6 +8833,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Copping_Create
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!1 &1128133913
 GameObject:
   m_ObjectHideFlags: 0
@@ -8807,6 +8888,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Venner_Define
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &1128133916
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8905,6 +8989,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Single Crown_Define
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &1146806097
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9143,6 +9230,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Zirconia_ChooseMaterials
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &1217144452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9277,6 +9367,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: digitalWorkflow_Step5
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &1259300412
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9409,6 +9502,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Copping_Edit
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!1 &1265647224
 GameObject:
   m_ObjectHideFlags: 0
@@ -9536,6 +9632,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Inlay/Onlay_Optimize
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &1280777212
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9628,6 +9727,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: GlassCermaic_Adjust
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &1335802418
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9760,6 +9862,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Copping_Define
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!1 &1339593235
 GameObject:
   m_ObjectHideFlags: 0
@@ -9812,6 +9917,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Single Crown_Set
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &1339593238
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9944,6 +10052,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: digitalWorkflow_Step1
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!1 &1369269011 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1125579696059331033, guid: c0d3691da414d3640b8d49baad567c65,
@@ -9964,6 +10075,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Step2_Inlay/Onlay
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!1 &1377466677
 GameObject:
   m_ObjectHideFlags: 0
@@ -10050,6 +10164,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Premill_Define
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &1402194172
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10187,6 +10304,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Single Crown_Create
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &1434507413
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10380,6 +10500,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: digitalWorkflow_Step4
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &1458304319
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10619,6 +10742,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Inlay/Onlay_Define
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &1532797436
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10814,6 +10940,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Inlay/Onlay_Edit
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &1610541862
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10874,6 +11003,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Step2_SingleCrown
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!1 &1669581386
 GameObject:
   m_ObjectHideFlags: 0
@@ -10985,6 +11117,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Single Crown_Edit
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &1679377503
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11077,6 +11212,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Premill_Complete
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &1680747738
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11175,6 +11313,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: GlassCermaic_Import
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &1757547811
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11340,6 +11481,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Venner_Create
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &1852007906
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11472,6 +11616,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Copping_Design
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!1 &1884407131
 GameObject:
   m_ObjectHideFlags: 0
@@ -11590,6 +11737,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Venner_Set
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &1885832447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11769,6 +11919,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: digitalWorkflow_Step2
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &1896277264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12187,6 +12340,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Premill_Define
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &2029373154
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12285,6 +12441,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: GlassCermaic_Define
   currentString: 
+  FontSize_CH: 0
+  FontSize_EN: 0
+  languageFont: 0
 --- !u!114 &2107493980
 MonoBehaviour:
   m_ObjectHideFlags: 0
