@@ -508,7 +508,7 @@ MonoBehaviour:
   - id: Import_Use
     traditionalChinese: "\u6211\u8981\u4F7F\u7528"
     simplifiedChinese: "\u6211\u8981\u4F7F\u7528"
-    english: I want to use
+    english: 
   - id: Import_Internet
     traditionalChinese: "\u7DB2\u8DEF\u50B3\u8F38"
     simplifiedChinese: "\u7F51\u7EDC\u4F20\u8F93"
