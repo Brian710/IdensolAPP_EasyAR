@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 3992474}
   - component: {fileID: 3992476}
   - component: {fileID: 3992475}
+  - component: {fileID: 3992477}
   m_Layer: 5
   m_Name: Image_Step2
   m_TagString: Untagged
@@ -195,6 +196,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3992473}
   m_CullTransparentMesh: 0
+--- !u!225 &3992477
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3992473}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &16772559
 GameObject:
   m_ObjectHideFlags: 0
@@ -221,7 +234,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 16772559}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -230,7 +243,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 355, y: 50}
+  m_AnchoredPosition: {x: 260.23, y: 30.8}
   m_SizeDelta: {x: 552.5, y: 71.907}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &16772561
@@ -247,8 +260,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Premill_Detect
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 48
+  FontSize_EN: 40
   languageFont: 0
 --- !u!114 &16772562
 MonoBehaviour:
@@ -264,7 +277,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -275,12 +288,12 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 48
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 0.78
   m_Text: "<size=40>Step3</size><b>\u6383\u63CF\u687F\u5B9A\u4F4D\r\r\r</b>"
 --- !u!222 &16772563
 CanvasRenderer:
@@ -325,7 +338,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 98, y: 47.604004}
+  m_AnchoredPosition: {x: 4.4, y: 30.8}
   m_SizeDelta: {x: 520.6, y: 78}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &17693277
@@ -342,8 +355,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Zirconia_Import
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 48
+  FontSize_EN: 40
   languageFont: 0
 --- !u!114 &17693278
 MonoBehaviour:
@@ -359,7 +372,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -370,12 +383,12 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 48
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 0.78
   m_Text: "<size=40>Step2</size><b>\u8F09\u5165\u6A94\u6848\r\r\r\r</b>"
 --- !u!222 &17693279
 CanvasRenderer:
@@ -494,7 +507,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 518, y: 48.604004}
+  m_AnchoredPosition: {x: 425.3, y: 30.8}
   m_SizeDelta: {x: 520.6, y: 78}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &32755891
@@ -511,8 +524,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Premill_Import
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 48
+  FontSize_EN: 40
   languageFont: 0
 --- !u!114 &32755892
 MonoBehaviour:
@@ -528,7 +541,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -539,12 +552,12 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 48
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 0.78
   m_Text: "<size=40>Step2</size><b>\u8F09\u5165\u6A94\u6848\r\r\r\r</b>"
 --- !u!222 &32755893
 CanvasRenderer:
@@ -684,7 +697,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 535, y: -619}
+  m_AnchoredPosition: {x: 426.6, y: -600}
   m_SizeDelta: {x: 552.5, y: 71.907}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &39303925
@@ -701,8 +714,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Premill_Click
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 48
+  FontSize_EN: 40
   languageFont: 0
 --- !u!114 &39303926
 MonoBehaviour:
@@ -718,7 +731,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -729,12 +742,12 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 48
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 0.78
   m_Text: "<size=40>Step3</size><b>\u9EDE\u9078\u52A0\u5DE5\r\r\r\r\r</b>"
 --- !u!222 &39303927
 CanvasRenderer:
@@ -779,7 +792,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 857, y: 50}
+  m_AnchoredPosition: {x: 768.7, y: 30.8}
   m_SizeDelta: {x: 552.5, y: 71.907}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &50540231
@@ -796,8 +809,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Premill_Generate
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 48
+  FontSize_EN: 40
   languageFont: 0
 --- !u!114 &50540232
 MonoBehaviour:
@@ -813,7 +826,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -824,12 +837,12 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 48
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 0.78
   m_Text: "<size=40>Step4</size><b>\u8A2D\u8A08\u4E0B\u534A\u90E8\r\r\r</b>"
 --- !u!222 &50540233
 CanvasRenderer:
@@ -1008,7 +1021,12 @@ PrefabInstance:
     - target: {fileID: 3715548541841639206, guid: 9847b297553c7524387b9fd8e4a35c42,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 131.2998
+      value: 81
+      objectReference: {fileID: 0}
+    - target: {fileID: 3715548541841639206, guid: 9847b297553c7524387b9fd8e4a35c42,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -109
       objectReference: {fileID: 0}
     - target: {fileID: 3715548541860998497, guid: 9847b297553c7524387b9fd8e4a35c42,
         type: 3}
@@ -1110,6 +1128,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3715548542183416169, guid: 9847b297553c7524387b9fd8e4a35c42,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 1098
+      objectReference: {fileID: 0}
     - target: {fileID: 3715548542270497966, guid: 9847b297553c7524387b9fd8e4a35c42,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -1155,10 +1178,35 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 8300000, guid: ad897b8dd37e643f0812e4e182835666, type: 3}
+    - target: {fileID: 3715548542309372591, guid: 9847b297553c7524387b9fd8e4a35c42,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 1098
+      objectReference: {fileID: 0}
     - target: {fileID: 3715548542337011300, guid: 9847b297553c7524387b9fd8e4a35c42,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3715548542491411284, guid: 9847b297553c7524387b9fd8e4a35c42,
+        type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3715548542491411285, guid: 9847b297553c7524387b9fd8e4a35c42,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -59.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 3715548542491411285, guid: 9847b297553c7524387b9fd8e4a35c42,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 196.71
+      objectReference: {fileID: 0}
+    - target: {fileID: 3715548542491411285, guid: 9847b297553c7524387b9fd8e4a35c42,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -55.15
       objectReference: {fileID: 0}
     - target: {fileID: 3715548542619355825, guid: 9847b297553c7524387b9fd8e4a35c42,
         type: 3}
@@ -1223,7 +1271,12 @@ PrefabInstance:
     - target: {fileID: 3715548542619355831, guid: 9847b297553c7524387b9fd8e4a35c42,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 131.2998
+      value: 81
+      objectReference: {fileID: 0}
+    - target: {fileID: 3715548542619355831, guid: 9847b297553c7524387b9fd8e4a35c42,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -208.07
       objectReference: {fileID: 0}
     - target: {fileID: 3715548542720226997, guid: 9847b297553c7524387b9fd8e4a35c42,
         type: 3}
@@ -1385,6 +1438,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3715548542991134062, guid: 9847b297553c7524387b9fd8e4a35c42,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 1098
+      objectReference: {fileID: 0}
     - target: {fileID: 3715548543223152741, guid: 9847b297553c7524387b9fd8e4a35c42,
         type: 3}
       propertyPath: m_Color.a
@@ -1393,7 +1451,12 @@ PrefabInstance:
     - target: {fileID: 3715548543251131557, guid: 9847b297553c7524387b9fd8e4a35c42,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 131.2998
+      value: 81
+      objectReference: {fileID: 0}
+    - target: {fileID: 3715548543251131557, guid: 9847b297553c7524387b9fd8e4a35c42,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -109
       objectReference: {fileID: 0}
     - target: {fileID: 3715548543251131558, guid: 9847b297553c7524387b9fd8e4a35c42,
         type: 3}
@@ -1663,7 +1726,12 @@ PrefabInstance:
     - target: {fileID: 3715548543709833672, guid: 9847b297553c7524387b9fd8e4a35c42,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 131.2998
+      value: 81
+      objectReference: {fileID: 0}
+    - target: {fileID: 3715548543709833672, guid: 9847b297553c7524387b9fd8e4a35c42,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -109
       objectReference: {fileID: 0}
     - target: {fileID: 3715548543729520573, guid: 9847b297553c7524387b9fd8e4a35c42,
         type: 3}
@@ -1761,8 +1829,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Step3_Premill
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 52
+  FontSize_EN: 40
   languageFont: 0
 --- !u!114 &69729785
 MonoBehaviour:
@@ -1778,8 +1846,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Step3_GlassCermaic
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 52
+  FontSize_EN: 40
   languageFont: 0
 --- !u!114 &69729786
 MonoBehaviour:
@@ -1795,8 +1863,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Step3_Zirconia
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 52
+  FontSize_EN: 40
   languageFont: 0
 --- !u!224 &69729787 stripped
 RectTransform:
@@ -1836,8 +1904,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Step3_Premill
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 52
+  FontSize_EN: 40
   languageFont: 0
 --- !u!114 &69729792
 MonoBehaviour:
@@ -1853,8 +1921,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Step3_GlassCermaic
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 52
+  FontSize_EN: 40
   languageFont: 0
 --- !u!114 &69729793
 MonoBehaviour:
@@ -1870,8 +1938,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Step3_Zirconia
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 52
+  FontSize_EN: 40
   languageFont: 0
 --- !u!224 &69729794 stripped
 RectTransform:
@@ -2172,7 +2240,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 90203778}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -2181,7 +2249,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 772.80005, y: -617}
+  m_AnchoredPosition: {x: 680.7, y: -600}
   m_SizeDelta: {x: 547.5, y: 77.756}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &90203780
@@ -2198,8 +2266,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Inlay/Onlay_Design
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 48
+  FontSize_EN: 40
   languageFont: 0
 --- !u!114 &90203781
 MonoBehaviour:
@@ -2215,7 +2283,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2226,12 +2294,12 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 48
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 0.78
   m_Text: "<size=40>Step6</size><b>\u8A2D\u8A08\u5D4C\u9AD4\r</b>"
 --- !u!222 &90203782
 CanvasRenderer:
@@ -2252,6 +2320,7 @@ GameObject:
   - component: {fileID: 112041590}
   - component: {fileID: 112041592}
   - component: {fileID: 112041591}
+  - component: {fileID: 112041593}
   m_Layer: 5
   m_Name: Image_Step4
   m_TagString: Untagged
@@ -2316,6 +2385,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 112041589}
   m_CullTransparentMesh: 0
+--- !u!225 &112041593
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 112041589}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &138710824
 GameObject:
   m_ObjectHideFlags: 0
@@ -2509,7 +2590,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -592, y: -626}
+  m_AnchoredPosition: {x: -664.8, y: -600}
   m_SizeDelta: {x: 559.9, y: 77.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &156264417
@@ -2526,8 +2607,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Zirconia_Adjust
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 48
+  FontSize_EN: 40
   languageFont: 0
 --- !u!114 &156264418
 MonoBehaviour:
@@ -2543,7 +2624,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2554,12 +2635,12 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 48
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 0.78
   m_Text: "<size=40>Step4</size><b>\u8ABF\u6574\u52A0\u5DE5\u4F4D\u7F6E\r\r\r</b>"
 --- !u!222 &156264419
 CanvasRenderer:
@@ -2604,7 +2685,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 68, y: -622.97}
+  m_AnchoredPosition: {x: 3.3, y: -600}
   m_SizeDelta: {x: 550, y: 77.757}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &173953894
@@ -2621,8 +2702,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: GlassCermaic_Move
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 48
+  FontSize_EN: 40
   languageFont: 0
 --- !u!114 &173953895
 MonoBehaviour:
@@ -2649,12 +2730,12 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 48
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 0.78
   m_Text: "<size=40>Step5</size><b>\u8ABF\u6574\u652F\u6490\u68D2\r\r\r\r\r</b>"
 --- !u!222 &173953896
 CanvasRenderer:
@@ -2854,7 +2935,12 @@ PrefabInstance:
     - target: {fileID: 1125579695605224049, guid: c0d3691da414d3640b8d49baad567c65,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 131.2998
+      value: 81
+      objectReference: {fileID: 0}
+    - target: {fileID: 1125579695605224049, guid: c0d3691da414d3640b8d49baad567c65,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -109
       objectReference: {fileID: 0}
     - target: {fileID: 1125579695605224050, guid: c0d3691da414d3640b8d49baad567c65,
         type: 3}
@@ -2979,17 +3065,37 @@ PrefabInstance:
     - target: {fileID: 1125579695654638767, guid: c0d3691da414d3640b8d49baad567c65,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 131.2998
+      value: 81
+      objectReference: {fileID: 0}
+    - target: {fileID: 1125579695654638767, guid: c0d3691da414d3640b8d49baad567c65,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -109
       objectReference: {fileID: 0}
     - target: {fileID: 1125579695710592818, guid: c0d3691da414d3640b8d49baad567c65,
         type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1125579695756629304, guid: c0d3691da414d3640b8d49baad567c65,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 1098
+      objectReference: {fileID: 0}
     - target: {fileID: 1125579695786196176, guid: c0d3691da414d3640b8d49baad567c65,
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1125579695848778460, guid: c0d3691da414d3640b8d49baad567c65,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 1098
+      objectReference: {fileID: 0}
+    - target: {fileID: 1125579695865320378, guid: c0d3691da414d3640b8d49baad567c65,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 1098
       objectReference: {fileID: 0}
     - target: {fileID: 1125579696029698836, guid: c0d3691da414d3640b8d49baad567c65,
         type: 3}
@@ -3234,12 +3340,12 @@ PrefabInstance:
     - target: {fileID: 1125579696315979548, guid: c0d3691da414d3640b8d49baad567c65,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 131.2998
+      value: 81
       objectReference: {fileID: 0}
     - target: {fileID: 1125579696315979548, guid: c0d3691da414d3640b8d49baad567c65,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -134
+      value: -109
       objectReference: {fileID: 0}
     - target: {fileID: 1125579696315979549, guid: c0d3691da414d3640b8d49baad567c65,
         type: 3}
@@ -3389,7 +3495,12 @@ PrefabInstance:
     - target: {fileID: 1125579696608659171, guid: c0d3691da414d3640b8d49baad567c65,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 131.2998
+      value: 81
+      objectReference: {fileID: 0}
+    - target: {fileID: 1125579696608659171, guid: c0d3691da414d3640b8d49baad567c65,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -109
       objectReference: {fileID: 0}
     - target: {fileID: 1125579696608659172, guid: c0d3691da414d3640b8d49baad567c65,
         type: 3}
@@ -3496,6 +3607,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1125579696668745661, guid: c0d3691da414d3640b8d49baad567c65,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 1098
+      objectReference: {fileID: 0}
     - target: {fileID: 1125579696747436666, guid: c0d3691da414d3640b8d49baad567c65,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -3599,7 +3715,12 @@ PrefabInstance:
     - target: {fileID: 1125579697148934642, guid: c0d3691da414d3640b8d49baad567c65,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 131.2998
+      value: 81
+      objectReference: {fileID: 0}
+    - target: {fileID: 1125579697148934642, guid: c0d3691da414d3640b8d49baad567c65,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -109
       objectReference: {fileID: 0}
     - target: {fileID: 1125579697148934647, guid: c0d3691da414d3640b8d49baad567c65,
         type: 3}
@@ -3804,12 +3925,12 @@ PrefabInstance:
     - target: {fileID: 1125579697372607587, guid: c0d3691da414d3640b8d49baad567c65,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 131.2998
+      value: 81
       objectReference: {fileID: 0}
     - target: {fileID: 1125579697372607587, guid: c0d3691da414d3640b8d49baad567c65,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -233.07
+      value: -208.07
       objectReference: {fileID: 0}
     - target: {fileID: 1125579697372607589, guid: c0d3691da414d3640b8d49baad567c65,
         type: 3}
@@ -3871,6 +3992,26 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 1125579697505107328, guid: c0d3691da414d3640b8d49baad567c65,
+        type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1125579697505107329, guid: c0d3691da414d3640b8d49baad567c65,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -59.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 1125579697505107329, guid: c0d3691da414d3640b8d49baad567c65,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 196.71
+      objectReference: {fileID: 0}
+    - target: {fileID: 1125579697505107329, guid: c0d3691da414d3640b8d49baad567c65,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -55.15
+      objectReference: {fileID: 0}
     - target: {fileID: 1125579697586889720, guid: c0d3691da414d3640b8d49baad567c65,
         type: 3}
       propertyPath: m_IsActive
@@ -3889,7 +4030,7 @@ PrefabInstance:
     - target: {fileID: 1125579697616792699, guid: c0d3691da414d3640b8d49baad567c65,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 1148.4
+      value: 1098
       objectReference: {fileID: 0}
     - target: {fileID: 1125579697627001008, guid: c0d3691da414d3640b8d49baad567c65,
         type: 3}
@@ -3930,8 +4071,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Video_Tutorial
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 40
+  FontSize_EN: 35
   languageFont: 0
 --- !u!1 &189761719 stripped
 GameObject:
@@ -4000,8 +4141,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Step2_Premill
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 52
+  FontSize_EN: 40
   languageFont: 0
 --- !u!114 &189761727
 MonoBehaviour:
@@ -4017,8 +4158,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Step2_Venner
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 52
+  FontSize_EN: 40
   languageFont: 0
 --- !u!114 &189761728
 MonoBehaviour:
@@ -4034,8 +4175,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Step2_Inlay/Onlay
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 52
+  FontSize_EN: 40
   languageFont: 0
 --- !u!114 &189761729
 MonoBehaviour:
@@ -4049,10 +4190,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa5757a572822c343a5ec5c6b6e9aba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  multiId: Step2_Single Crown
+  multiId: Step2_SingleCrown
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 52
+  FontSize_EN: 40
   languageFont: 0
 --- !u!114 &189761730
 MonoBehaviour:
@@ -4068,8 +4209,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Step2_Copping
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 52
+  FontSize_EN: 40
   languageFont: 0
 --- !u!224 &189761731 stripped
 RectTransform:
@@ -4714,7 +4855,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 319150168}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -4723,7 +4864,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 654, y: 56}
+  m_AnchoredPosition: {x: 678, y: 30.8}
   m_SizeDelta: {x: 552.5, y: 71.907}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &319150170
@@ -4740,8 +4881,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Single Crown_Optimize
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 48
+  FontSize_EN: 40
   languageFont: 0
 --- !u!114 &319150171
 MonoBehaviour:
@@ -4757,7 +4898,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -4768,12 +4909,12 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 48
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 0.78
   m_Text: "<size=40>Step3</size><b>\u653E\u7F6E\u6CE8\u91CB\u8207\u63D2\u5165\u65B9\u5411</b>"
 --- !u!222 &319150172
 CanvasRenderer:
@@ -4818,7 +4959,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 710, y: -621.97}
+  m_AnchoredPosition: {x: 681.1, y: -600}
   m_SizeDelta: {x: 547.5, y: 77.756}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &329631921
@@ -4835,8 +4976,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: GlassCermaic_Choose
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 48
+  FontSize_EN: 40
   languageFont: 0
 --- !u!114 &329631922
 MonoBehaviour:
@@ -4863,12 +5004,12 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 48
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 0.78
   m_Text: "<size=40>Step6</size><b>\u9EDE\u9078\u6B32\u52A0\u5DE5\u7B56\u7565\r\r</b>"
 --- !u!222 &329631923
 CanvasRenderer:
@@ -4987,7 +5128,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 386110147}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -4996,7 +5137,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 654, y: 56}
+  m_AnchoredPosition: {x: 678, y: 30.8}
   m_SizeDelta: {x: 552.5, y: 71.907}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &386110149
@@ -5013,8 +5154,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Venner_Optimize
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 48
+  FontSize_EN: 40
   languageFont: 0
 --- !u!114 &386110150
 MonoBehaviour:
@@ -5030,7 +5171,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -5041,12 +5182,12 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 48
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 0.78
   m_Text: "<size=40>Step3</size><b>\u653E\u7F6E\u6CE8\u91CB\u8207\u63D2\u5165\u65B9\u5411\r\r</b>"
 --- !u!222 &386110151
 CanvasRenderer:
@@ -5234,7 +5375,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 478449203}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -5243,7 +5384,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 772.80005, y: -617}
+  m_AnchoredPosition: {x: 680.7, y: -600}
   m_SizeDelta: {x: 547.5, y: 77.756}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &478449205
@@ -5260,8 +5401,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Single Crown_Design
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 48
+  FontSize_EN: 40
   languageFont: 0
 --- !u!114 &478449206
 MonoBehaviour:
@@ -5277,7 +5418,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -5288,12 +5429,12 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 48
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 0.78
   m_Text: "<size=40>Step6</size><b>\u8A2D\u8A08\u89E3\u5256\u51A0</b>"
 --- !u!222 &478449207
 CanvasRenderer:
@@ -5503,7 +5644,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -415, y: -619}
+  m_AnchoredPosition: {x: -410.3, y: -600}
   m_SizeDelta: {x: 552.5, y: 71.907}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &498342505
@@ -5520,8 +5661,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Premill_Build
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 48
+  FontSize_EN: 40
   languageFont: 0
 --- !u!114 &498342506
 MonoBehaviour:
@@ -5537,7 +5678,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -5548,12 +5689,12 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 48
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 0.78
   m_Text: "<size=40>Step3</size><b>\u5EFA\u7ACB\u690D\u9AD4\u7CFB\u7D71\u8CC7\u6599\u5EAB\r\r\r\r\r</b>"
 --- !u!222 &498342507
 CanvasRenderer:
@@ -5598,7 +5739,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 353, y: -624}
+  m_AnchoredPosition: {x: 260.7, y: -600}
   m_SizeDelta: {x: 550, y: 77.757}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &501774259
@@ -5615,8 +5756,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Premill_Forming
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 48
+  FontSize_EN: 40
   languageFont: 0
 --- !u!114 &501774260
 MonoBehaviour:
@@ -5632,7 +5773,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -5643,12 +5784,12 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 48
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 0.78
   m_Text: "<size=40>Step7</size><b>\u8A2D\u8A08\u4E0A\u534A\u90E8\r\r\r\r\r</b>"
 --- !u!222 &501774261
 CanvasRenderer:
@@ -5678,8 +5819,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Video_Tutorial
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 40
+  FontSize_EN: 35
   languageFont: 0
 --- !u!1 &543296241
 GameObject:
@@ -5774,8 +5915,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Step2_Copping
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 52
+  FontSize_EN: 40
   languageFont: 0
 --- !u!1 &610965282 stripped
 GameObject:
@@ -5797,8 +5938,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Step2_Venner
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 52
+  FontSize_EN: 40
   languageFont: 0
 --- !u!1 &638597936
 GameObject:
@@ -5826,7 +5967,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 638597936}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -5835,7 +5976,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 772.80005, y: -617}
+  m_AnchoredPosition: {x: 680.7, y: -600}
   m_SizeDelta: {x: 547.5, y: 77.756}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &638597938
@@ -5852,8 +5993,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Venner_Design
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 48
+  FontSize_EN: 40
   languageFont: 0
 --- !u!114 &638597939
 MonoBehaviour:
@@ -5869,7 +6010,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -5880,12 +6021,12 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 48
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 0.78
   m_Text: "<size=40>Step6</size><b>\u8A2D\u8A08\u8CBC\u9762\r\r</b>"
 --- !u!222 &638597940
 CanvasRenderer:
@@ -5930,7 +6071,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -186, y: -623}
+  m_AnchoredPosition: {x: -243.7, y: -600}
   m_SizeDelta: {x: 547.5, y: 77.756}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &662500910
@@ -5947,8 +6088,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Premill_Abutment
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 48
+  FontSize_EN: 40
   languageFont: 0
 --- !u!114 &662500911
 MonoBehaviour:
@@ -5964,7 +6105,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -5975,12 +6116,12 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 48
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 0.78
   m_Text: "<size=40>Step6</size><b>core\u578B\u614B\u5851\u5F62\r</b>"
 --- !u!222 &662500912
 CanvasRenderer:
@@ -6253,8 +6394,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Step2_Premill
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 52
+  FontSize_EN: 40
   languageFont: 0
 --- !u!1 &716667019
 GameObject:
@@ -6291,7 +6432,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 707.5, y: 47.254}
+  m_AnchoredPosition: {x: 678, y: 30.8}
   m_SizeDelta: {x: 552.5, y: 71.907}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &716667021
@@ -6308,7 +6449,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -6319,12 +6460,12 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 48
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 0.78
   m_Text: "<size=40>Step3</size><b>\u653E\u7F6E\u6CE8\u91CB\u8207\u63D2\u5165\u65B9\u5411</b>"
 --- !u!222 &716667022
 CanvasRenderer:
@@ -6348,8 +6489,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Copping_Optimize
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 48
+  FontSize_EN: 40
   languageFont: 0
 --- !u!1 &717681541
 GameObject:
@@ -6377,7 +6518,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 717681541}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -6386,7 +6527,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -220, y: 47}
+  m_AnchoredPosition: {x: -244.9, y: 30.8}
   m_SizeDelta: {x: 520.6, y: 78}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &717681543
@@ -6403,8 +6544,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Premill_Set
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 48
+  FontSize_EN: 40
   languageFont: 0
 --- !u!114 &717681544
 MonoBehaviour:
@@ -6420,7 +6561,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -6431,12 +6572,12 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 48
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 0.78
   m_Text: "<size=40>Step2</size><b>\u9078\u64C7\u500B\u6027\u5316\u57FA\u53F0\r\r\r\r</b>"
 --- !u!222 &717681545
 CanvasRenderer:
@@ -6655,7 +6796,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 721, y: -624.97}
+  m_AnchoredPosition: {x: 683.9, y: -600}
   m_SizeDelta: {x: 547.5, y: 77.756}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &825672456
@@ -6672,8 +6813,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Zirconia_Choose
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 48
+  FontSize_EN: 40
   languageFont: 0
 --- !u!114 &825672457
 MonoBehaviour:
@@ -6689,7 +6830,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -6700,12 +6841,12 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 48
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 0.78
   m_Text: "<size=40>Step6</size><b>\u9EDE\u9078\u6B32\u52A0\u5DE5\u7B56\u7565\r\r</b>"
 --- !u!222 &825672458
 CanvasRenderer:
@@ -6814,7 +6955,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 838543446}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -6823,7 +6964,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 68, y: -618}
+  m_AnchoredPosition: {x: 0, y: -600}
   m_SizeDelta: {x: 550, y: 77.757}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &838543448
@@ -6840,8 +6981,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Inlay/Onlay_Set
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 48
+  FontSize_EN: 40
   languageFont: 0
 --- !u!114 &838543449
 MonoBehaviour:
@@ -6857,7 +6998,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -6868,12 +7009,12 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 48
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 0.78
   m_Text: "<size=40>Step5</size><b>\u8ABF\u6574\u4EE3\u578B\u63A5\u53E3\r</b>"
 --- !u!222 &838543450
 CanvasRenderer:
@@ -6909,7 +7050,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 869486289}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -6918,8 +7059,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.10002, y: -201.70007}
-  m_SizeDelta: {x: 562, y: 72.9}
+  m_AnchoredPosition: {x: 9.775005, y: -205.8}
+  m_SizeDelta: {x: 563, y: 119}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &869486291
 MonoBehaviour:
@@ -6935,8 +7076,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: digitalWorkflow_Step3
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 52
+  FontSize_EN: 40
   languageFont: 0
 --- !u!114 &869486292
 MonoBehaviour:
@@ -6958,17 +7099,17 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: abc68f21729d4d74592ead6cfe753440, type: 3}
-    m_FontSize: 47
+    m_FontSize: 52
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 50
+    m_MinSize: 4
+    m_MaxSize: 53
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 0.78
   m_Text: "Step3 CAM\u5047\u7259\u6392\u7248"
 --- !u!222 &869486293
 CanvasRenderer:
@@ -7735,6 +7876,7 @@ GameObject:
   - component: {fileID: 930040521}
   - component: {fileID: 930040523}
   - component: {fileID: 930040522}
+  - component: {fileID: 930040524}
   m_Layer: 5
   m_Name: Image_Step5
   m_TagString: Untagged
@@ -7798,6 +7940,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 930040520}
   m_CullTransparentMesh: 0
+--- !u!225 &930040524
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 930040520}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &935406751
 GameObject:
   m_ObjectHideFlags: 0
@@ -7824,7 +7978,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 935406751}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -7833,7 +7987,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -569, y: -618.03}
+  m_AnchoredPosition: {x: -672.4, y: -600}
   m_SizeDelta: {x: 559.9, y: 77.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &935406753
@@ -7850,8 +8004,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Venner_Edit
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 48
+  FontSize_EN: 40
   languageFont: 0
 --- !u!114 &935406754
 MonoBehaviour:
@@ -7867,7 +8021,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -7878,12 +8032,12 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 48
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 0.78
   m_Text: "<size=40>Step4</size><b>\u6293\u53D6\u908A\u7DE3\u7DDA\r\r</b>"
 --- !u!222 &935406755
 CanvasRenderer:
@@ -7919,7 +8073,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 977702366}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -7928,7 +8082,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -636, y: 49.395996}
+  m_AnchoredPosition: {x: -673.97, y: 30.8}
   m_SizeDelta: {x: 520.6, y: 85.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &977702368
@@ -7945,8 +8099,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Inlay/Onlay_Create
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 48
+  FontSize_EN: 40
   languageFont: 0
 --- !u!114 &977702369
 MonoBehaviour:
@@ -7962,7 +8116,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -7973,12 +8127,12 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 48
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 0.78
   m_Text: "<size=40>Step1</size><b>\u5275\u5EFA\u5D4C\u9AD4\u8A02\u55AE\r</b>"
 --- !u!222 &977702370
 CanvasRenderer:
@@ -8155,7 +8309,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -641, y: 44}
+  m_AnchoredPosition: {x: -669.45, y: 30.8}
   m_SizeDelta: {x: 520.6, y: 85.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1007440696
@@ -8172,8 +8326,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Zirconia_Define
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 48
+  FontSize_EN: 40
   languageFont: 0
 --- !u!114 &1007440697
 MonoBehaviour:
@@ -8189,7 +8343,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -8200,12 +8354,12 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 48
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 0.78
   m_Text: "<size=40>Step1</size><b>\u5275\u5EFA\u6C27\u5316\u92EF\u9805\u76EE\r\r\r</b>"
 --- !u!222 &1007440698
 CanvasRenderer:
@@ -8250,7 +8404,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 94, y: -625.97}
+  m_AnchoredPosition: {x: 4.8, y: -600}
   m_SizeDelta: {x: 550, y: 77.757}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1010033253
@@ -8267,8 +8421,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Zirconia_Move
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 48
+  FontSize_EN: 40
   languageFont: 0
 --- !u!114 &1010033254
 MonoBehaviour:
@@ -8284,7 +8438,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -8295,12 +8449,12 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 48
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 0.78
   m_Text: "<size=40>Step5</size><b>\u8ABF\u6574\u652F\u6490\u68D2\r\r\r\r\r</b>"
 --- !u!222 &1010033255
 CanvasRenderer:
@@ -8345,7 +8499,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -394, y: 45}
+  m_AnchoredPosition: {x: -413, y: 30.8}
   m_SizeDelta: {x: 520.6, y: 85.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1035498095
@@ -8362,8 +8516,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Premill_Define
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 48
+  FontSize_EN: 40
   languageFont: 0
 --- !u!114 &1035498096
 MonoBehaviour:
@@ -8379,7 +8533,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -8390,12 +8544,12 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 48
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 0.78
   m_Text: "<size=40>Step1</size><b>\u5275\u5EFAPremill\u9805\u76EE\r\r\r\r\r</b>"
 --- !u!222 &1035498097
 CanvasRenderer:
@@ -8513,7 +8667,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 768, y: 48}
+  m_AnchoredPosition: {x: 682.3, y: 30.8}
   m_SizeDelta: {x: 552.5, y: 71.907}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1069173154
@@ -8530,8 +8684,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: GlassCermaic_ChooseMaterials
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 48
+  FontSize_EN: 40
   languageFont: 0
 --- !u!114 &1069173155
 MonoBehaviour:
@@ -8558,12 +8712,12 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 48
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 0.78
   m_Text: "<size=40>Step3</size><b>\u9078\u64C7\u6599\u76E4\r\r\r\r</b>"
 --- !u!222 &1069173156
 CanvasRenderer:
@@ -8681,7 +8835,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 97.2, y: -626.67}
+  m_AnchoredPosition: {x: 0, y: -600}
   m_SizeDelta: {x: 550, y: 77.757}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1084391855
@@ -8698,7 +8852,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -8709,12 +8863,12 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 48
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 0.78
   m_Text: "<size=40>Step5</size><b>\u8ABF\u6574\u4EE3\u578B\u63A5\u53E3</b>"
 --- !u!222 &1084391856
 CanvasRenderer:
@@ -8738,8 +8892,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Copping_Set
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 48
+  FontSize_EN: 40
   languageFont: 0
 --- !u!1 &1100089806
 GameObject:
@@ -8776,7 +8930,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -652.8, y: 42.65}
+  m_AnchoredPosition: {x: -673.97, y: 30.8}
   m_SizeDelta: {x: 520.6, y: 85.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1100089808
@@ -8793,7 +8947,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -8804,13 +8958,13 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 48
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "<size=40>Step1</size><b>\u5275\u5EFA\u57FA\u5E95\u51A0\u8A02\u55AE</b>"
+    m_VerticalOverflow: 1
+    m_LineSpacing: 0.78
+  m_Text: "<size=38>Step1</size><b>\u5275\u5EFA\u57FA\u5E95\u51A0\u8A02\u55AE</b>"
 --- !u!222 &1100089809
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8833,8 +8987,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Copping_Create
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 48
+  FontSize_EN: 40
   languageFont: 0
 --- !u!1 &1128133913
 GameObject:
@@ -8862,7 +9016,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1128133913}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -8871,7 +9025,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 51, y: 53}
+  m_AnchoredPosition: {x: 0, y: 30.8}
   m_SizeDelta: {x: 520.6, y: 78}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1128133915
@@ -8888,8 +9042,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Venner_Define
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 48
+  FontSize_EN: 40
   languageFont: 0
 --- !u!114 &1128133916
 MonoBehaviour:
@@ -8905,7 +9059,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -8916,12 +9070,12 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 48
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 0.78
   m_Text: "<size=40>Step2</size><b>\u5B9A\u7FA9\u54AC\u5408\u5E73\u9762\r\r\r</b>"
 --- !u!222 &1128133917
 CanvasRenderer:
@@ -8963,7 +9117,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1146806094}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -8972,7 +9126,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 51, y: 53}
+  m_AnchoredPosition: {x: 0, y: 30.8}
   m_SizeDelta: {x: 520.6, y: 78}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1146806096
@@ -8989,8 +9143,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Single Crown_Define
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 48
+  FontSize_EN: 40
   languageFont: 0
 --- !u!114 &1146806097
 MonoBehaviour:
@@ -9006,7 +9160,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -9017,12 +9171,12 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 48
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 0.78
   m_Text: "<size=40>Step2</size><b>\u5B9A\u7FA9\u54AC\u5408\u5E73\u9762</b>"
 --- !u!222 &1146806098
 CanvasRenderer:
@@ -9213,7 +9367,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 774, y: 50.604004}
+  m_AnchoredPosition: {x: 686, y: 30.8}
   m_SizeDelta: {x: 552.5, y: 71.907}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1217144451
@@ -9230,8 +9384,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Zirconia_ChooseMaterials
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 48
+  FontSize_EN: 40
   languageFont: 0
 --- !u!114 &1217144452
 MonoBehaviour:
@@ -9247,7 +9401,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -9258,12 +9412,12 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 48
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 0.78
   m_Text: "<size=40>Step3</size><b>\u9078\u64C7\u6599\u76E4\r\r\r</b>"
 --- !u!222 &1217144453
 CanvasRenderer:
@@ -9341,7 +9495,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1259300409}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -9350,8 +9504,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -9.6, y: -266.4}
-  m_SizeDelta: {x: 653.6, y: 191.2}
+  m_AnchoredPosition: {x: 9.775005, y: -205.8}
+  m_SizeDelta: {x: 637.2, y: 163.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1259300411
 MonoBehaviour:
@@ -9367,8 +9521,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: digitalWorkflow_Step5
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 52
+  FontSize_EN: 40
   languageFont: 0
 --- !u!114 &1259300412
 MonoBehaviour:
@@ -9390,17 +9544,17 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: abc68f21729d4d74592ead6cfe753440, type: 3}
-    m_FontSize: 48
+    m_FontSize: 52
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 54
-    m_Alignment: 1
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 0.78
   m_Text: "Step5 \u71D2\u7D50\u70E4\u74F7\r"
 --- !u!222 &1259300413
 CanvasRenderer:
@@ -9445,7 +9599,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -561.8, y: -626.7}
+  m_AnchoredPosition: {x: -672.4, y: -600}
   m_SizeDelta: {x: 559.9, y: 77.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1260365184
@@ -9462,7 +9616,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -9473,12 +9627,12 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 48
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 0.78
   m_Text: "<size=40>Step4</size><b>\u6293\u53D6\u908A\u7DE3\u7DDA</b>"
 --- !u!222 &1260365185
 CanvasRenderer:
@@ -9502,8 +9656,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Copping_Edit
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 48
+  FontSize_EN: 40
   languageFont: 0
 --- !u!1 &1265647224
 GameObject:
@@ -9516,6 +9670,7 @@ GameObject:
   - component: {fileID: 1265647225}
   - component: {fileID: 1265647227}
   - component: {fileID: 1265647226}
+  - component: {fileID: 1265647228}
   m_Layer: 5
   m_Name: Image_Step3
   m_TagString: Untagged
@@ -9580,6 +9735,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1265647224}
   m_CullTransparentMesh: 0
+--- !u!225 &1265647228
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1265647224}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1280777209
 GameObject:
   m_ObjectHideFlags: 0
@@ -9606,7 +9773,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1280777209}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -9615,7 +9782,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 654, y: 56}
+  m_AnchoredPosition: {x: 678, y: 30.8}
   m_SizeDelta: {x: 552.5, y: 71.907}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1280777211
@@ -9632,8 +9799,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Inlay/Onlay_Optimize
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 48
+  FontSize_EN: 40
   languageFont: 0
 --- !u!114 &1280777212
 MonoBehaviour:
@@ -9649,7 +9816,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -9660,12 +9827,12 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 48
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 0.78
   m_Text: "<size=40>Step3</size><b>\u653E\u7F6E\u6CE8\u91CB\u8207\u63D2\u5165\u65B9\u5411\r</b>"
 --- !u!222 &1280777213
 CanvasRenderer:
@@ -9710,7 +9877,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -601, y: -623}
+  m_AnchoredPosition: {x: -669.2, y: -600}
   m_SizeDelta: {x: 559.9, y: 77.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1335802417
@@ -9727,8 +9894,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: GlassCermaic_Adjust
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 48
+  FontSize_EN: 40
   languageFont: 0
 --- !u!114 &1335802418
 MonoBehaviour:
@@ -9755,12 +9922,12 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 48
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 0.78
   m_Text: "<size=40>Step4</size><b>\u8ABF\u6574\u52A0\u5DE5\u4F4D\u7F6E\r\r\r</b>"
 --- !u!222 &1335802419
 CanvasRenderer:
@@ -9805,7 +9972,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 48.2, y: 50.3}
+  m_AnchoredPosition: {x: 0, y: 30.8}
   m_SizeDelta: {x: 520.6, y: 78}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1336646683
@@ -9822,7 +9989,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -9833,12 +10000,12 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 48
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 0.78
   m_Text: "<size=40>Step2</size><b>\u5B9A\u7FA9\u54AC\u5408\u5E73\u9762</b>"
 --- !u!222 &1336646684
 CanvasRenderer:
@@ -9862,8 +10029,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Copping_Define
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 48
+  FontSize_EN: 40
   languageFont: 0
 --- !u!1 &1339593235
 GameObject:
@@ -9891,7 +10058,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1339593235}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -9900,7 +10067,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 68, y: -618}
+  m_AnchoredPosition: {x: 0, y: -600}
   m_SizeDelta: {x: 550, y: 77.757}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1339593237
@@ -9917,8 +10084,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Single Crown_Set
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 48
+  FontSize_EN: 40
   languageFont: 0
 --- !u!114 &1339593238
 MonoBehaviour:
@@ -9934,7 +10101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -9945,12 +10112,12 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 48
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 0.78
   m_Text: "<size=40>Step5</size><b>\u8ABF\u6574\u4EE3\u578B\u63A5\u53E3</b>"
 --- !u!222 &1339593239
 CanvasRenderer:
@@ -10018,18 +10185,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: abc68f21729d4d74592ead6cfe753440, type: 3}
-    m_FontSize: 53
+    m_FontSize: 52
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 4
     m_MaxSize: 79
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 1
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "Step1 \u6578\u4F4D\u53D6\u6A21"
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 1
+    m_LineSpacing: 0.78
+  m_Text: "<size=36>Step1</size> \u6578\u4F4D\u53D6\u6A21"
 --- !u!222 &1368801672
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10052,8 +10219,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: digitalWorkflow_Step1
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 52
+  FontSize_EN: 40
   languageFont: 0
 --- !u!1 &1369269011 stripped
 GameObject:
@@ -10075,8 +10242,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Step2_Inlay/Onlay
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 52
+  FontSize_EN: 40
   languageFont: 0
 --- !u!1 &1377466677
 GameObject:
@@ -10138,7 +10305,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1402194169}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -10147,7 +10314,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -706, y: 43.395996}
+  m_AnchoredPosition: {x: -756.5, y: 30.8}
   m_SizeDelta: {x: 520.6, y: 85.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1402194171
@@ -10162,10 +10329,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa5757a572822c343a5ec5c6b6e9aba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  multiId: Premill_Define
+  multiId: Premill_Create
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 48
+  FontSize_EN: 40
   languageFont: 0
 --- !u!114 &1402194172
 MonoBehaviour:
@@ -10181,7 +10348,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -10192,12 +10359,12 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 48
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 0.78
   m_Text: "<size=40>Step1</size><b>\u5275\u5EFA\u57FA\u53F0\u8A02\u55AE\r\r\r</b>"
 --- !u!222 &1402194173
 CanvasRenderer:
@@ -10278,7 +10445,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1434507410}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -10287,7 +10454,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -636, y: 49.395996}
+  m_AnchoredPosition: {x: -673.97, y: 30.8}
   m_SizeDelta: {x: 520.6, y: 85.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1434507412
@@ -10304,8 +10471,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Single Crown_Create
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 48
+  FontSize_EN: 40
   languageFont: 0
 --- !u!114 &1434507413
 MonoBehaviour:
@@ -10321,7 +10488,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -10332,12 +10499,12 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 48
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 0.78
   m_Text: "<size=40>Step1</size><b>\u5275\u5EFA\u89E3\u5256\u51A0\u8A02\u55AE</b>"
 --- !u!222 &1434507414
 CanvasRenderer:
@@ -10474,7 +10641,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1458304316}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -10483,8 +10650,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -9.6, y: -266.4}
-  m_SizeDelta: {x: 653.6, y: 191.2}
+  m_AnchoredPosition: {x: 9.775005, y: -205.8}
+  m_SizeDelta: {x: 622.3, y: 104.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1458304318
 MonoBehaviour:
@@ -10500,8 +10667,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: digitalWorkflow_Step4
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 52
+  FontSize_EN: 40
   languageFont: 0
 --- !u!114 &1458304319
 MonoBehaviour:
@@ -10523,17 +10690,17 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: abc68f21729d4d74592ead6cfe753440, type: 3}
-    m_FontSize: 48
+    m_FontSize: 52
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 54
-    m_Alignment: 1
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 1
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 1
+    m_LineSpacing: 0.78
   m_Text: "Step4 \u9F52\u96D5\u6A5F\u52A0\u5DE5"
 --- !u!222 &1458304320
 CanvasRenderer:
@@ -10716,7 +10883,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1532797433}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -10725,7 +10892,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 51, y: 53}
+  m_AnchoredPosition: {x: 0, y: 30.8}
   m_SizeDelta: {x: 520.6, y: 78}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1532797435
@@ -10742,8 +10909,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Inlay/Onlay_Define
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 48
+  FontSize_EN: 40
   languageFont: 0
 --- !u!114 &1532797436
 MonoBehaviour:
@@ -10759,7 +10926,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -10770,12 +10937,12 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 48
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 0.78
   m_Text: "<size=40>Step2</size><b>\u5B9A\u7FA9\u54AC\u5408\u5E73\u9762\r</b>"
 --- !u!222 &1532797437
 CanvasRenderer:
@@ -10914,7 +11081,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1610541859}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -10923,7 +11090,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -569, y: -618.03}
+  m_AnchoredPosition: {x: -672.4, y: -600}
   m_SizeDelta: {x: 559.9, y: 77.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1610541861
@@ -10940,8 +11107,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Inlay/Onlay_Edit
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 48
+  FontSize_EN: 40
   languageFont: 0
 --- !u!114 &1610541862
 MonoBehaviour:
@@ -10957,7 +11124,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -10968,12 +11135,12 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 48
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 0.78
   m_Text: "<size=40>Step4</size><b>\u6293\u53D6\u908A\u7DE3\u7DDA\r</b>"
 --- !u!222 &1610541863
 CanvasRenderer:
@@ -11003,8 +11170,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Step2_SingleCrown
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 52
+  FontSize_EN: 40
   languageFont: 0
 --- !u!1 &1669581386
 GameObject:
@@ -11091,7 +11258,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1679377500}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -11100,7 +11267,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -569, y: -618.03}
+  m_AnchoredPosition: {x: -672.4, y: -600}
   m_SizeDelta: {x: 559.9, y: 77.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1679377502
@@ -11117,8 +11284,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Single Crown_Edit
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 48
+  FontSize_EN: 40
   languageFont: 0
 --- !u!114 &1679377503
 MonoBehaviour:
@@ -11134,7 +11301,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -11145,12 +11312,12 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 48
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 0.78
   m_Text: "<size=40>Step4</size><b>\u6293\u53D6\u908A\u7DE3\u7DDA</b>"
 --- !u!222 &1679377504
 CanvasRenderer:
@@ -11195,8 +11362,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 884, y: -623}
-  m_SizeDelta: {x: 547.5, y: 77.756}
+  m_AnchoredPosition: {x: 767.6, y: -600}
+  m_SizeDelta: {x: 547.5, y: 150.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1680747737
 MonoBehaviour:
@@ -11212,8 +11379,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Premill_Complete
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 48
+  FontSize_EN: 40
   languageFont: 0
 --- !u!114 &1680747738
 MonoBehaviour:
@@ -11229,7 +11396,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -11240,12 +11407,12 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 48
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 0.78
   m_Text: "<size=40>Step8</size><b>\u5B8C\u6210\u57FA\u53F0\r\r\r</b>"
 --- !u!222 &1680747739
 CanvasRenderer:
@@ -11296,7 +11463,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 92, y: 45}
+  m_AnchoredPosition: {x: 6.4, y: 30.8}
   m_SizeDelta: {x: 520.6, y: 78}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1757547810
@@ -11313,8 +11480,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: GlassCermaic_Import
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 48
+  FontSize_EN: 40
   languageFont: 0
 --- !u!114 &1757547811
 MonoBehaviour:
@@ -11341,12 +11508,12 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 48
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 0.78
   m_Text: "<size=40>Step2</size><b>\u8F09\u5165\u6A94\u6848\r\r\r\r</b>"
 --- !u!222 &1757547812
 CanvasRenderer:
@@ -11455,7 +11622,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1852007903}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -11464,7 +11631,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -636, y: 49.395996}
+  m_AnchoredPosition: {x: -673.97, y: 30.8}
   m_SizeDelta: {x: 520.6, y: 85.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1852007905
@@ -11481,8 +11648,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Venner_Create
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 48
+  FontSize_EN: 40
   languageFont: 0
 --- !u!114 &1852007906
 MonoBehaviour:
@@ -11498,7 +11665,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -11509,12 +11676,12 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 48
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 0.78
   m_Text: "<size=40>Step1</size><b>\u5275\u5EFA\u8CBC\u9762\u8A02\u55AE\r\r</b>"
 --- !u!222 &1852007907
 CanvasRenderer:
@@ -11559,7 +11726,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 768, y: -626.6705}
+  m_AnchoredPosition: {x: 680.7, y: -600}
   m_SizeDelta: {x: 547.5, y: 77.756}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1858591281
@@ -11576,7 +11743,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -11587,12 +11754,12 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 48
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 0.78
   m_Text: "<size=40>Step6</size><b>\u8A2D\u8A08\u57FA\u5E95\u51A0</b>"
 --- !u!222 &1858591282
 CanvasRenderer:
@@ -11616,8 +11783,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Copping_Design
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 48
+  FontSize_EN: 40
   languageFont: 0
 --- !u!1 &1884407131
 GameObject:
@@ -11711,7 +11878,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1885832444}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -11720,7 +11887,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 68, y: -618}
+  m_AnchoredPosition: {x: 0, y: -600}
   m_SizeDelta: {x: 550, y: 77.757}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1885832446
@@ -11737,8 +11904,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: Venner_Set
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 48
+  FontSize_EN: 40
   languageFont: 0
 --- !u!114 &1885832447
 MonoBehaviour:
@@ -11754,7 +11921,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -11765,12 +11932,12 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 48
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 0.78
   m_Text: "<size=40>Step5</size><b>\u8ABF\u6574\u4EE3\u578B\u63A5\u53E3\r\r\r\r</b>"
 --- !u!222 &1885832448
 CanvasRenderer:
@@ -11902,8 +12069,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -202.7}
-  m_SizeDelta: {x: 654.6, y: 72.9}
+  m_AnchoredPosition: {x: 9.775005, y: -205.8}
+  m_SizeDelta: {x: 622.3, y: 104.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1896277263
 MonoBehaviour:
@@ -11919,8 +12086,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: digitalWorkflow_Step2
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 52
+  FontSize_EN: 40
   languageFont: 0
 --- !u!114 &1896277264
 MonoBehaviour:
@@ -11942,17 +12109,17 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: abc68f21729d4d74592ead6cfe753440, type: 3}
-    m_FontSize: 48
+    m_FontSize: 52
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 50
+    m_MinSize: 4
+    m_MaxSize: 53
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 0.78
   m_Text: "Step2 CAD\u5047\u7259\u8A2D\u8A08"
 --- !u!222 &1896277265
 CanvasRenderer:
@@ -12141,7 +12308,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.5, y: -291.5}
+  m_AnchoredPosition: {x: 3.5, y: -295}
   m_SizeDelta: {x: 388, y: 74}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &2018154996
@@ -12323,7 +12490,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -690, y: -624}
+  m_AnchoredPosition: {x: -761.1, y: -600}
   m_SizeDelta: {x: 550, y: 77.757}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2029373153
@@ -12338,10 +12505,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa5757a572822c343a5ec5c6b6e9aba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  multiId: Premill_Define
+  multiId: Premill_DefineInsertion
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 48
+  FontSize_EN: 40
   languageFont: 0
 --- !u!114 &2029373154
 MonoBehaviour:
@@ -12357,7 +12524,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -12368,12 +12535,12 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 48
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 0.78
   m_Text: "<size=40>Step5</size><b>\u653E\u7F6E\u63D2\u5165\u65B9\u5411\r\r\r\r\r</b>"
 --- !u!222 &2029373155
 CanvasRenderer:
@@ -12424,7 +12591,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -655, y: 41.395996}
+  m_AnchoredPosition: {x: -665.6, y: 30.8}
   m_SizeDelta: {x: 520.6, y: 85.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2107493979
@@ -12441,8 +12608,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: GlassCermaic_Define
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 48
+  FontSize_EN: 40
   languageFont: 0
 --- !u!114 &2107493980
 MonoBehaviour:
@@ -12469,12 +12636,12 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 48
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 0.78
   m_Text: "<size=40>Step1</size><b>\u5275\u5EFA\u73BB\u7483\u9676\u74F7\u9805\u76EE\r\r\r\r</b>"
 --- !u!222 &2107493981
 CanvasRenderer:
