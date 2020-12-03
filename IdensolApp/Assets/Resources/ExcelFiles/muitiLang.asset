@@ -88,27 +88,25 @@ MonoBehaviour:
     simplifiedChinese: "\u786E\u8BA4"
     english: OK
   - id: digitalWorkflow_Step1
-    traditionalChinese: "Step1 \u6578\u4F4D\u53D6\u6A21"
-    simplifiedChinese: "Step1 \u6570\u4F4D\u53D6\u6A21"
-    english: Step1 Digital Scanning
+    traditionalChinese: "<size=36>Step1</size> \u6578\u4F4D\u53D6\u6A21"
+    simplifiedChinese: "<size=36>Step1</size> \u6570\u4F4D\u53D6\u6A21"
+    english: <size=30>Step1</size> <b>Digital Scanning</b>
   - id: digitalWorkflow_Step2
-    traditionalChinese: "Step2 CAD\u5047\u7259\u8A2D\u8A08"
-    simplifiedChinese: "Step2 CAD\u5047\u7259\u8BBE\u8BA1"
-    english: Step2 CAD-Prosthetic Design
+    traditionalChinese: "<size=36>Step2</size> CAD\u5047\u7259\u8A2D\u8A08"
+    simplifiedChinese: "<size=36>Step2</size> CAD\u5047\u7259\u8BBE\u8BA1"
+    english: <size=30>Step2</size> <b>CAD-Prosthetic Design</b>
   - id: digitalWorkflow_Step3
-    traditionalChinese: "Step3 CAM\u5047\u7259\u6392\u7248"
-    simplifiedChinese: "Step3 CAM\u5047\u7259\u6392\u7248"
-    english: Step3 CAM-Prosthetic Planning
+    traditionalChinese: "<size=36>Step3</size> CAM\u5047\u7259\u6392\u7248"
+    simplifiedChinese: "<size=36>Step3</size> CAM\u5047\u7259\u6392\u7248"
+    english: <size=30>Step3</size> <b>CAM-Prosthetic Planning</b>
   - id: digitalWorkflow_Step4
-    traditionalChinese: "Step4 \u9F52\u96D5\u6A5F\u52A0\u5DE5"
-    simplifiedChinese: "Step4 \u9F7F\u96D5\u673A\u52A0\u5DE5"
-    english: Step4  Milling
+    traditionalChinese: "<size=36>Step4</size> \u9F52\u96D5\u6A5F\u52A0\u5DE5"
+    simplifiedChinese: "<size=36>Step4</size> \u9F7F\u96D5\u673A\u52A0\u5DE5"
+    english: <size=30>Step4</size>  <b>Milling</b>
   - id: digitalWorkflow_Step5
-    traditionalChinese: "Step5 \u71D2\u7D50\u70E4\u74F7"
-    simplifiedChinese: "Step5 \u70E7\u7ED3\u70E4\u74F7"
-    english: 'Step5 Sintering and
-
-      Crystallization'
+    traditionalChinese: "<size=36>Step5</size> \u71D2\u7D50\u70E4\u74F7"
+    simplifiedChinese: "<size=36>Step5</size> \u70E7\u7ED3\u70E4\u74F7"
+    english: <size=30>Step5</size> <b>Sintering and Crystallization</b>
   - id: digitalWorkflow_Designsteps
     traditionalChinese: "\u770B\u8A2D\u8A08\u6B65\u9A5F"
     simplifiedChinese: "\u770B\u8BBE\u8BA1\u6B65\u9AA4"
@@ -182,133 +180,133 @@ MonoBehaviour:
     simplifiedChinese: Premill
     english: Premill
   - id: Copping_Create
-    traditionalChinese: "\u5275\u5EFA\u57FA\u5E95\u51A0\u8A02\u55AE"
-    simplifiedChinese: "\u521B\u5EFA\u57FA\u5E95\u51A0\u8BA2\u5355"
-    english: Create a order for copping
+    traditionalChinese: "<size=38>Step1</size> \u5275\u5EFA\u57FA\u5E95\u51A0\u8A02\u55AE"
+    simplifiedChinese: "<size=38>Step1</size> \u521B\u5EFA\u57FA\u5E95\u51A0\u8BA2\u5355"
+    english: <size=30>Step1</size> Create a order for copping
   - id: Copping_Define
-    traditionalChinese: "\u5B9A\u7FA9\u54AC\u5408\u5E73\u9762"
-    simplifiedChinese: "\u5B9A\u4E49\u54AC\u5408\u5E73\u9762"
-    english: Define occlusal plane
+    traditionalChinese: "<size=38>Step2</size> \u5B9A\u7FA9\u54AC\u5408\u5E73\u9762"
+    simplifiedChinese: "<size=38>Step2</size> \u5B9A\u4E49\u54AC\u5408\u5E73\u9762"
+    english: <size=30>Step2</size> Define occlusal plane
   - id: Copping_Optimize
-    traditionalChinese: "\u653E\u7F6E\u6CE8\u91CB\u8207\u63D2\u5165\u65B9\u5411"
-    simplifiedChinese: "\u653E\u7F6E\u6CE8\u91CA\u4E0E\u63D2\u5165\u65B9\u5411"
-    english: Optimize directions
+    traditionalChinese: "<size=38>Step3</size> \u653E\u7F6E\u6CE8\u91CB\u8207\u63D2\u5165\u65B9\u5411"
+    simplifiedChinese: "<size=38>Step3</size> \u653E\u7F6E\u6CE8\u91CA\u4E0E\u63D2\u5165\u65B9\u5411"
+    english: <size=30>Step3</size> Optimize directions
   - id: Copping_Edit
-    traditionalChinese: "\u6293\u53D6\u908A\u7DE3\u7DDA"
-    simplifiedChinese: "\u6293\u53D6\u8FB9\u7F18\u7EBF"
-    english: Edit margin line
+    traditionalChinese: "<size=38>Step4</size> \u6293\u53D6\u908A\u7DE3\u7DDA"
+    simplifiedChinese: "<size=38>Step4</size> \u6293\u53D6\u8FB9\u7F18\u7EBF"
+    english: <size=30>Step4</size> Edit margin line
   - id: Copping_Set
-    traditionalChinese: "\u8ABF\u6574\u4EE3\u578B\u63A5\u53E3"
-    simplifiedChinese: "\u8C03\u6574\u4EE3\u578B\u63A5\u53E3"
-    english: Set interfaces
+    traditionalChinese: "<size=38>Step5</size> \u8ABF\u6574\u4EE3\u578B\u63A5\u53E3"
+    simplifiedChinese: "<size=38>Step5</size> \u8C03\u6574\u4EE3\u578B\u63A5\u53E3"
+    english: <size=30>Step5</size> Set interfaces
   - id: Copping_Design
-    traditionalChinese: "\u8A2D\u8A08\u57FA\u5E95\u51A0"
-    simplifiedChinese: "\u8BBE\u8BA1\u57FA\u5E95\u51A0"
-    english: Copping design
+    traditionalChinese: "<size=38>Step6</size> \u8A2D\u8A08\u57FA\u5E95\u51A0"
+    simplifiedChinese: "<size=38>Step6</size> \u8BBE\u8BA1\u57FA\u5E95\u51A0"
+    english: <size=30>Step6</size> Copping design
   - id: Single Crown_Create
-    traditionalChinese: "\u5275\u5EFA\u89E3\u5256\u51A0\u8A02\u55AE"
-    simplifiedChinese: "\u521B\u5EFA\u89E3\u5256\u51A0\u8BA2\u5355"
-    english: Create a order for crown
+    traditionalChinese: "<size=38>Step1</size> \u5275\u5EFA\u89E3\u5256\u51A0\u8A02\u55AE"
+    simplifiedChinese: "<size=38>Step1</size> \u521B\u5EFA\u89E3\u5256\u51A0\u8BA2\u5355"
+    english: <size=30>Step1</size> Create a order for crown
   - id: Single Crown_Define
-    traditionalChinese: "\u5B9A\u7FA9\u54AC\u5408\u5E73\u9762"
-    simplifiedChinese: "\u5B9A\u4E49\u54AC\u5408\u5E73\u9762"
-    english: Define occlusal plane
+    traditionalChinese: "<size=38>Step2</size> \u5B9A\u7FA9\u54AC\u5408\u5E73\u9762"
+    simplifiedChinese: "<size=38>Step2</size> \u5B9A\u4E49\u54AC\u5408\u5E73\u9762"
+    english: <size=30>Step2</size> Define occlusal plane
   - id: Single Crown_Optimize
-    traditionalChinese: "\u653E\u7F6E\u6CE8\u91CB\u8207\u63D2\u5165\u65B9\u5411"
-    simplifiedChinese: "\u653E\u7F6E\u6CE8\u91CA\u4E0E\u63D2\u5165\u65B9\u5411"
-    english: Optimize directions
+    traditionalChinese: "<size=38>Step3</size> \u653E\u7F6E\u6CE8\u91CB\u8207\u63D2\u5165\u65B9\u5411"
+    simplifiedChinese: "<size=38>Step3</size> \u653E\u7F6E\u6CE8\u91CA\u4E0E\u63D2\u5165\u65B9\u5411"
+    english: <size=30>Step3</size> Optimize directions
   - id: Single Crown_Edit
-    traditionalChinese: "\u6293\u53D6\u908A\u7DE3\u7DDA"
-    simplifiedChinese: "\u6293\u53D6\u8FB9\u7F18\u7EBF"
-    english: Edit margin line
+    traditionalChinese: "<size=38>Step4</size> \u6293\u53D6\u908A\u7DE3\u7DDA"
+    simplifiedChinese: "<size=38>Step4</size> \u6293\u53D6\u8FB9\u7F18\u7EBF"
+    english: <size=30>Step4</size> Edit margin line
   - id: Single Crown_Set
-    traditionalChinese: "\u8ABF\u6574\u4EE3\u578B\u63A5\u53E3"
-    simplifiedChinese: "\u8C03\u6574\u4EE3\u578B\u63A5\u53E3"
-    english: Set interfaces
+    traditionalChinese: "<size=38>Step5</size> \u8ABF\u6574\u4EE3\u578B\u63A5\u53E3"
+    simplifiedChinese: "<size=38>Step5</size> \u8C03\u6574\u4EE3\u578B\u63A5\u53E3"
+    english: <size=30>Step5</size> Set interfaces
   - id: Single Crown_Design
-    traditionalChinese: "\u8A2D\u8A08\u89E3\u5256\u51A0"
-    simplifiedChinese: "\u8BBE\u8BA1\u89E3\u5256\u51A0"
-    english: Anatomy design
+    traditionalChinese: "<size=38>Step6</size> \u8A2D\u8A08\u89E3\u5256\u51A0"
+    simplifiedChinese: "<size=38>Step6</size> \u8BBE\u8BA1\u89E3\u5256\u51A0"
+    english: <size=30>Step6</size> Anatomy design
   - id: Inlay/Onlay_Create
-    traditionalChinese: "\u5275\u5EFA\u5D4C\u9AD4\u8A02\u55AE"
-    simplifiedChinese: "\u521B\u5EFA\u5D4C\u4F53\u8BA2\u5355"
-    english: Create a order for Inlay
+    traditionalChinese: "<size=38>Step1</size> \u5275\u5EFA\u5D4C\u9AD4\u8A02\u55AE"
+    simplifiedChinese: "<size=38>Step1</size> \u521B\u5EFA\u5D4C\u4F53\u8BA2\u5355"
+    english: <size=30>Step1</size> Create a order for Inlay
   - id: Inlay/Onlay_Define
-    traditionalChinese: "\u5B9A\u7FA9\u54AC\u5408\u5E73\u9762"
-    simplifiedChinese: "\u5B9A\u4E49\u54AC\u5408\u5E73\u9762"
-    english: Define occlusal plane
+    traditionalChinese: "<size=38>Step2</size> \u5B9A\u7FA9\u54AC\u5408\u5E73\u9762"
+    simplifiedChinese: "<size=38>Step2</size> \u5B9A\u4E49\u54AC\u5408\u5E73\u9762"
+    english: <size=30>Step2</size> Define occlusal plane
   - id: Inlay/Onlay_Optimize
-    traditionalChinese: "\u653E\u7F6E\u6CE8\u91CB\u8207\u63D2\u5165\u65B9\u5411"
-    simplifiedChinese: "\u653E\u7F6E\u6CE8\u91CA\u4E0E\u63D2\u5165\u65B9\u5411"
-    english: Optimize directions
+    traditionalChinese: "<size=38>Step3</size> \u653E\u7F6E\u6CE8\u91CB\u8207\u63D2\u5165\u65B9\u5411"
+    simplifiedChinese: "<size=38>Step3</size> \u653E\u7F6E\u6CE8\u91CA\u4E0E\u63D2\u5165\u65B9\u5411"
+    english: <size=30>Step3</size> Optimize directions
   - id: Inlay/Onlay_Edit
-    traditionalChinese: "\u6293\u53D6\u908A\u7DE3\u7DDA"
-    simplifiedChinese: "\u6293\u53D6\u8FB9\u7F18\u7EBF"
-    english: Edit margin line
+    traditionalChinese: "<size=38>Step4</size> \u6293\u53D6\u908A\u7DE3\u7DDA"
+    simplifiedChinese: "<size=38>Step4</size> \u6293\u53D6\u8FB9\u7F18\u7EBF"
+    english: <size=30>Step4</size> Edit margin line
   - id: Inlay/Onlay_Set
-    traditionalChinese: "\u8ABF\u6574\u4EE3\u578B\u63A5\u53E3"
-    simplifiedChinese: "\u8C03\u6574\u4EE3\u578B\u63A5\u53E3"
-    english: Set interfaces
+    traditionalChinese: "<size=38>Step5</size> \u8ABF\u6574\u4EE3\u578B\u63A5\u53E3"
+    simplifiedChinese: "<size=38>Step5</size> \u8C03\u6574\u4EE3\u578B\u63A5\u53E3"
+    english: <size=30>Step5</size> Set interfaces
   - id: Inlay/Onlay_Design
-    traditionalChinese: "\u8A2D\u8A08\u5D4C\u9AD4"
-    simplifiedChinese: "\u8BBE\u8BA1\u5D4C\u4F53"
-    english: Inlay/Onlay design
+    traditionalChinese: "<size=38>Step6</size> \u8A2D\u8A08\u5D4C\u9AD4"
+    simplifiedChinese: "<size=38>Step6</size> \u8BBE\u8BA1\u5D4C\u4F53"
+    english: <size=30>Step6</size> Inlay/Onlay design
   - id: Venner_Create
-    traditionalChinese: "\u5275\u5EFA\u8CBC\u9762\u8A02\u55AE"
-    simplifiedChinese: "\u521B\u5EFA\u8D34\u9762\u8BA2\u5355"
-    english: Create a order for veneer
+    traditionalChinese: "<size=38>Step1</size> \u5275\u5EFA\u8CBC\u9762\u8A02\u55AE"
+    simplifiedChinese: "<size=38>Step1</size> \u521B\u5EFA\u8D34\u9762\u8BA2\u5355"
+    english: <size=30>Step1</size> Create a order for veneer
   - id: Venner_Define
-    traditionalChinese: "\u5B9A\u7FA9\u54AC\u5408\u5E73\u9762"
-    simplifiedChinese: "\u5B9A\u4E49\u54AC\u5408\u5E73\u9762"
-    english: Define occlusal plane
+    traditionalChinese: "<size=38>Step2</size> \u5B9A\u7FA9\u54AC\u5408\u5E73\u9762"
+    simplifiedChinese: "<size=38>Step2</size> \u5B9A\u4E49\u54AC\u5408\u5E73\u9762"
+    english: <size=30>Step2</size> Define occlusal plane
   - id: Venner_Optimize
-    traditionalChinese: "\u653E\u7F6E\u6CE8\u91CB\u8207\u63D2\u5165\u65B9\u5411"
-    simplifiedChinese: "\u653E\u7F6E\u6CE8\u91CA\u4E0E\u63D2\u5165\u65B9\u5411"
-    english: Optimize directions
+    traditionalChinese: "<size=38>Step3</size> \u653E\u7F6E\u6CE8\u91CB\u8207\u63D2\u5165\u65B9\u5411"
+    simplifiedChinese: "<size=38>Step3</size> \u653E\u7F6E\u6CE8\u91CA\u4E0E\u63D2\u5165\u65B9\u5411"
+    english: <size=30>Step3</size> Optimize directions
   - id: Venner_Edit
-    traditionalChinese: "\u6293\u53D6\u908A\u7DE3\u7DDA"
-    simplifiedChinese: "\u6293\u53D6\u8FB9\u7F18\u7EBF"
-    english: Edit margin line
+    traditionalChinese: "<size=38>Step4</size> \u6293\u53D6\u908A\u7DE3\u7DDA"
+    simplifiedChinese: "<size=38>Step4</size> \u6293\u53D6\u8FB9\u7F18\u7EBF"
+    english: <size=30>Step4</size> Edit margin line
   - id: Venner_Set
-    traditionalChinese: "\u8ABF\u6574\u4EE3\u578B\u63A5\u53E3"
-    simplifiedChinese: "\u8C03\u6574\u4EE3\u578B\u63A5\u53E3"
-    english: Set interfaces
+    traditionalChinese: "<size=38>Step5</size> \u8ABF\u6574\u4EE3\u578B\u63A5\u53E3"
+    simplifiedChinese: "<size=38>Step5</size> \u8C03\u6574\u4EE3\u578B\u63A5\u53E3"
+    english: <size=30>Step5</size> Set interfaces
   - id: Venner_Design
-    traditionalChinese: "\u8A2D\u8A08\u8CBC\u9762"
-    simplifiedChinese: "\u8BBE\u8BA1\u8D34\u9762"
-    english: Veneer design
-  - id: Premill_Define
-    traditionalChinese: "\u5275\u5EFA\u57FA\u53F0\u8A02\u55AE"
-    simplifiedChinese: "\u521B\u5EFA\u57FA\u53F0\u8BA2\u5355"
-    english: Defining job details
+    traditionalChinese: "<size=38>Step6</size> \u8A2D\u8A08\u8CBC\u9762"
+    simplifiedChinese: "<size=38>Step6</size> \u8BBE\u8BA1\u8D34\u9762"
+    english: <size=30>Step6</size> Veneer design
+  - id: Premill_Create
+    traditionalChinese: "<size=38>Step1</size> \u5275\u5EFA\u57FA\u53F0\u8A02\u55AE"
+    simplifiedChinese: "<size=38>Step1</size> \u521B\u5EFA\u57FA\u53F0\u8BA2\u5355"
+    english: <size=30>Step1</size> Defining job details
   - id: Premill_Set
-    traditionalChinese: "\u9078\u64C7\u500B\u6027\u5316\u57FA\u53F0"
-    simplifiedChinese: "\u9009\u62E9\u4E2A\u6027\u5316\u57FA\u53F0"
-    english: Set implant type
+    traditionalChinese: "<size=38>Step2</size> \u9078\u64C7\u500B\u6027\u5316\u57FA\u53F0"
+    simplifiedChinese: "<size=38>Step2</size> \u9009\u62E9\u4E2A\u6027\u5316\u57FA\u53F0"
+    english: <size=30>Step2</size> Set implant type
   - id: Premill_Detect
-    traditionalChinese: "\u6383\u63CF\u687F\u5B9A\u4F4D"
-    simplifiedChinese: "\u626B\u63CF\u6746\u5B9A\u4F4D"
-    english: Detect implant position
+    traditionalChinese: "<size=38>Step3</size> \u6383\u63CF\u687F\u5B9A\u4F4D"
+    simplifiedChinese: "<size=38>Step3</size> \u626B\u63CF\u6746\u5B9A\u4F4D"
+    english: <size=30>Step3</size> Detect implant position
   - id: Premill_Generate
-    traditionalChinese: "\u8A2D\u8A08\u4E0B\u534A\u90E8"
-    simplifiedChinese: "\u8BBE\u8BA1\u4E0B\u534A\u90E8"
-    english: Generate abutment bottoms
-  - id: Premill_Define
-    traditionalChinese: "\u653E\u7F6E\u63D2\u5165\u65B9\u5411"
-    simplifiedChinese: "\u653E\u7F6E\u63D2\u5165\u65B9\u5411"
-    english: Define insertion direction
+    traditionalChinese: "<size=38>Step4</size> \u8A2D\u8A08\u4E0B\u534A\u90E8"
+    simplifiedChinese: "<size=38>Step4</size> \u8BBE\u8BA1\u4E0B\u534A\u90E8"
+    english: <size=30>Step4</size> Generate abutment bottoms
+  - id: Premill_DefineInsertion
+    traditionalChinese: "<size=38>Step5</size> \u653E\u7F6E\u63D2\u5165\u65B9\u5411"
+    simplifiedChinese: "<size=38>Step5</size> \u653E\u7F6E\u63D2\u5165\u65B9\u5411"
+    english: <size=30>Step5</size> Define insertion direction
   - id: Premill_Abutment
-    traditionalChinese: "core\u578B\u614B\u5851\u5F62"
-    simplifiedChinese: "core\u578B\u6001\u5851\u5F62"
-    english: Abutment design
+    traditionalChinese: "<size=38>Step6</size> core\u578B\u614B\u5851\u5F62"
+    simplifiedChinese: "<size=38>Step6</size> core\u578B\u6001\u5851\u5F62"
+    english: <size=30>Step6</size> Abutment design
   - id: Premill_Forming
-    traditionalChinese: "\u8A2D\u8A08\u4E0A\u534A\u90E8"
-    simplifiedChinese: "\u8BBE\u8BA1\u4E0A\u534A\u90E8"
-    english: Free-forming
+    traditionalChinese: "<size=38>Step7</size> \u8A2D\u8A08\u4E0A\u534A\u90E8"
+    simplifiedChinese: "<size=38>Step7</size> \u8BBE\u8BA1\u4E0A\u534A\u90E8"
+    english: <size=30>Step7</size> Free-forming
   - id: Premill_Complete
-    traditionalChinese: "\u5B8C\u6210\u57FA\u53F0"
-    simplifiedChinese: "\u5B8C\u6210\u57FA\u53F0"
-    english: Complete abutment design
+    traditionalChinese: "<size=38>Step8</size> \u5B8C\u6210\u57FA\u53F0"
+    simplifiedChinese: "<size=38>Step8</size> \u5B8C\u6210\u57FA\u53F0"
+    english: <size=30>Step8</size> Complete abutment design
   - id: Step3_Zirconia
     traditionalChinese: "\u6C27\u5316\u92EF"
     simplifiedChinese: "\u6C27\u5316\u9506"
@@ -338,69 +336,69 @@ MonoBehaviour:
     simplifiedChinese: "\u4F7F\u7528\u8F6F\u4F53\uFF1AMillbox"
     english: "Software\uFF1AMillbox"
   - id: Zirconia_Define
-    traditionalChinese: "\u5275\u5EFA\u6C27\u5316\u92EF\u9805\u76EE"
-    simplifiedChinese: "\u521B\u5EFA\u6C27\u5316\u9506\u9879\u76EE"
-    english: Defining job details
+    traditionalChinese: "<size=38>Step1</size> \u5275\u5EFA\u6C27\u5316\u92EF\u9805\u76EE"
+    simplifiedChinese: "<size=38>Step1</size> \u521B\u5EFA\u6C27\u5316\u9506\u9879\u76EE"
+    english: <size=30>Step1</size> Defining job details
   - id: Zirconia_Import
-    traditionalChinese: "\u8F09\u5165\u6A94\u6848"
-    simplifiedChinese: "\u8F7D\u5165\u6863\u6848"
-    english: Import object
+    traditionalChinese: "<size=38>Step2</size> \u8F09\u5165\u6A94\u6848"
+    simplifiedChinese: "<size=38>Step2</size> \u8F7D\u5165\u6863\u6848"
+    english: <size=30>Step2</size> Import object
   - id: Zirconia_ChooseMaterials
-    traditionalChinese: "\u9078\u64C7\u6599\u76E4"
-    simplifiedChinese: "\u9009\u62E9\u6599\u76D8"
-    english: Choose materials
+    traditionalChinese: "<size=38>Step3</size> \u9078\u64C7\u6599\u76E4"
+    simplifiedChinese: "<size=38>Step3</size> \u9009\u62E9\u6599\u76D8"
+    english: <size=30>Step3</size> Choose materials
   - id: Zirconia_Adjust
-    traditionalChinese: "\u8ABF\u6574\u52A0\u5DE5\u4F4D\u7F6E"
-    simplifiedChinese: "\u8C03\u6574\u52A0\u5DE5\u4F4D\u7F6E"
-    english: Adjust milling position within material
+    traditionalChinese: "<size=38>Step4</size> \u8ABF\u6574\u52A0\u5DE5\u4F4D\u7F6E"
+    simplifiedChinese: "<size=38>Step4</size> \u8C03\u6574\u52A0\u5DE5\u4F4D\u7F6E"
+    english: <size=30>Step4</size> Adjust milling position within material
   - id: Zirconia_Move
-    traditionalChinese: "\u8ABF\u6574\u652F\u6490\u68D2"
-    simplifiedChinese: "\u8C03\u6574\u652F\u6491\u68D2"
-    english: Move support pin
+    traditionalChinese: "<size=38>Step5</size> \u8ABF\u6574\u652F\u6490\u68D2"
+    simplifiedChinese: "<size=38>Step5</size> \u8C03\u6574\u652F\u6491\u68D2"
+    english: <size=30>Step5</size> Move support pin
   - id: Zirconia_Choose
-    traditionalChinese: "\u9EDE\u9078\u6B32\u52A0\u5DE5\u7B56\u7565"
-    simplifiedChinese: "\u70B9\u9009\u6B32\u52A0\u5DE5\u7B56\u7565"
-    english: Choose milling strategy
+    traditionalChinese: "<size=38>Step6</size> \u9EDE\u9078\u6B32\u52A0\u5DE5\u7B56\u7565"
+    simplifiedChinese: "<size=38>Step6</size> \u70B9\u9009\u6B32\u52A0\u5DE5\u7B56\u7565"
+    english: <size=30>Step6</size> Choose milling strategy
   - id: GlassCermaic_Define
-    traditionalChinese: "\u5275\u5EFA\u73BB\u7483\u9676\u74F7\u9805\u76EE"
-    simplifiedChinese: "\u521B\u5EFA\u73BB\u7483\u9676\u74F7\u9879\u76EE"
-    english: Defining job details
+    traditionalChinese: "<size=38>Step1</size> \u5275\u5EFA\u73BB\u7483\u9676\u74F7\u9805\u76EE"
+    simplifiedChinese: "<size=38>Step1</size> \u521B\u5EFA\u73BB\u7483\u9676\u74F7\u9879\u76EE"
+    english: <size=30>Step1</size> Defining job details
   - id: GlassCermaic_Import
-    traditionalChinese: "\u8F09\u5165\u6A94\u6848"
-    simplifiedChinese: "\u8F7D\u5165\u6863\u6848"
-    english: Import object
+    traditionalChinese: "<size=38>Step2</size> \u8F09\u5165\u6A94\u6848"
+    simplifiedChinese: "<size=38>Step2</size> \u8F7D\u5165\u6863\u6848"
+    english: <size=30>Step2</size> Import object
   - id: GlassCermaic_ChooseMaterials
-    traditionalChinese: "\u9078\u64C7\u6599\u76E4"
-    simplifiedChinese: "\u9009\u62E9\u6599\u76D8"
-    english: Choose materials
+    traditionalChinese: "<size=38>Step3</size> \u9078\u64C7\u6599\u76E4"
+    simplifiedChinese: "<size=38>Step3</size> \u9009\u62E9\u6599\u76D8"
+    english: <size=30>Step3</size> Choose materials
   - id: GlassCermaic_Adjust
-    traditionalChinese: "\u8ABF\u6574\u52A0\u5DE5\u4F4D\u7F6E"
-    simplifiedChinese: "\u8C03\u6574\u52A0\u5DE5\u4F4D\u7F6E"
-    english: Adjust milling position within material
+    traditionalChinese: "<size=38>Step4</size> \u8ABF\u6574\u52A0\u5DE5\u4F4D\u7F6E"
+    simplifiedChinese: "<size=38>Step4</size> \u8C03\u6574\u52A0\u5DE5\u4F4D\u7F6E"
+    english: <size=30>Step4</size> Adjust milling position within material
   - id: GlassCermaic_Move
-    traditionalChinese: "\u8ABF\u6574\u652F\u6490\u68D2"
-    simplifiedChinese: "\u8C03\u6574\u652F\u6491\u68D2"
-    english: Move support pin
+    traditionalChinese: "<size=38>Step5</size> \u8ABF\u6574\u652F\u6490\u68D2"
+    simplifiedChinese: "<size=38>Step5</size> \u8C03\u6574\u652F\u6491\u68D2"
+    english: <size=30>Step5</size> Move support pin
   - id: GlassCermaic_Choose
-    traditionalChinese: "\u9EDE\u9078\u6B32\u52A0\u5DE5\u7B56\u7565"
-    simplifiedChinese: "\u70B9\u9009\u6B32\u52A0\u5DE5\u7B56\u7565"
-    english: Choose milling strategy
+    traditionalChinese: "<size=38>Step6</size> \u9EDE\u9078\u6B32\u52A0\u5DE5\u7B56\u7565"
+    simplifiedChinese: "<size=38>Step6</size> \u70B9\u9009\u6B32\u52A0\u5DE5\u7B56\u7565"
+    english: <size=30>Step6</size> Choose milling strategy
   - id: Premill_Define
-    traditionalChinese: "\u5275\u5EFAPremill\u9805\u76EE"
-    simplifiedChinese: "\u521B\u5EFAPremill\u9879\u76EE"
-    english: Defining job details
+    traditionalChinese: "<size=38>Step1</size> \u5275\u5EFAPremill\u9805\u76EE"
+    simplifiedChinese: "<size=38>Step1</size> \u521B\u5EFAPremill\u9879\u76EE"
+    english: <size=30>Step1</size> Defining job details
   - id: Premill_Import
-    traditionalChinese: "\u8F09\u5165\u6A94\u6848"
-    simplifiedChinese: "\u8F7D\u5165\u6863\u6848"
-    english: Import object
+    traditionalChinese: "<size=38>Step2</size> \u8F09\u5165\u6A94\u6848"
+    simplifiedChinese: "<size=38>Step2</size> \u8F7D\u5165\u6863\u6848"
+    english: <size=30>Step2</size> Import object
   - id: Premill_Build
-    traditionalChinese: "\u5EFA\u7ACB\u690D\u9AD4\u7CFB\u7D71\u8CC7\u6599\u5EAB"
-    simplifiedChinese: "\u5EFA\u7ACB\u690D\u4F53\u7CFB\u7EDF\u6570\u636E\u5E93"
-    english: Building implant library
+    traditionalChinese: "<size=38>Step3</size> \u5EFA\u7ACB\u690D\u9AD4\u7CFB\u7D71\u8CC7\u6599\u5EAB"
+    simplifiedChinese: "<size=38>Step3</size> \u5EFA\u7ACB\u690D\u4F53\u7CFB\u7EDF\u6570\u636E\u5E93"
+    english: <size=30>Step3</size> Building implant library
   - id: Premill_Click
-    traditionalChinese: "\u9EDE\u9078\u52A0\u5DE5"
-    simplifiedChinese: "\u70B9\u9009\u52A0\u5DE5"
-    english: Click to mill
+    traditionalChinese: "<size=38>Step4</size> \u9EDE\u9078\u52A0\u5DE5"
+    simplifiedChinese: "<size=38>Step4</size> \u70B9\u9009\u52A0\u5DE5"
+    english: <size=30>Step4</size> Click to mill
   - id: IdensolOperate_Light
     traditionalChinese: "\u71C8\u865F\u8AAA\u660E"
     simplifiedChinese: "\u706F\u53F7\u8BF4\u660E"
@@ -958,7 +956,7 @@ MonoBehaviour:
   - id: About_Idensol
     traditionalChinese: "\u6578\u4F4D\u5207\u92B7\u7CFB\u7D71\u4E0D\u518D\u662F\u6700\u6602\u8CB4\u7684\u8A2D\u5099"
     simplifiedChinese: "\u6570\u5B57\u5207\u9500\u7CFB\u7EDF\u4E0D\u518D\u662F\u6700\u6602\u8D35\u7684\u8BBE\u5907"
-    english: 
+    english: Digital CAD/CAM systems are no longer the most expensive equipment.
   - id: About_IdensolContent
     traditionalChinese: "\u7259\u79D1\u5C08\u7528\u96D5\u523B\u6A5F\u662F\u6211\u5011\u7684\u5C08\u696D\uFF0C\u4F7F\u7528\u7C21\u6613\u3001\u517C\u5BB9\u6027\u5F37\u662F\u6211\u5011\u4E00\u8CAB\u7684\u5805\u6301\u3002\u5728\u8FFD\u6C42\u6280\u8853\u8207\u670D\u52D9\u54C1\u8CEA\u7684\u540C\u6642\uFF0C\u4EE5\u5275\u65B0\u601D\u7DAD\u5C07\u591A\u5E74\u7684\u96FB\u8166\u6578\u503C\u63A7\u5236\u5DE5\u5177\u6A5F\u7D93\u9A57\uFF0C\u5C0E\u5165\u7259\u79D1\u9F52\u96D5\u6A5F\u4F5C\u70BA\u7814\u767C\u751F\u7522\u7684\u57FA\u790E\uFF0C\u4E26\u6301\u7E8C\u5347\u7D1A\u8A2D\u5099\u529F\u80FD\u8207\u7814\u767C\u65B0\u54C1\u3002\u4EE5\u56B4\u8B39\u7684\u5FB7\u570B\u5DE5\u85DD\u3001\u5FB7\u570B\u54C1\u8CEA\u6A19\u6E96\u88FD\u4F5C\u6BCF\u4E00\u9805\u7522\u54C1\uFF0C\u5F9E\u6982\u5FF5\u8A2D\u8A08\u5230\u7522\u54C1\u751F\u7522\u4E00\u689D\u9F8D\u670D\u52D9\uFF0C\u5E36\u7D66\u5BA2\u6236\u6700\u771F\u8AA0\u7684\u5408\u4F5C\u95DC\u4FC2\u3002"
     simplifiedChinese: "\u7259\u79D1\u4E13\u7528\u96D5\u523B\u673A\u662F\u6211\u4EEC\u7684\u4E13\u4E1A\uFF0C\u4F7F\u7528\u7B80\u6613\u3001\u517C\u5BB9\u6027\u5F3A\u662F\u6211\u4EEC\u4E00\u8D2F\u7684\u575A\u6301\u3002\u5728\u8FFD\u6C42\u6280\u672F\u4E0E\u670D\u52A1\u8D28\u91CF\u7684\u540C\u65F6\uFF0C\u4EE5\u521B\u65B0\u601D\u7EF4\u5C06\u591A\u5E74\u7684\u8BA1\u7B97\u673A\u6570\u503C\u63A7\u5236\u5DE5\u5177\u673A\u7ECF\u9A8C\uFF0C\u5BFC\u5165\u7259\u79D1\u9F7F\u96D5\u673A\u4F5C\u4E3A\u7814\u53D1\u751F\u4EA7\u7684\u57FA\u7840\uFF0C\u5E76\u6301\u7EED\u5347\u7EA7\u8BBE\u5907\u529F\u80FD\u4E0E\u7814\u53D1\u65B0\u54C1\u3002\u4EE5\u4E25\u8C28\u7684\u5FB7\u56FD\u5DE5\u827A\u3001\u5FB7\u56FD\u8D28\u91CF\u6807\u51C6\u5236\u4F5C\u6BCF\u4E00\u9879\u4EA7\u54C1\uFF0C\u4ECE\u6982\u5FF5\u8BBE\u8BA1\u5230\u4EA7\u54C1\u751F\u4EA7\u4E00\u6761\u9F99\u670D\u52A1\uFF0C\u5E26\u7ED9\u5BA2\u6237\u6700\u771F\u8BDA\u7684\u5408\u4F5C\u5173\u7CFB\u3002"
@@ -998,3 +996,11 @@ MonoBehaviour:
       \              -Idensol\u7269\u8054\u7F51"
     english: "  - Online catalog\_             - Online service\n\_- AR teaching                \_-
       IoT service"
+  - id: Lobby_Animation
+    traditionalChinese: "\u52D5\u614B"
+    simplifiedChinese: "\u52A8\u6001"
+    english: Animate
+  - id: Lobby_Model
+    traditionalChinese: "\u6A21\u578B"
+    simplifiedChinese: "\u6A21\u578B"
+    english: Model

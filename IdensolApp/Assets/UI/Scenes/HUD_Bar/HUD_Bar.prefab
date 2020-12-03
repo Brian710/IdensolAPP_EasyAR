@@ -513,6 +513,7 @@ GameObject:
   - component: {fileID: 6563406260227099534}
   - component: {fileID: 6563406260227099532}
   - component: {fileID: 6563406260227099535}
+  - component: {fileID: 8151765731650630695}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -579,6 +580,23 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "\u9996\u9801"
+--- !u!114 &8151765731650630695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6563406260227099521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa5757a572822c343a5ec5c6b6e9aba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  multiId: leftlist_Home
+  currentString: 
+  FontSize_CH: 41
+  FontSize_EN: 30
+  languageFont: 0
 --- !u!1 &6563406260240353517
 GameObject:
   m_ObjectHideFlags: 0
@@ -664,6 +682,7 @@ GameObject:
   - component: {fileID: 6563406260711590285}
   - component: {fileID: 6563406260711590283}
   - component: {fileID: 6563406260711590282}
+  - component: {fileID: 6819133000030041962}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -730,6 +749,23 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Idensol\u4ECB\u9762"
+--- !u!114 &6819133000030041962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6563406260711590284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa5757a572822c343a5ec5c6b6e9aba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  multiId: leftlist_HowtoOperate
+  currentString: 
+  FontSize_CH: 41
+  FontSize_EN: 30
+  languageFont: 0
 --- !u!1 &6563406260772407742
 GameObject:
   m_ObjectHideFlags: 0
@@ -1193,6 +1229,7 @@ GameObject:
   - component: {fileID: 6563406261041889672}
   - component: {fileID: 6563406261041889782}
   - component: {fileID: 6563406261041889673}
+  - component: {fileID: 8552466251478812389}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -1259,6 +1296,23 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "\u5047\u7259\u88FD\u7A0B"
+--- !u!114 &8552466251478812389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6563406261041889675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa5757a572822c343a5ec5c6b6e9aba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  multiId: leftlist_DigitalWorkflow
+  currentString: 
+  FontSize_CH: 41
+  FontSize_EN: 30
+  languageFont: 0
 --- !u!1 &6563406261050935997
 GameObject:
   m_ObjectHideFlags: 0
@@ -1343,6 +1397,7 @@ GameObject:
   - component: {fileID: 6563406261223346404}
   - component: {fileID: 6563406261223346402}
   - component: {fileID: 6563406261223346405}
+  - component: {fileID: 6063556778795543882}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -1409,6 +1464,23 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "\u95DC\u65BCIdensol"
+--- !u!114 &6063556778795543882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6563406261223346407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa5757a572822c343a5ec5c6b6e9aba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  multiId: leftlist_AboutIdensol
+  currentString: 
+  FontSize_CH: 41
+  FontSize_EN: 30
+  languageFont: 0
 --- !u!1 &6563406261266074587
 GameObject:
   m_ObjectHideFlags: 0
@@ -1900,6 +1972,7 @@ GameObject:
   - component: {fileID: 6563406261531650554}
   - component: {fileID: 6563406261531650552}
   - component: {fileID: 6563406261531650555}
+  - component: {fileID: 8871991824972192359}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -1966,6 +2039,23 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "\u554F\u984C\u6392\u9664"
+--- !u!114 &8871991824972192359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6563406261531650557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa5757a572822c343a5ec5c6b6e9aba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  multiId: leftlist_Troubleshooting
+  currentString: 
+  FontSize_CH: 41
+  FontSize_EN: 30
+  languageFont: 0
 --- !u!1 &6563406261534429526
 GameObject:
   m_ObjectHideFlags: 0
