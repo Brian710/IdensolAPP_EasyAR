@@ -16,5 +16,15 @@ public class CallInfo : MonoBehaviour
     public void CreateInfo()
     {
         Instantiate(info, transform);
+        StartCoroutine(DelayInfo());
+        parentGameobject = GameObject.Find("FixDelay");
+        parentGameobject.SetActive(false);
+    }
+
+    private IEnumerator DelayInfo()
+    {
+        yield return new WaitForSeconds(0.01f);
+        parentGameobject.SetActive(true);
+        
     }
 }

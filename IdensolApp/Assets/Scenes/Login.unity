@@ -1033,8 +1033,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: logo_Name
   currentString: 
-  FontSize_CH: 0
-  FontSize_EN: 0
+  FontSize_CH: 61
+  FontSize_EN: 55
   languageFont: 0
 --- !u!1 &1759905387
 GameObject:
