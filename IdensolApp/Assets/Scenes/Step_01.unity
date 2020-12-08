@@ -1028,6 +1028,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: -109
       objectReference: {fileID: 0}
+    - target: {fileID: 3715548541851757441, guid: 9847b297553c7524387b9fd8e4a35c42,
+        type: 3}
+      propertyPath: m_FontData.m_HorizontalOverflow
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3715548541860998497, guid: 9847b297553c7524387b9fd8e4a35c42,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -1068,6 +1073,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 8300000, guid: ad897b8dd37e643f0812e4e182835666, type: 3}
+    - target: {fileID: 3715548541865532751, guid: 9847b297553c7524387b9fd8e4a35c42,
+        type: 3}
+      propertyPath: m_FontData.m_HorizontalOverflow
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3715548542088466477, guid: 9847b297553c7524387b9fd8e4a35c42,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -1773,6 +1783,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 8300000, guid: ad897b8dd37e643f0812e4e182835666, type: 3}
+    - target: {fileID: 3715548543738243165, guid: 9847b297553c7524387b9fd8e4a35c42,
+        type: 3}
+      propertyPath: m_FontData.m_HorizontalOverflow
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3715548543803225555, guid: 9847b297553c7524387b9fd8e4a35c42,
         type: 3}
       propertyPath: m_IsActive
@@ -2124,7 +2139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa5757a572822c343a5ec5c6b6e9aba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  multiId: 'CAM_Premill '
+  multiId: CAM_Premill
   currentString: 
   FontSize_CH: 0
   FontSize_EN: 0
@@ -2141,7 +2156,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa5757a572822c343a5ec5c6b6e9aba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  multiId: 'Software_Millbox '
+  multiId: Software_Millbox
   currentString: 
   FontSize_CH: 0
   FontSize_EN: 0
@@ -2158,7 +2173,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa5757a572822c343a5ec5c6b6e9aba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  multiId: 'CAM_GlassCermaic '
+  multiId: CAM_GlassCermaic
   currentString: 
   FontSize_CH: 0
   FontSize_EN: 0
@@ -2175,7 +2190,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa5757a572822c343a5ec5c6b6e9aba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  multiId: 'Software_Millbox '
+  multiId: Software_Millbox
   currentString: 
   FontSize_CH: 0
   FontSize_EN: 0
@@ -2192,7 +2207,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa5757a572822c343a5ec5c6b6e9aba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  multiId: 'CAM_Zirconia '
+  multiId: CAM_Zirconia
   currentString: 
   FontSize_CH: 0
   FontSize_EN: 0
@@ -2209,7 +2224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa5757a572822c343a5ec5c6b6e9aba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  multiId: 'Software_Millbox '
+  multiId: Software_Millbox
   currentString: 
   FontSize_CH: 0
   FontSize_EN: 0
@@ -4511,7 +4526,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa5757a572822c343a5ec5c6b6e9aba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  multiId: 'Software_exocad '
+  multiId: Software_exocad
   currentString: 
   FontSize_CH: 0
   FontSize_EN: 0
@@ -4528,7 +4543,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa5757a572822c343a5ec5c6b6e9aba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  multiId: 'Software_3shape '
+  multiId: Software_3shape
   currentString: 
   FontSize_CH: 0
   FontSize_EN: 0
@@ -4545,7 +4560,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa5757a572822c343a5ec5c6b6e9aba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  multiId: 'Software_3shape '
+  multiId: Software_3shape
   currentString: 
   FontSize_CH: 0
   FontSize_EN: 0
@@ -4562,7 +4577,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa5757a572822c343a5ec5c6b6e9aba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  multiId: 'Software_3shape '
+  multiId: Software_3shape
   currentString: 
   FontSize_CH: 0
   FontSize_EN: 0

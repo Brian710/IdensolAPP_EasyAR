@@ -32,6 +32,10 @@ public class TopBar : MonoBehaviour
     {
         StartCoroutine(AR());
     }
+    public void FQAR()
+    {
+        StartCoroutine(FaqAR());
+    }
 
 
     IEnumerator BackgroundHome()
@@ -63,5 +67,10 @@ public class TopBar : MonoBehaviour
     {
         yield return new WaitForSeconds(0.3f);
         SceneManager.LoadScene(6);
+    }
+    IEnumerator FaqAR()
+    {
+        yield return new WaitForSeconds(0.3f);
+        SceneManager.LoadScene(7);
     }
 }

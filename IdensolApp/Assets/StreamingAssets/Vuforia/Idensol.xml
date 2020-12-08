@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<QCARConfig>
-<Tracking>
-<ModelTarget name="Idensol" motionHint="static"/>
-
-</Tracking>
-
-<Assembly name="Idensols_assembly" assemblyId="76db001ddaad4cce9648993034183e99">
-<Part name="Idensol" translation="0 0 0" rotation="AD: 0 0 1 0"/>
-<EntryPoint name="viewpoint_0000" translation="0.0228178 0.804926 3.22732" rotation="AD: 0.9999999999997456 0.00017135221963373708 -0.004166082640230198 184.71" trained="no">
-
-</EntryPoint>
-
-</Assembly>
-
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="TEST" size="15.000000 5.507812" />
+    <ImageTarget name="FAQ_AR_08" size="15.000000 9.363256" />
+    <ImageTarget name="FAQ_AR_13" size="15.000000 9.363256" />
+    <ImageTarget name="FAQ_AR_12" size="15.000000 9.363256" />
+    <ImageTarget name="FAQ_AR_11" size="15.000000 9.363256" />
+    <ImageTarget name="FAQ_AR_10" size="15.000000 9.363256" />
+    <ImageTarget name="FAQ_AR_09" size="15.000000 9.363256" />
+    <ImageTarget name="FAQ_AR_07" size="15.000000 9.363256" />
+    <ImageTarget name="FAQ_AR_06" size="15.000000 9.363256" />
+    <ImageTarget name="FAQ_AR_05" size="15.000000 9.363256" />
+    <ImageTarget name="FAQ_AR_02" size="15.000000 2.109375" />
+    <ImageTarget name="FAQ_AR_03" size="15.000000 3.736264" />
+  </Tracking>
 </QCARConfig>

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: 
+    vuforiaLicenseKey: ATqRyFX/////AAABmegdJkvL1EJdsh1WSAF4L1NP5fnir2PFgcLP512UbGpBX5u2Km3YNMwapTX5IB2/mVkGFFM8TDEeD4g/VXtINTnn2GADZpthZIXMrVbVJ4o6a5y+8ZgBkLIXfKe09ib46c/2U72vHCxF1lDyib8KT02QcQqIwTLV7JY+VuF80Jz8zii69NfRNGh7g2KypSsBoAUE4YtcGYwnR4uQ8wREXbBqs4d3dMujFwNf70L16OPiTQwO0fz3hJp0StnGje/DpQjWzACI7feL+7ctQad1/3lv2pCEOvlEr0f5GIFAEq+w4rzbjeVsj12TJOghk04obnZB3hgHeqmO7oAbJlu3ELwzYmtW0PQpo9IQDXcF3+43
     ufoLicenseKey: QVMvcitDTC8vLy8vQUFBQUtLZENsaEdGeVVKb25RL3RVbnBQR3lGMXJFSytSU3pKUllyVjBpWVlWWStHWURVMjJrLytxS2xjVGNMR2QyVCtEODdRTHRrYi9UWlRNWnoxZjFBR1o5ZVRnMDFUSllaV3R2bC9QNSs1SXZVM250RXh3RlVLZzRjcDdEK0g5L1A0Vk9JSDQyNzBGdnFzZS8xNnVRU2dyMnlMMkNpVTNYSzk0UGdtZE5ycUVVOHk0RzNBeUpleVJMdWxublI5UGlKS20yaWZqUEQyK3ZPWVZBY1k1VVVGWlJuTjkvZytGTXNBY0FZd1VkZ0NMTGRNV01LcEkvaUZiSVBSU3c1aUR6YkxkeVZxNjE3dnN1MlVlZHg5RlVZK25sSG50RklVV3dPbkN4alEydUJhMzNJbTVDNFpadjlBNVB0RURmbzd4K2NVbnF2YkdHVU9sU25kZm8vUDNCMWRsaUoxbUlZNmU3dkRqMW9mTldKVkdpMU8=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
@@ -39,6 +39,6 @@ MonoBehaviour:
     autoInitTracker: 0
     autoStartTracker: 0
   webcam:
-    deviceNameSetInEditor: 
+    deviceNameSetInEditor: USB2.0 PC CAMERA
     turnOffWebCam: 0
     renderTextureLayer: 30
