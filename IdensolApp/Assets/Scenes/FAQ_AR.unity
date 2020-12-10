@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.7384475, g: 0.76617545, b: 0.74717575, a: 1}
+  m_IndirectSpecularColor: {r: 0.7354035, g: 0.7560659, b: 0.73505735, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -226,6 +226,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  StatusFilter: 2
+  OnTargetFound:
+    m_PersistentCalls:
+      m_Calls: []
+  OnTargetLost:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &70188835
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -239,13 +246,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mTrackableName: FAQ_AR_07
-  mPreserveChildSize: 0
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/idensol.xml
+  mPreserveChildSize: 0
   mAspectRatio: 0.6242171
   mImageTargetType: 0
   mWidth: 15
   mHeight: 9.363256
+  mRuntimeTexture: {fileID: 0}
 --- !u!43 &118879900
 Mesh:
   m_ObjectHideFlags: 0
@@ -500,6 +508,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  StatusFilter: 2
+  OnTargetFound:
+    m_PersistentCalls:
+      m_Calls: []
+  OnTargetLost:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &181460005
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -513,13 +528,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mTrackableName: FAQ_AR_02
-  mPreserveChildSize: 0
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/idensol.xml
+  mPreserveChildSize: 0
   mAspectRatio: 0.140625
   mImageTargetType: 0
   mWidth: 15
   mHeight: 2.109375
+  mRuntimeTexture: {fileID: 0}
 --- !u!4 &181460006
 Transform:
   m_ObjectHideFlags: 0
@@ -905,6 +921,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  StatusFilter: 2
+  OnTargetFound:
+    m_PersistentCalls:
+      m_Calls: []
+  OnTargetLost:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &242853452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -918,13 +941,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mTrackableName: FAQ_AR_06
-  mPreserveChildSize: 0
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/idensol.xml
+  mPreserveChildSize: 0
   mAspectRatio: 0.6242171
   mImageTargetType: 0
   mWidth: 15
   mHeight: 9.363256
+  mRuntimeTexture: {fileID: 0}
 --- !u!21 &276297178
 Material:
   serializedVersion: 6
@@ -2174,6 +2198,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  StatusFilter: 2
+  OnTargetFound:
+    m_PersistentCalls:
+      m_Calls: []
+  OnTargetLost:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &555047391
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2187,13 +2218,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mTrackableName: FAQ_AR_08
-  mPreserveChildSize: 0
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/idensol.xml
+  mPreserveChildSize: 0
   mAspectRatio: 0.6242171
   mImageTargetType: 0
   mWidth: 15
   mHeight: 9.363256
+  mRuntimeTexture: {fileID: 0}
 --- !u!43 &578372266
 Mesh:
   m_ObjectHideFlags: 0
@@ -2860,6 +2892,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  StatusFilter: 2
+  OnTargetFound:
+    m_PersistentCalls:
+      m_Calls: []
+  OnTargetLost:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &792670041
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2873,13 +2912,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mTrackableName: FAQ_AR_09
-  mPreserveChildSize: 0
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/idensol.xml
+  mPreserveChildSize: 0
   mAspectRatio: 0.6242171
   mImageTargetType: 0
   mWidth: 15
   mHeight: 9.363256
+  mRuntimeTexture: {fileID: 0}
 --- !u!1 &816212816
 GameObject:
   m_ObjectHideFlags: 0
@@ -3186,6 +3226,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  StatusFilter: 2
+  OnTargetFound:
+    m_PersistentCalls:
+      m_Calls: []
+  OnTargetLost:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &841352344
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3199,13 +3246,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mTrackableName: FAQ_AR_12
-  mPreserveChildSize: 0
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/idensol.xml
+  mPreserveChildSize: 0
   mAspectRatio: 0.6242171
   mImageTargetType: 0
   mWidth: 15
   mHeight: 9.363256
+  mRuntimeTexture: {fileID: 0}
 --- !u!1 &869330768
 GameObject:
   m_ObjectHideFlags: 0
@@ -3297,6 +3345,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  StatusFilter: 2
+  OnTargetFound:
+    m_PersistentCalls:
+      m_Calls: []
+  OnTargetLost:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &869330773
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3310,13 +3365,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mTrackableName: FAQ_AR_03
-  mPreserveChildSize: 0
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/idensol.xml
+  mPreserveChildSize: 0
   mAspectRatio: 0.24908426
   mImageTargetType: 0
   mWidth: 15
   mHeight: 3.736264
+  mRuntimeTexture: {fileID: 0}
 --- !u!4 &869330774
 Transform:
   m_ObjectHideFlags: 0
@@ -3378,7 +3434,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &881107646
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3786,6 +3842,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  StatusFilter: 2
+  OnTargetFound:
+    m_PersistentCalls:
+      m_Calls: []
+  OnTargetLost:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &999661723
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3799,13 +3862,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mTrackableName: FAQ_AR_11
-  mPreserveChildSize: 0
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/idensol.xml
+  mPreserveChildSize: 0
   mAspectRatio: 0.6242171
   mImageTargetType: 0
   mWidth: 15
   mHeight: 9.363256
+  mRuntimeTexture: {fileID: 0}
 --- !u!1 &1037418971
 GameObject:
   m_ObjectHideFlags: 0
@@ -4259,6 +4323,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  StatusFilter: 2
+  OnTargetFound:
+    m_PersistentCalls:
+      m_Calls: []
+  OnTargetLost:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1180560264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4272,13 +4343,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mTrackableName: FAQ_AR_05
-  mPreserveChildSize: 0
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/idensol.xml
+  mPreserveChildSize: 0
   mAspectRatio: 0.6242171
   mImageTargetType: 0
   mWidth: 15
   mHeight: 9.363256
+  mRuntimeTexture: {fileID: 0}
 --- !u!1 &1242291302
 GameObject:
   m_ObjectHideFlags: 0
@@ -5230,6 +5302,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  StatusFilter: 2
+  OnTargetFound:
+    m_PersistentCalls:
+      m_Calls: []
+  OnTargetLost:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1611246938
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5243,13 +5322,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mTrackableName: FAQ_AR_10
-  mPreserveChildSize: 0
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/idensol.xml
+  mPreserveChildSize: 0
   mAspectRatio: 0.6242171
   mImageTargetType: 0
   mWidth: 15
   mHeight: 9.363256
+  mRuntimeTexture: {fileID: 0}
 --- !u!1 &1638831937
 GameObject:
   m_ObjectHideFlags: 0
@@ -5434,7 +5514,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1687670164
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5847,22 +5927,22 @@ PrefabInstance:
     - target: {fileID: 6563406259776876379, guid: f0ddcc9c88d51b44aa388ede83988061,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6563406259776876379, guid: f0ddcc9c88d51b44aa388ede83988061,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6563406259776876379, guid: f0ddcc9c88d51b44aa388ede83988061,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 155.085
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6563406259776876379, guid: f0ddcc9c88d51b44aa388ede83988061,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -648.07996
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6563406259877485608, guid: f0ddcc9c88d51b44aa388ede83988061,
         type: 3}
@@ -6157,22 +6237,22 @@ PrefabInstance:
     - target: {fileID: 6563406261291537623, guid: f0ddcc9c88d51b44aa388ede83988061,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6563406261291537623, guid: f0ddcc9c88d51b44aa388ede83988061,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6563406261291537623, guid: f0ddcc9c88d51b44aa388ede83988061,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 155.085
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6563406261291537623, guid: f0ddcc9c88d51b44aa388ede83988061,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -326
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6563406261424006580, guid: f0ddcc9c88d51b44aa388ede83988061,
         type: 3}
@@ -6202,22 +6282,22 @@ PrefabInstance:
     - target: {fileID: 6563406261534429527, guid: f0ddcc9c88d51b44aa388ede83988061,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6563406261534429527, guid: f0ddcc9c88d51b44aa388ede83988061,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6563406261534429527, guid: f0ddcc9c88d51b44aa388ede83988061,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 155.085
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6563406261534429527, guid: f0ddcc9c88d51b44aa388ede83988061,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -970.1599
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6563406261562132889, guid: f0ddcc9c88d51b44aa388ede83988061,
         type: 3}
@@ -6267,22 +6347,22 @@ PrefabInstance:
     - target: {fileID: 6563406261661082798, guid: f0ddcc9c88d51b44aa388ede83988061,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6563406261661082798, guid: f0ddcc9c88d51b44aa388ede83988061,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6563406261661082798, guid: f0ddcc9c88d51b44aa388ede83988061,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 155.085
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6563406261661082798, guid: f0ddcc9c88d51b44aa388ede83988061,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -1292.2399
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0ddcc9c88d51b44aa388ede83988061, type: 3}
@@ -7621,6 +7701,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  StatusFilter: 2
+  OnTargetFound:
+    m_PersistentCalls:
+      m_Calls: []
+  OnTargetLost:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &2118908281
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7634,13 +7721,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mTrackableName: FAQ_AR_13
-  mPreserveChildSize: 0
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/idensol.xml
+  mPreserveChildSize: 0
   mAspectRatio: 0.6242171
   mImageTargetType: 0
   mWidth: 15
   mHeight: 9.363256
+  mRuntimeTexture: {fileID: 0}
 --- !u!1 &2130076011
 GameObject:
   m_ObjectHideFlags: 0
@@ -9709,7 +9797,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4650240368539512440}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
   m_Name: 

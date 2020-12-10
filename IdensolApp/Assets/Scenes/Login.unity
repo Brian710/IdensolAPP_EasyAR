@@ -992,17 +992,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.1804758, g: 0.2830189, b: 0, a: 1}
+  m_Color: {r: 0.3254902, g: 0.3372549, b: 0.22352941, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: c2d16358d707e2f4780bf94c1a6b6321, type: 3}
-    m_FontSize: 61
+    m_FontSize: 51
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 5
     m_MaxSize: 67
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -1033,7 +1033,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiId: logo_Name
   currentString: 
-  FontSize_CH: 61
+  FontSize_CH: 51
   FontSize_EN: 55
   languageFont: 0
 --- !u!1 &1759905387

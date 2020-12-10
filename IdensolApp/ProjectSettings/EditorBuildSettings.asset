@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Lobby_ModelAR.unity
     guid: 21b3c294d68b8488ab8e8dfd4db7a3cf
+  - enabled: 1
+    path: Assets/Scenes/FAQ_AR.unity
+    guid: 062612644cdb0184790a292801ea8514
   m_configObjects: {}
