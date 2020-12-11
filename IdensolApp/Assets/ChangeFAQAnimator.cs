@@ -1,12 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.Animations;
 using UnityEngine;
 
 public class ChangeFAQAnimator : MonoBehaviour
 {
     public Animator Animator;
-    public AnimatorController AnimatorController;
+    public RuntimeAnimatorController AnimatorController;
 
     private Language Language;
    
@@ -22,7 +21,7 @@ public class ChangeFAQAnimator : MonoBehaviour
         {
             if (language == Language.English)
             {
-                Animator.runtimeAnimatorController = AnimatorController as RuntimeAnimatorController;
+                Animator.runtimeAnimatorController = AnimatorController;
             }
         }
     }

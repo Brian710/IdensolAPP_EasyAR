@@ -20,8 +20,8 @@ MonoBehaviour:
     simplifiedChinese: 
     english: 
   - id: logo_Name
-    traditionalChinese: "\u4E94\u8EF8\u6578\u4F4D\u7259\u79D1\u9F52\u96D5\u6A5F"
-    simplifiedChinese: "\u4E94\u8F74\u6570\u4F4D\u7259\u79D1\u9F7F\u96D5\u673A"
+    traditionalChinese: "\u4E94 \u8EF8 \u6578 \u4F4D \u7259 \u79D1 \u9F52 \u96D5 \u6A5F"
+    simplifiedChinese: "\u4E94 \u8F74 \u6570 \u4F4D \u7259 \u79D1 \u9F7F \u96D5 \u673A"
     english: Idensol Dental milling machine 5XP
   - id: login
     traditionalChinese: "\u767B\u5165"
@@ -94,15 +94,15 @@ MonoBehaviour:
   - id: digitalWorkflow_Step2
     traditionalChinese: "<size=36>Step2</size> CAD\u5047\u7259\u8A2D\u8A08"
     simplifiedChinese: "<size=36>Step2</size> CAD\u5047\u7259\u8BBE\u8BA1"
-    english: <size=30>Step2</size> <b>CAD-Prosthetic Design</b>
+    english: <size=30>Step2</size> <b>CAD_Prosthetic Design</b>
   - id: digitalWorkflow_Step3
     traditionalChinese: "<size=36>Step3</size> CAM\u5047\u7259\u6392\u7248"
     simplifiedChinese: "<size=36>Step3</size> CAM\u5047\u7259\u6392\u7248"
-    english: <size=30>Step3</size> <b>CAM-Prosthetic Planning</b>
+    english: <size=30>Step3</size> <b>CAM_Prosthetic Planning</b>
   - id: digitalWorkflow_Step4
     traditionalChinese: "<size=36>Step4</size> \u9F52\u96D5\u6A5F\u52A0\u5DE5"
     simplifiedChinese: "<size=36>Step4</size> \u9F7F\u96D5\u673A\u52A0\u5DE5"
-    english: <size=30>Step4</size>  <b>Milling</b>
+    english: <size=30>Step4</size> <b>Milling</b>
   - id: digitalWorkflow_Step5
     traditionalChinese: "<size=36>Step5</size> \u71D2\u7D50\u70E4\u74F7"
     simplifiedChinese: "<size=36>Step5</size> \u70E7\u7ED3\u70E4\u74F7"
@@ -122,31 +122,31 @@ MonoBehaviour:
   - id: Step2_Tutorial
     traditionalChinese: "CAD\u5047\u7259\u8A2D\u8A08"
     simplifiedChinese: "CAD\u5047\u7259\u8BBE\u8BA1"
-    english: CAD-Prosthetic Design
+    english: CAD_Prosthetic Design
   - id: Step3_Tutorial
     traditionalChinese: "CAM\u5047\u7259\u6392\u7248"
     simplifiedChinese: "CAM\u5047\u7259\u6392\u7248"
-    english: CAM-Prosthetic Planning
+    english: CAM_Prosthetic Planning
   - id: CAD_Copping
-    traditionalChinese: "CAD\u5047\u7259\u8A2D\u8A08-\u5167\u51A0\u8A2D\u8A08"
-    simplifiedChinese: "CAD\u5047\u7259\u8BBE\u8BA1-\u57FA\u5E95\u51A0"
-    english: CAD-Prosthetic Design-Copping
+    traditionalChinese: "CAD\u5047\u7259\u8A2D\u8A08_\u5167\u51A0\u8A2D\u8A08"
+    simplifiedChinese: "CAD\u5047\u7259\u8BBE\u8BA1_\u57FA\u5E95\u51A0"
+    english: CAD_Prosthetic Design_Copping
   - id: CAD_SingleCrown
-    traditionalChinese: "CAD\u5047\u7259\u8A2D\u8A08-\u55AE\u51A0\u8A2D\u8A08"
-    simplifiedChinese: "CAD\u5047\u7259\u8BBE\u8BA1-\u89E3\u5256\u51A0"
-    english: CAD-Prosthetic Design-Single Crown
+    traditionalChinese: "CAD\u5047\u7259\u8A2D\u8A08_\u55AE\u51A0\u8A2D\u8A08"
+    simplifiedChinese: "CAD\u5047\u7259\u8BBE\u8BA1_\u89E3\u5256\u51A0"
+    english: CAD_Prosthetic Design_Single Crown
   - id: CAD_Inlay/Onlay
-    traditionalChinese: "CAD\u5047\u7259\u8A2D\u8A08-\u5D4C\u9AD4\u8A2D\u8A08"
-    simplifiedChinese: "CAD\u5047\u7259\u8BBE\u8BA1-\u5D4C\u4F53"
-    english: CAD-Prosthetic Design-Inlay/Onlay
+    traditionalChinese: "CAD\u5047\u7259\u8A2D\u8A08_\u5D4C\u9AD4\u8A2D\u8A08"
+    simplifiedChinese: "CAD\u5047\u7259\u8BBE\u8BA1_\u5D4C\u4F53"
+    english: CAD_Prosthetic Design_Inlay/Onlay
   - id: CAD_Venner
-    traditionalChinese: "CAD\u5047\u7259\u8A2D\u8A08-\u8CBC\u7247\u8A2D\u8A08"
-    simplifiedChinese: "CAD\u5047\u7259\u8BBE\u8BA1-\u8D34\u9762"
-    english: CAD-Prosthetic Design-Venner
+    traditionalChinese: "CAD\u5047\u7259\u8A2D\u8A08_\u8CBC\u7247\u8A2D\u8A08"
+    simplifiedChinese: "CAD\u5047\u7259\u8BBE\u8BA1_\u8D34\u9762"
+    english: CAD_Prosthetic Design_Venner
   - id: CAD_Premill
-    traditionalChinese: "CAD\u5047\u7259\u8A2D\u8A08-Premill\u8A2D\u8A08"
-    simplifiedChinese: "CAD\u5047\u7259\u8BBE\u8BA1-Premill"
-    english: CAD-Prosthetic Design-Premill
+    traditionalChinese: "CAD\u5047\u7259\u8A2D\u8A08_Premill\u8A2D\u8A08"
+    simplifiedChinese: "CAD\u5047\u7259\u8BBE\u8BA1_Premill"
+    english: CAD_Prosthetic Design_Premill
   - id: Software_3shape
     traditionalChinese: "\u4F7F\u7528\u8EDF\u9AD4\uFF1A3shape"
     simplifiedChinese: "\u4F7F\u7528\u8F6F\u4F53\uFF1A3shape"
@@ -302,7 +302,7 @@ MonoBehaviour:
   - id: Premill_Forming
     traditionalChinese: "<size=38>Step7</size> \u8A2D\u8A08\u4E0A\u534A\u90E8"
     simplifiedChinese: "<size=38>Step7</size> \u8BBE\u8BA1\u4E0A\u534A\u90E8"
-    english: <size=30>Step7</size> Free-forming
+    english: <size=30>Step7</size> Free_forming
   - id: Premill_Complete
     traditionalChinese: "<size=38>Step8</size> \u5B8C\u6210\u57FA\u53F0"
     simplifiedChinese: "<size=38>Step8</size> \u5B8C\u6210\u57FA\u53F0"
@@ -320,17 +320,17 @@ MonoBehaviour:
     simplifiedChinese: Premill
     english: Premill
   - id: CAM_Zirconia
-    traditionalChinese: "CAM\u5047\u7259\u6392\u7248-\u6C27\u5316\u92EF"
-    simplifiedChinese: "CAM\u5047\u7259\u6392\u7248-\u6C27\u5316\u9506"
-    english: CAM-Prosthetic Planning-Zirconia
+    traditionalChinese: "CAM\u5047\u7259\u6392\u7248_\u6C27\u5316\u92EF"
+    simplifiedChinese: "CAM\u5047\u7259\u6392\u7248_\u6C27\u5316\u9506"
+    english: CAM_Prosthetic Planning_Zirconia
   - id: CAM_GlassCermaic
-    traditionalChinese: "CAM\u5047\u7259\u6392\u7248-\u73BB\u7483\u9676\u74F7"
-    simplifiedChinese: "CAM\u5047\u7259\u6392\u7248-\u73BB\u7483\u9676\u74F7"
-    english: CAM-Prosthetic Planning-Glass Cermaic
+    traditionalChinese: "CAM\u5047\u7259\u6392\u7248_\u73BB\u7483\u9676\u74F7"
+    simplifiedChinese: "CAM\u5047\u7259\u6392\u7248_\u73BB\u7483\u9676\u74F7"
+    english: CAM_Prosthetic Planning_Glass Cermaic
   - id: CAM_Premill
-    traditionalChinese: "CAM\u5047\u7259\u6392\u7248-Premill"
-    simplifiedChinese: "CAM\u5047\u7259\u6392\u7248-Premill"
-    english: CAM-Prosthetic Planning-Premill
+    traditionalChinese: "CAM\u5047\u7259\u6392\u7248_Premill"
+    simplifiedChinese: "CAM\u5047\u7259\u6392\u7248_Premill"
+    english: CAM_Prosthetic Planning_Premill
   - id: Software_Millbox
     traditionalChinese: "\u4F7F\u7528\u8EDF\u9AD4\uFF1AMillbox"
     simplifiedChinese: "\u4F7F\u7528\u8F6F\u4F53\uFF1AMillbox"
